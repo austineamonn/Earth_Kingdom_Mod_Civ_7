@@ -5,4 +5,6 @@ Version: 0.0.1
 
 Inspired by the Earth Kingdom from Avatar the Last Airbender. A modern age civilization focused on food and growth.
 
-Current implementation based on GUI mod from Izica [link here](https://forums.civfanatics.com/resources/content-modding-tools-with-gui.32139/).
+V1 based on GUI mod from Izica [link here](https://forums.civfanatics.com/resources/content-modding-tools-with-gui.32139/).
+
+V2 based on the Germania mod from the goggles do nothing [link here](https://forums.civfanatics.com/resources/goggless-germania-antiquity.31956/).

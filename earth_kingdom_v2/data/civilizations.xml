@@ -35,7 +35,7 @@
 		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
 		<Row Leader="LEADER_CATHERINE" Civilization="CIVILIZATION_GERMANIA" Priority="2"/>
 		<Row Leader="LEADER_CHARLEMAGNE" Civilization="CIVILIZATION_GERMANIA" Priority="2"/>
-		<Row Leader="LEADER_FRIEDRICH" Civilization="CIVILIZATION_GERMANIA" Priority="2"/>
+		<Row Leader="LEADER_CONFUCIUS" Civilization="CIVILIZATION_GERMANIA" Priority="2"/>
 	</LeaderCivPriorities>
 	<CityNames>
 		<!--Germania-->
