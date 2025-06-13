@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_GERMANIA" Kind="KIND_UNLOCK"/>
+
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA"/>
+		
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" Name="LOC_CIVILIZATION_GERMANIA_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_GERMANIA" CivUnlock="true"/>
+
+	</UnlockRewards>
+	<UnlockRequirements>
+	
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" ConfigurationValue="CIVILIZATION_GERMANIA"/>
+	</UnlockConfigurationValues>
+</Database>
