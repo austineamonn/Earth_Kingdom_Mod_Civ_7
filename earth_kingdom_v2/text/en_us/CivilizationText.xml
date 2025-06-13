@@ -21,10 +21,10 @@
 			<Text>The World's Farm</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_EARTH_KINGDOM_ABILITY_DESCRIPTION">
-			<Text>[B]Specialists[/B] pay no [B][icon:YIELD_FOOD] Food[/B] maintenance.</Text>
+			<Text>+100%[B][icon:YIELD_FOOD] Food[/B] towards maintaining [B]Specialists[/B].</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION">
-			<Text>[B]Specialists[/B] pay no [B][icon:YIELD_FOOD] Food[/B] maintenance. [n][B]+30%[icon:YIELD_PRODUCTION] Production[/B] towards the [B]Earth Monarch Palace[/B].</Text>
+			<Text>+100%[B][icon:YIELD_FOOD] Food[/B] towards maintaining [B]Specialists[/B]. [n][B]+30%[icon:YIELD_PRODUCTION] Production[/B] towards the [B]Earth Monarch Palace[/B].</Text>
 		</Row>
 		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_EARTH_KINGDOM_DESCRIPTION">
 			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Earth Kingdom's associated Wonder.</Text>
