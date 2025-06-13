@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mod id="earth_kingdom" version="0.01" xmlns="ModInfo">
+    <Properties>
+        <Name>Earth Kingdom</Name>
+        <Description>A mod for the modern age civilization the Earth Kingdom based on ATLA.</Description>
+        <Authors>Austin Nicolas</Authors>
+        <Version>0.01</Version>
+        <AffectsSavedGames>1</AffectsSavedGames>
+    </Properties>
+    
+    <!-- Modified Dependencies with error checking -->
+    <Dependencies>
+        <!-- Only load visual remaps if debug mode is off -->
+        <Mod id="izica-unit-portrait-visual-remaps" title="Izica's unit portrait visual remaps">
+            <Properties>
+                <LoadOrder>100</LoadOrder>
+                <SkipIfMissing>1</SkipIfMissing> <!-- Continue if dependency missing -->
+            </Properties>
+        </Mod>
+        <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME">
+            <Properties>
+                <Required>1</Required> <!-- This must exist -->
+            </Properties>
+        </Mod>
+    </Dependencies>
+
+    <ActionCriteria>
+        <Criteria id="age-modern-current">
+            <AgeInUse>AGE_MODERN</AgeInUse>
+        </Criteria>
+        <Criteria id="always">
+            <AlwaysMet/>
+        </Criteria>
+    </ActionCriteria>
+
+    <ActionGroups>
+        <!-- Primary Game Content - Modern Age -->
+        <ActionGroup id="game-age-modern-current" scope="game" criteria="age-modern-current">
+            <Properties>
+                <LoadOrder>500</LoadOrder> <!-- Changed from 501 to 500 for better compatibility -->
+            </Properties>
+            <Actions>
+                <!-- Database updates with file existence checks -->
+                <UpdateDatabase>
+                    <!-- Core files first -->
+                    <Item criteria="file-exists">progression-trees/earth-kingdom/modern.sql</Item>
+                    <Item criteria="file-exists">civilizations/earth-kingdom/modern.sql</Item>
+                    <Item criteria="file-exists">civilizations/earth-kingdom/unlock.sql</Item>
+                    
+                    <!-- Units - loaded individually for better error tracking -->
+                    <Item criteria="file-exists">units/earthbender/modern.sql</Item>
+                    <Item criteria="file-exists">units/earthbender-2/modern.sql</Item>
+                    <Item criteria="file-exists">units/earthbender-3/modern.sql</Item>
+                    <Item criteria="file-exists">units/cabbage-merchant/modern.sql</Item>
+                    
+                    <Item criteria="file-exists">progression-trees/earth-kingdom/reveal.sql</Item>
+                </UpdateDatabase>
+                
+                <!-- UI Scripts -->
+                <UIScripts>
+                    <Item criteria="file-exists">files/earth-kingdom-unit-portraits.js</Item>
+                </UIScripts>
+            </Actions>
+        </ActionGroup>
+
+        <!-- Shell-Level Setup -->
+        <ActionGroup id="shell-always" scope="shell" criteria="always">
+            <Properties>
+                <LoadOrder>500</LoadOrder>
+            </Properties>
+            <Actions>
+                <!-- Database updates with existence checks -->
+                <UpdateDatabase>
+                    <Item criteria="file-exists">civilizations/earth-kingdom/shell.sql</Item>
+                    <!-- Civilization unlocks -->
+                    <Item criteria="file-exists">civilization-unlocks/from-ming/shell.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/from-han/shell.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/by-confucious/shell.sql</Item>
+                </UpdateDatabase>
+                
+                <!-- Localizations with debug output -->
+                <UpdateText>
+                    <!-- Core localizations -->
+                    <Item criteria="file-exists">civilizations/earth-kingdom/localizations.sql</Item>
+                    <!-- Unit localizations -->
+                    <Item criteria="file-exists">units/earthbender/localizations.sql</Item>
+                    <Item criteria="file-exists">units/earthbender-2/localizations.sql</Item>
+                    <Item criteria="file-exists">units/earthbender-3/localizations.sql</Item>
+                    <Item criteria="file-exists">units/cabbage-merchant/localizations.sql</Item>
+                    <!-- Unlock localizations -->
+                    <Item criteria="file-exists">civilization-unlocks/from-ming/localizations.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/from-han/localizations.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/has-15-walls/localizations.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/has-150-pop/localizations.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/by-confucious/localizations.sql</Item>
+                    <!-- Constructible localizations -->
+                    <Item criteria="file-exists">constructibles/earth-kingdom-wall/localizations.sql</Item>
+                    <Item criteria="file-exists">constructibles/earth-monarch-palace/localizations.sql</Item>
+                </UpdateText>
+                
+                <!-- Assets with existence checks -->
+                <ImportFiles>
+                    <!-- Core civilization assets -->
+                    <Item criteria="file-exists">civilizations/earth-kingdom/assets/civ_sym_earth_kingdom</Item>
+                    <Item criteria="file-exists">civilizations/earth-kingdom/assets/civ_sym_earth_kingdom_background</Item>
+                    
+                    <!-- Unit icons -->
+                    <Item criteria="file-exists">units/earthbender/assets/earthbender-icon.png</Item>
+                    <Item criteria="file-exists">units/earthbender-2/assets/earthbender-icon.png</Item>
+                    <Item criteria="file-exists">units/earthbender-3/assets/earthbender-icon.png</Item>
+                    <Item criteria="file-exists">units/cabbage-merchant/assets/cabbage-merchant-icon.png</Item>
+                    
+                    <!-- Constructible icons -->
+                    <Item criteria="file-exists">constructibles/earth-kingdom-wall/assets/earth-kingdom-wall-icon.png</Item>
+                    <Item criteria="file-exists">constructibles/earth-monarch-palace/assets/earth-monarch-palace-icon.png</Item>
+                    
+                    <!-- Progression tree assets (single copy) -->
+                    <Item criteria="file-exists">progression-trees/earth-kingdom/assets/cult_earth_kingdom.png</Item>
+                </ImportFiles>
+                
+                <!-- Icon mappings -->
+                <UpdateIcons>
+                    <Item criteria="file-exists">civilizations/earth-kingdom/images.sql</Item>
+                    <Item criteria="file-exists">units/earthbender/images.sql</Item>
+                    <Item criteria="file-exists">units/earthbender-2/images.sql</Item>
+                    <Item criteria="file-exists">units/earthbender-3/images.sql</Item>
+                    <Item criteria="file-exists">units/cabbage-merchant/images.sql</Item>
+                    <Item criteria="file-exists">constructibles/earth-kingdom-wall/images.sql</Item>
+                    <Item criteria="file-exists">constructibles/earth-monarch-palace/images.sql</Item>
+                </UpdateIcons>
+            </Actions>
+        </ActionGroup>
+
+        <!-- Game-Level Persistent Content -->
+        <ActionGroup id="game-always" scope="game" criteria="always">
+            <Properties>
+                <LoadOrder>500</LoadOrder>
+            </Properties>
+            <Actions>
+                <!-- Localizations with debug output -->
+                <UpdateText>
+                    <!-- Repeated core localizations for safety -->
+                    <Item criteria="file-exists">civilizations/earth-kingdom/localizations.sql</Item>
+                    <Item criteria="file-exists">units/earthbender/localizations.sql</Item>
+                    <Item criteria="file-exists">units/earthbender-2/localizations.sql</Item>
+                    <Item criteria="file-exists">units/earthbender-3/localizations.sql</Item>
+                    <Item criteria="file-exists">units/cabbage-merchant/localizations.sql</Item>
+                    
+                    <!-- Unlock localizations -->
+                    <Item criteria="file-exists">civilization-unlocks/from-ming/localizations.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/from-han/localizations.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/has-15-walls/localizations.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/has-150-pop/localizations.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/by-confucious/localizations.sql</Item>
+                    
+                    <!-- Constructible localizations -->
+                    <Item criteria="file-exists">constructibles/earth-kingdom-wall/localizations.sql</Item>
+                    <Item criteria="file-exists">constructibles/earth-monarch-palace/localizations.sql</Item>
+                    
+                    <!-- Tradition localizations -->
+                    <Item criteria="file-exists">traditions/construction-mandate/localizations.sql</Item>
+                    <Item criteria="file-exists">traditions/omashu-delivery-system/localizations.sql</Item>
+                    <Item criteria="file-exists">traditions/royal-tax-hike/localizations.sql</Item>
+                    <Item criteria="file-exists">traditions/the-hundred-year-war/localizations.sql</Item>
+                    
+                    <!-- Progression tree localizations -->
+                    <Item criteria="file-exists">progression-trees/earth-kingdom/localizations.sql</Item>
+                </UpdateText>
+                
+                <!-- Database updates with existence checks -->
+                <UpdateDatabase>
+                    <!-- Core civilization data -->
+                    <Item criteria="file-exists">civilizations/earth-kingdom/legacy.sql</Item>
+                    
+                    <!-- Unlock conditions -->
+                    <Item criteria="file-exists">civilization-unlocks/from-ming/game.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/from-han/game.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/has-15-walls/game.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/has-150-pop/game.sql</Item>
+                    <Item criteria="file-exists">civilization-unlocks/by-confucious/game.sql</Item>
+                    
+                    <!-- Constructibles -->
+                    <Item criteria="file-exists">constructibles/earth-kingdom-wall/game.sql</Item>
+                    <Item criteria="file-exists">constructibles/earth-monarch-palace/game.sql</Item>
+                    
+                    <!-- Traditions -->
+                    <Item criteria="file-exists">traditions/construction-mandate/game.sql</Item>
+                    <Item criteria="file-exists">traditions/omashu-delivery-system/game.sql</Item>
+                    <Item criteria="file-exists">traditions/royal-tax-hike/game.sql</Item>
+                    <Item criteria="file-exists">traditions/the-hundred-year-war/game.sql</Item>
+                </UpdateDatabase>
+                
+                <!-- Assets with existence checks (repeated for safety) -->
+                <ImportFiles>
+                    <Item criteria="file-exists">civilizations/earth-kingdom/assets/civ_sym_earth_kingdom</Item>
+                    <Item criteria="file-exists">civilizations/earth-kingdom/assets/civ_sym_earth_kingdom_background</Item>
+                    <Item criteria="file-exists">units/earthbender/assets/earthbender-icon.png</Item>
+                    <Item criteria="file-exists">units/earthbender-2/assets/earthbender-icon.png</Item>
+                    <Item criteria="file-exists">units/earthbender-3/assets/earthbender-icon.png</Item>
+                    <Item criteria="file-exists">units/cabbage-merchant/assets/cabbage-merchant-icon.png</Item>
+                    <Item criteria="file-exists">constructibles/earth-kingdom-wall/assets/earth-kingdom-wall-icon.png</Item>
+                    <Item criteria="file-exists">constructibles/earth-monarch-palace/assets/earth-monarch-palace-icon.png</Item>
+                    <Item criteria="file-exists">progression-trees/earth-kingdom/assets/cult_earth_kingdom.png</Item>
+                </ImportFiles>
+                
+                <!-- Icon mappings -->
+                <UpdateIcons>
+                    <Item criteria="file-exists">civilizations/earth-kingdom/images.sql</Item>
+                    <Item criteria="file-exists">units/earthbender/images.sql</Item>
+                    <Item criteria="file-exists">units/earthbender-2/images.sql</Item>
+                    <Item criteria="file-exists">units/earthbender-3/images.sql</Item>
+                    <Item criteria="file-exists">units/cabbage-merchant/images.sql</Item>
+                    <Item criteria="file-exists">constructibles/earth-kingdom-wall/images.sql</Item>
+                    <Item criteria="file-exists">constructibles/earth-monarch-palace/images.sql</Item>
+                    <Item criteria="file-exists">progression-trees/earth-kingdom/images.sql</Item>
+                </UpdateIcons>
+                
+                <!-- Visual remaps - MOVED TO LAST and with existence checks -->
+                <UpdateVisualRemaps>
+                    <Item criteria="file-exists">units/earthbender/visual-remap.xml</Item>
+                    <Item criteria="file-exists">units/earthbender-2/visual-remap.xml</Item>
+                    <Item criteria="file-exists">units/earthbender-3/visual-remap.xml</Item>
+                    <Item criteria="file-exists">units/cabbage-merchant/visual-remap.xml</Item>
+                </UpdateVisualRemaps>
+            </Actions>
+        </ActionGroup>
+    </ActionGroups>
+</Mod>

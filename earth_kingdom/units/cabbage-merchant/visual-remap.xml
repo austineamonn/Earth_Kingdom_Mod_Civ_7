@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+    <VisualRemaps>
+        <Row>
+            <ID>REMAP_UNIT_CABBAGE_MERCHANT</ID>
+            <DisplayName>LOC_UNIT_CABBAGE_MERCHANT_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_CABBAGE_MERCHANT</From>
+            <To>UNIT_HANGSHANG</To>
+        </Row>
+    </VisualRemaps>
+</Database>
