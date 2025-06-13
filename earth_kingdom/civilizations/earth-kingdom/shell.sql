@@ -25,7 +25,3 @@ VALUES ('ModernAgeCivilizations', 'CIVILIZATION_EARTH_KINGDOM', 'UNIT_CABBAGE_ME
 INSERT INTO CivilizationItems 
        (CivilizationDomain,       CivilizationType,             Type,                             Kind,               Name,                                      Description,                                      Icon) 
 VALUES ('ModernAgeCivilizations', 'CIVILIZATION_EARTH_KINGDOM', 'IMPROVEMENT_EARTH_KINGDOM_WALL', 'KIND_IMPROVEMENT', 'LOC_IMPROVEMENT_EARTH_KINGDOM_WALL_NAME', 'LOC_IMPROVEMENT_EARTH_KINGDOM_WALL_DESCRIPTION', 'IMPROVEMENT_EARTH_KINGDOM_WALL');
-
-INSERT INTO CivilizationItems 
-       (CivilizationDomain,       CivilizationType,             Type,                   Kind,               Name,                            Description,                            Icon) 
-VALUES ('ModernAgeCivilizations', 'CIVILIZATION_EARTH_KINGDOM', 'EARTH_MONARCH_PALACE', 'KIND_IMPROVEMENT', 'LOC_EARTH_MONARCH_PALACE_NAME', 'LOC_EARTH_MONARCH_PALACE_DESCRIPTION', 'EARTH_MONARCH_PALACE');
