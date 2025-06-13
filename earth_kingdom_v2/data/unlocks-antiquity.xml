@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<Types>
-		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_GERMANIA" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_EARTH_KINGDOM" Kind="KIND_UNLOCK"/>
 
 	</Types>
 	<Unlocks>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM"/>
 		
 	</Unlocks>
 	<UnlockRewards>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" Name="LOC_CIVILIZATION_GERMANIA_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_GERMANIA" CivUnlock="true"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_EARTH_KINGDOM" CivUnlock="true"/>
 
 	</UnlockRewards>
 	<UnlockRequirements>
 	
 	</UnlockRequirements>
 	<UnlockConfigurationValues>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" ConfigurationValue="CIVILIZATION_GERMANIA"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM" ConfigurationValue="CIVILIZATION_EARTH_KINGDOM"/>
 	</UnlockConfigurationValues>
 </Database>

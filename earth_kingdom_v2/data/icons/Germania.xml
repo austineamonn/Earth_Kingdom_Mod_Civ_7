@@ -3,23 +3,23 @@
     <IconDefinitions>
         <!-- Civ Symbol-->
         <Row>
-            <ID>CIVILIZATION_GERMANIA</ID>
+            <ID>CIVILIZATION_EARTH_KINGDOM</ID>
             <Path>fs://game/earth_kingdom/icons/civ_sym_earth_kingdom</Path>
             <Context>DEFAULT</Context>
         </Row>
 		<Row>
-			<ID>ICON_CIVILIZATION_GERMANIA</ID>
+			<ID>ICON_CIVILIZATION_EARTH_KINGDOM</ID>
             <Path>fs://game/earth_kingdom/icons/civ_sym_earth_kingdom</Path>
 		</Row>
         <!-- Loadscreen -->
 		<Row>
-			<ID>CIVILIZATION_GERMANIA</ID>
+			<ID>CIVILIZATION_EARTH_KINGDOM</ID>
 			<Context>BACKGROUND</Context>
 			<Path>fs://game/earth_kingdom/icons/earth_kingdom_background_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_GERMANIA</ID>
+			<ID>CIVILIZATION_EARTH_KINGDOM</ID>
 			<Context>BACKGROUND</Context>
 			<Path>fs://game/earth_kingdom/icons/earth_kingdom_background_720</Path>
 			<IconSize>720</IconSize>

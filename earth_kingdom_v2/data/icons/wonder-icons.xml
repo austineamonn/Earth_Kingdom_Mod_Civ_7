@@ -3,7 +3,7 @@
 	<IconDefinitions>
 		<Row>
 			<ID>WONDER_HASELGEBRIGE_SALT_MINE</ID>
-			<Path>fs://game/goggles_civ_germania/icons/wonder_earth_monarch_palace_icon.png</Path>
+			<Path>fs://game/earth_kingdom/icons/wonder_earth_monarch_palace_icon.png</Path>
 		</Row>
     </IconDefinitions>
 </Database>

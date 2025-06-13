@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<!--Germania-->
+		<!-- Earth Kingdom -->
 		<Row Tag="LOC_UNIT_FOLC_NAME">
 			<Text>Folc</Text>
 		</Row>

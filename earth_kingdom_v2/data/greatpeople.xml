@@ -4,7 +4,7 @@
 		<!--Great Person Classes-->
 		<Row Type="GREAT_PERSON_CLASS_FOLC" Kind="KIND_GREAT_PERSON_CLASS"/>
 
-		<!--Germania Great Person Individuals-->
+		<!--EARTH_KINGDOM Great Person Individuals-->
 		<!-- Commander abilities -->
 		<Row Type="GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
@@ -25,7 +25,7 @@
 		<Row GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" Name="LOC_UNIT_FOLC_NAME" UnitType="UNIT_FOLC" ConstructibleType="BUILDING_PALACE" AvailableInTimeline="true" GenerateDuplicateIndividuals="true" PseudoYieldType="PSEUDOYIELD_STANDING_ARMY_COMMANDER" IconString="unit_flag_cabbage_merchant" ActionIcon="action_greatperson"/>
 	</GreatPersonClasses>
 	<GreatPersonIndividuals>
-		<!--Germania-->
+		<!--EARTH_KINGDOM-->
 		<!-- Commander abilities -->
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" AgeType="AGE_ANTIQUITY" Gender="M" ActionCharges="1" ActionRequiresOnUnitType="UNIT_ARMY_COMMANDER" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_FOLC_TEUTOBOD"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_FOLC" AgeType="AGE_ANTIQUITY" Gender="M" ActionCharges="1"  ActionRequiresOnUnitType="UNIT_ARMY_COMMANDER"  ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_FOLC_ARMINIUS"/>

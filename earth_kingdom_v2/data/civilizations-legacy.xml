@@ -2,22 +2,22 @@
 <Database>
 	<Types>
 		<!-- Major Civs -->
-		<Row Type="TRAIT_GERMANIA" Kind="KIND_TRAIT"/>
-		<Row Type="CIVILIZATION_GERMANIA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_EARTH_KINGDOM" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_EARTH_KINGDOM" Kind="KIND_CIVILIZATION"/>
 	</Types>
 	<LegacyCivilizations>
 		<!-- Full Civs -->
-		<Row CivilizationType="CIVILIZATION_GERMANIA" Name="LOC_CIVILIZATION_GERMANIA_NAME" FullName="LOC_CIVILIZATION_GERMANIA_FULLNAME" Adjective="LOC_CIVILIZATION_GERMANIA_ADJECTIVE" Age="AGE_ANTIQUITY"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" FullName="LOC_CIVILIZATION_EARTH_KINGDOM_FULLNAME" Adjective="LOC_CIVILIZATION_EARTH_KINGDOM_ADJECTIVE" Age="AGE_ANTIQUITY"/>
 	</LegacyCivilizations>
 	<LegacyCivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_GERMANIA" TraitType="TRAIT_GERMANIA"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_EARTH_KINGDOM"/>
 	</LegacyCivilizationTraits>
 	<Traits>
-		<Row TraitType="TRAIT_GERMANIA" InternalOnly="true"/>
+		<Row TraitType="TRAIT_EARTH_KINGDOM" InternalOnly="true"/>
 	</Traits>
 	<LegacyLeaderCivPriorities>
-		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_GERMANIA"/>
-		<Row Leader="LEADER_CATHERINE" CivilizationType="CIVILIZATION_GERMANIA"/>
-		<Row Leader="LEADER_CONFUCIUS" CivilizationType="CIVILIZATION_GERMANIA"/>
+		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_EARTH_KINGDOM"/>
+		<Row Leader="LEADER_CATHERINE" CivilizationType="CIVILIZATION_EARTH_KINGDOM"/>
+		<Row Leader="LEADER_CONFUCIUS" CivilizationType="CIVILIZATION_EARTH_KINGDOM"/>
 	</LegacyLeaderCivPriorities>
 </Database>

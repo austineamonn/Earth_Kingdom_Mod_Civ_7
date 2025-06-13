@@ -4,7 +4,7 @@
 
 	</LoadingInfo_Ages>
 	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_GERMANIA" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_EARTH_KINGDOM" Audio="VO_Loading_Germania" Subtitle="LOC_LOADING_INTRO_EARTH_KINGDOM" BackgroundImageHigh="fs://game/earth_kingdom/icons/earth_kingdom_background_1080.png" BackgroundImageLow="fs://game/earth_kingdom/icons/earth_kingdom_background_720.png" ForegroundImage="fs://game/civ_line_germania.png" />
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_EARTH_KINGDOM" Audio="VO_Loading_Germania" Subtitle="LOC_LOADING_INTRO_EARTH_KINGDOM" BackgroundImageHigh="fs://game/earth_kingdom/icons/earth_kingdom_background_1080.png" BackgroundImageLow="fs://game/earth_kingdom/icons/earth_kingdom_background_720.png" ForegroundImage="fs://game/civ_line_germania.png" />
 	</LoadingInfo_Civilizations>
 
 </Database>

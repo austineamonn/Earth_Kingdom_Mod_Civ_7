@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<Row Tag="LOC_UNLOCK_PLAY_AS_GERMANIA_DESCRIPTION">
-			<Text>Play as the [B]Germania[/B].</Text>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_EARTH_KINGDOM_DESCRIPTION">
+			<Text>Play as the [B]Earth Kingdom[/B].</Text>
 		</Row>
-		<Row Tag="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_GERMANIA_TOOLTIP">
-			<Text>[B]{LOC_LEADER_CHARLEMAGNE_NAME}[/B] strategically complements [B]{LOC_CIVILIZATION_GERMANIA_NAME}[/B] .</Text>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_EARTH_KINGDOM_TOOLTIP">
+			<Text>[B]{LOC_LEADER_CHARLEMAGNE_NAME}[/B] strategically complements [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] .</Text>
 		</Row>
-		<Row Tag="LOC_UNLOCK_PLAY_AS_CATHERINE_GERMANIA_TOOLTIP">
-			<Text>[B]{LOC_LEADER_CATHERINE_NAME}[/B] was born in [B]{LOC_CIVILIZATION_GERMANIA_NAME}[/B].</Text>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CATHERINE_EARTH_KINGDOM_TOOLTIP">
+			<Text>[B]{LOC_LEADER_CATHERINE_NAME}[/B] was born in [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B].</Text>
 		</Row>
-		<Row Tag="LOC_UNLOCK_PLAY_AS_CONFUCIUS_GERMANIA_TOOLTIP">
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CONFUCIUS_EARTH_KINGDOM_TOOLTIP">
 			<Text>The [B]Earth Kingdom[/B] drew inspiration from [B]{LOC_LEADER_CONFUCIUS}[/B].</Text>
 		</Row>
 	</EnglishText>

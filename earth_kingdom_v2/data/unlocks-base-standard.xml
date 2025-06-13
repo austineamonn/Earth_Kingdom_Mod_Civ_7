@@ -4,29 +4,29 @@
 		<InsertOrIgnore Kind="KIND_UNLOCK"/>
 	</Kinds>
 	<Types>
-		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_GERMANIA" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_EARTH_KINGDOM" Kind="KIND_UNLOCK"/>
 	</Types>
 	<Unlocks>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM"/>
 	</Unlocks>
 	<UnlockRewards>
 	</UnlockRewards>
 	<RequirementSets>
-		<Row RequirementSetId="REQSET_CIV_IS_GERMANIA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_CIV_IS_EARTH_KINGDOM" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	<Requirements>
-		<Row RequirementId="REQ_CIV_IS_GERMANIA" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<Row RequirementId="REQ_CIV_IS_EARTH_KINGDOM" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
 	</Requirements>
 	<RequirementArguments>
-		<Row RequirementId="REQ_CIV_IS_GERMANIA" Name="CivilizationType" Value="CIVILIZATION_GERMANIA"/>
+		<Row RequirementId="REQ_CIV_IS_EARTH_KINGDOM" Name="CivilizationType" Value="CIVILIZATION_EARTH_KINGDOM"/>
 	</RequirementArguments>
 	<RequirementSetRequirements>
-		<Row RequirementSetId="REQSET_CIV_IS_GERMANIA" RequirementId="REQ_CIV_IS_GERMANIA"/>
+		<Row RequirementSetId="REQSET_CIV_IS_EARTH_KINGDOM" RequirementId="REQ_CIV_IS_EARTH_KINGDOM"/>
 	</RequirementSetRequirements>
 	<UnlockRequirements>
 
 	</UnlockRequirements>
 	<UnlockConfigurationValues>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GERMANIA" ConfigurationValue="CIVILIZATION_GERMANIA"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM" ConfigurationValue="CIVILIZATION_EARTH_KINGDOM"/>
 	</UnlockConfigurationValues>
 </Database>

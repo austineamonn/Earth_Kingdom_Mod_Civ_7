@@ -5,8 +5,8 @@
 
 	-->
 	<Properties>
-		<Name>LOC_MODULE_GERMANIA_NAME</Name>
-		<Description>LOC_MODULE_GERMANIA_DESCRIPTION</Description>
+		<Name>LOC_MODULE_EARTH_KINGDOM_NAME</Name>
+		<Description>LOC_MODULE_EARTH_KINGDOM_DESCRIPTION</Description>
 		<Authors>AUSTIN_NICOLAS</Authors>
 		<Package>DLC</Package>
 	</Properties>
@@ -62,8 +62,8 @@
 				</UIScripts>
 			</Actions>
 		</ActionGroup>
-		<!-- Germania -->
-        <ActionGroup id="base-game-main-Germania" scope="game" criteria="always">
+		<!-- Earth Kingdom -->
+        <ActionGroup id="base-game-main-Earth-Kingdom" scope="game" criteria="always">
             <Actions>
                 <UpdateDatabase>
 					<Item>data/unlocks-base-standard.xml</Item>
@@ -88,7 +88,7 @@
                 </ScenarioScripts>
             </Actions>
         </ActionGroup>
-		<ActionGroup id="age-antiquity-persist-Germania" scope="game" criteria="antiquity-age-persist">
+		<ActionGroup id="age-antiquity-persist-Earth-Kingdom" scope="game" criteria="antiquity-age-persist">
 			<Actions>
 				<UpdateArt>
 				</UpdateArt>
@@ -119,7 +119,7 @@
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="antiquity-age-current-Germania" scope="game" criteria="antiquity-age-current">
+		<ActionGroup id="antiquity-age-current-Earth-Kingdom" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateArt>
 				</UpdateArt>
@@ -147,21 +147,21 @@
                 </UpdateVisualRemaps>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="exploration-age-persist-Germania" scope="game" criteria="exploration-age-persist">
+		<ActionGroup id="exploration-age-persist-Earth-Kingdom" scope="game" criteria="exploration-age-persist">
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/constructibles-exploration.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="modern-age-persist-Germania" scope="game" criteria="modern-age-persist">
+		<ActionGroup id="modern-age-persist-Earth-Kingdom" scope="game" criteria="modern-age-persist">
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/constructibles-modern.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="shell-Germania" scope="shell" criteria="always">
+		<ActionGroup id="shell-Earth-Kingdom" scope="shell" criteria="always">
 			<Actions>
 				<UpdateArt>
 				</UpdateArt>
