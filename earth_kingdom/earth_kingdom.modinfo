@@ -152,12 +152,12 @@
                     <Item>constructibles/earth-monarch-palace/images.sql</Item>
                     <Item>progression-trees/earth-kingdom/images.sql</Item>
                 </UpdateIcons>
-                <UpdateVisualRemaps>
+                <!-- <UpdateVisualRemaps>
                     <Item>units/earthbender/visual-remap.xml</Item>
                     <Item>units/earthbender-2/visual-remap.xml</Item>
                     <Item>units/earthbender-3/visual-remap.xml</Item>
                     <Item>units/cabbage-merchant/visual-remap.xml</Item>
-                </UpdateVisualRemaps>
+                </UpdateVisualRemaps> -->
             </Actions>
         </ActionGroup>
     </ActionGroups>
