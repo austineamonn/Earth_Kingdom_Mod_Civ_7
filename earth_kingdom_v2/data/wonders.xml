@@ -2,33 +2,33 @@
 <Database>
 	<Types>
 		<!-- Wonders -->
-		<Row Type="WONDER_HASELGEBRIGE_SALT_MINE" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="WONDER_EARTH_MONARCH_PALACE" Kind="KIND_CONSTRUCTIBLE"/>
     </Types>
 	<TypeQuotes>
 		<!-- Wonders -->
-		<Row Type="WONDER_HASELGEBRIGE_SALT_MINE" Quote="LOC_QUOTE_WONDER_HASELGEBRIGE_SALT_MINE" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_HASELGEBRIGE_SALT_MINE" QuoteAudio="VO_Quote_Haselgebrige_Salt_Mine"/>
+		<Row Type="WONDER_EARTH_MONARCH_PALACE" Quote="LOC_QUOTE_WONDER_EARTH_MONARCH_PALACE" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_EARTH_MONARCH_PALACE" QuoteAudio="VO_Quote_Haselgebrige_Salt_Mine"/>
     </TypeQuotes>
 	<Constructibles>
 		<!-- Wonders -->
-		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" Name="LOC_WONDER_HASELGEBRIGE_SALT_MINE_NAME" Description="LOC_WONDER_HASELGEBRIGE_SALT_MINE_DESCRIPTION" Tooltip="LOC_WONDER_HASELGEBRIGE_SALT_MINE_TOOLTIP" ConstructibleClass="WONDER" Cost="275" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" RequiresUnlock="true" />
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" Name="LOC_WONDER_EARTH_MONARCH_PALACE_NAME" Description="LOC_WONDER_EARTH_MONARCH_PALACE_DESCRIPTION" Tooltip="LOC_WONDER_EARTH_MONARCH_PALACE_TOOLTIP" ConstructibleClass="WONDER" Cost="275" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" RequiresUnlock="true" />
     </Constructibles>
     <Wonders>
 		<!-- Wonders -->
-		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" MaxWorldInstances="1" AdjacentResource="RESOURCE_SALT" />    
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" MaxWorldInstances="1" AdjacentResource="RESOURCE_SALT" />    
 	</Wonders>
 	<Constructible_ValidDistricts>
 		<!-- Wonders -->
-		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" DistrictType="DISTRICT_WONDER"/>
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" DistrictType="DISTRICT_WONDER"/>
     </Constructible_ValidDistricts>
 	<Constructible_YieldChanges>
 		<!-- Wonders -->
-		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" YieldType="YIELD_DIPLOMACY" YieldChange="1"/>
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" YieldType="YIELD_DIPLOMACY" YieldChange="1"/>
     </Constructible_YieldChanges>
 	<Constructible_WarehouseYields>
-		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" YieldChangeId="HaselgebrigeSaltMineMineResourceDiplomacy" />
-		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" YieldChangeId="HaselgebrigeSaltMineWoodcutterResourceDiplomacy" />
-		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" YieldChangeId="HaselgebrigeSaltMineFishingBoatResourceDiplomacy" />
-		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" YieldChangeId="HaselgebrigeSaltMineQuarryDiplomacy" />
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" YieldChangeId="HaselgebrigeSaltMineMineResourceDiplomacy" />
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" YieldChangeId="HaselgebrigeSaltMineWoodcutterResourceDiplomacy" />
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" YieldChangeId="HaselgebrigeSaltMineFishingBoatResourceDiplomacy" />
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" YieldChangeId="HaselgebrigeSaltMineQuarryDiplomacy" />
 	</Constructible_WarehouseYields>
 	<Warehouse_YieldChanges>
 		<Row ID="HaselgebrigeSaltMineMineResourceDiplomacy" Age="AGE_ANTIQUITY" YieldType="YIELD_DIPLOMACY" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
@@ -37,6 +37,6 @@
 		<Row ID="HaselgebrigeSaltMineQuarryDiplomacy" Age="AGE_ANTIQUITY" YieldType="YIELD_DIPLOMACY" YieldChange="1" ConstructibleInCity="IMPROVEMENT_QUARRY"/>
 	</Warehouse_YieldChanges>
     <Constructible_Advisories>
-		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" AdvisoryClassType="ADVISORY_CLASS_DIPLOMACY"/>
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" AdvisoryClassType="ADVISORY_CLASS_DIPLOMACY"/>
     </Constructible_Advisories>
 </Database>

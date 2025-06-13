@@ -18,13 +18,13 @@
 		</Row>
 		<!--Earth Kingdom Ability-->
 		<Row Tag="LOC_TRAIT_EARTH_KINGDOM_ABILITY_NAME">
-			<Text>Furor Teutonicus</Text>
+			<Text>The World's Farm</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_EARTH_KINGDOM_ABILITY_DESCRIPTION">
-			<Text>[LIST][LI]Defeating an enemy Unit provides [icon:YIELD_HAPPINESS] [B]Happiness [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[LI]Reduced cost to purchase [B]Suebi[/B] for each [B]Fishing/Farming[/B] town.[/LIST]</Text>
+			<Text>[B]Specialists[/B] pay no [B][icon:YIELD_FOOD] Food[/B] maintenance.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION">
-			<Text>[LIST][LI]Defeating an enemy Unit provides [icon:YIELD_HAPPINESS] [B]Happiness [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].[LI]Reduced cost to purchase [B]Suebi[/B] for each [B]Fishing/Farming[/B] town.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Mausoleum of Theodoric[/B].[/LIST]</Text>
+			<Text>[B]Specialists[/B] pay no [B][icon:YIELD_FOOD] Food[/B] maintenance. [n][B]+30%[icon:YIELD_PRODUCTION] Production[/B] towards the [B]Earth Monarch Palace[/B].</Text>
 		</Row>
 		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_EARTH_KINGDOM_DESCRIPTION">
 			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Earth Kingdom's associated Wonder.</Text>

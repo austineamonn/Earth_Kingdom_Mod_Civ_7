@@ -3,70 +3,70 @@
 	<EnglishText>
 		<!--EARTH_KINGDOM-->
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM1">
-			<Text>Manching </Text>
+			<Text>Ba Sing Se </Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM2">
-			<Text>Basilea</Text>
+			<Text>Omashu</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM3">
-			<Text>Vindonissa</Text>
+			<Text>Zhongzhou</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM4">
-			<Text>Alcimoennis</Text>
+			<Text>Yuzhou</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM5">
-			<Text>Altenburg-Rheinau</Text>
+			<Text>Tianhai</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM6">
-			<Text>Donnersberg</Text>
+			<Text>Shizhou</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM7">
-			<Text>Dünsberg</Text>
+			<Text>Yandu</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM8">
-			<Text>Finsterlohr</Text>
+			<Text>Wangdao</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM9">
-			<Text>Creglingen</Text>
+			<Text>Ruijia</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM10">
-			<Text>Heidengraben</Text>
+			<Text>Haiyang</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM11">
-			<Text>Hohenasperg</Text>
+			<Text>Zicheng</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM12">
-			<Text>Glauberg</Text>
+			<Text>Yindao</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM13">
-			<Text>Martberg</Text>
+			<Text>Weidu</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM14">
 			<Text>Milseburg</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM15">
-			<Text>Staffelberg</Text>
+			<Text>Xiangling</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM16">
-			<Text>Steinburg</Text>
+			<Text>Kangzhou</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM17">
-			<Text>Glauberg</Text>
+			<Text>Yongxin</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM18">
-			<Text>Hirschlanden</Text>
+			<Text>Songdu</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM19">
-			<Text>Hochdorf</Text>
+			<Text>Quandu</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM20">
-			<Text>Hohenasperg</Text>
+			<Text>Shanzhen</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM21">
-			<Text>Heuneburg</Text>
+			<Text>Haigu</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM22">
-			<Text>Ubiorum</Text>
+			<Text>Ganzhou</Text>
 		</Row>
 	</EnglishText>
 </Database>
