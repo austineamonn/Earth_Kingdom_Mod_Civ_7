@@ -5,7 +5,7 @@
 		<!-- ==================================================	-->
 		<!--	Earth Kingdom Unique Civic Text					-->
 		<!-- ==================================================	-->
-		<Row Tag="LOC_TREE_CIVICS_AQ_EARTH_KINGDOM_NAME">
+		<Row Tag="LOC_TREE_CIVICS_MO_EARTH_KINGDOM_NAME">
 			<Text>Earth Kingdom Civics</Text>
 		</Row>
 
@@ -20,7 +20,7 @@
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_THREE_WALLED_CITY_QUOTE_AUTHOR">
 			<Text>Earth Bender Captain to Iroh</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_AQ_EARTH_KINGDOM_CODANUS_NAVAL_WATER_DESCRIPTION">
+		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_CODANUS_NAVAL_WATER_DESCRIPTION">
 			<Text>Gain an Naval Unit when you construct a Water Building.</Text>
 		</Row>
 
@@ -34,12 +34,15 @@
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_ROYAL_PROPAGANDA_QUOTE_AUTHOR">
 			<Text>Dai Li Agent</Text>
 		</Row>
+		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_GROWTH_BONUS_DESCRIPTION">
+			<Text>+10% growth in the Capital.</Text>
+		</Row>
 
-		<Row Tag="NODE_CIVIC_AQ_EARTH_KINGDOM_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION">
+		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION">
 			<Text>+2[icon:YIELD_HAPPINESS] Happiness in Fishing/Farming town for each City-State you are Suzerain of.</Text>
 		</Row>
 
-		<Row Tag="NODE_CIVIC_AQ_EARTH_KINGDOM_BARBARICUM_FARM_FISH_RESOURCE_CAP_DESCRIPTION">
+		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_BARBARICUM_FARM_FISH_RESOURCE_CAP_DESCRIPTION">
 			<Text>+2 Resouce Capacity each town specialized as a Fishing/Farming town.</Text>
 		</Row>
 		
@@ -66,7 +69,7 @@
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_IMPENETRABLE_CITY_QUOTE_AUTHOR">
 			<Text>General Sung</Text>
 		</Row>
-		<Row Tag="NODE_NODE_CIVIC_AQ_EARTH_KINGDOM_WULFAZ_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION">
+		<Row Tag="NODE_NODE_CIVIC_MO_EARTH_KINGDOM_WULFAZ_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION">
 			<Text>+100% Commander experience during a Celebration.</Text>
 		</Row>
 

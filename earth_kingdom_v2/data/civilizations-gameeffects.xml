@@ -23,7 +23,7 @@
 				<Argument name="TraitType">TRAIT_EARTH_KINGDOM</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_EARTH_KINGDOM</Argument>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_MO_EARTH_KINGDOM</Argument>
 		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_EARTH_KINGDOM_DESCRIPTION</String>
 	</Modifier>
 	
