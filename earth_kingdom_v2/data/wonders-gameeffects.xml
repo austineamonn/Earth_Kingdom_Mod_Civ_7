@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==================================================	-->
+	<!--	ANTIQUITY							-->
+	<!-- ==================================================	-->
+	<!-- Earth Kingdom -->
+
+	<!-- Wonder Game Effects: Increase District Health in City
+    
+    DOES NOT WORK
+     -->
+
+	<Modifier id="TRAIT_MOD_WONDER_EARTH_MONARCH_PALACE_INCREASE_DISTRICT_HEALTH" collection="COLLECTION_OWNER_CITY" effect="EFFECT_CITY_ADJUST_TOTAL_DISTRICT_HEALTH">
+    <!--collection="COLLECTION_PLAYER_DISTRICTS" effect="EFFECT_DISTRICT_ADJUST_TOTAL_HEALTH"-->
+        <SubjectRequirements>
+			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
+				<Argument name="ConstructibleType">WONDER_EARTH_MONARCH_PALACE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+        <!--<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_BUILT_TAGGED_CONSTRUCTIBLE">
+				<Argument name="ConstructibleType">WONDER_EARTH_MONARCH_PALACE</Argument>
+			</Requirement>
+		</SubjectRequirements>-->
+		<Argument name="Amount">100</Argument>
+		<String context="Description">LOC_WONDER_EARTH_MONARCH_PALACE_DESCRIPTION</String>
+	</Modifier>
+
+</GameEffects>

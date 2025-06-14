@@ -4,7 +4,7 @@
 	<EnglishText>
 			<!-- Civ Unique Improvements -->
 		<Row Tag="LOC_BUILDING_HERRENHOFE_NAME">
-			<Text>Herrenhöfe</Text>
+			<Text>The Outer Wall</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_HERRENHOFE_DESCRIPTION">
 			<Text>+2[icon:YIELD_SCIENCE] Science and +2[icon:YIELD_GOLD] Gold. +2[icon:YIELD_FOOD] Food for adjacent Wall of Ba Sing Se segments. Earth Kingdom Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Can only be built in a line. Cannot branch or fork.</Text>

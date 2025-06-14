@@ -69,7 +69,7 @@
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BiomeType="BIOME_DESERT" Score="50"/>
 	</StartBiasBiomes>
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TerrainType="TERRAIN_FLAT" Score="50"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TerrainType="TERRAIN_HILL" Score="50"/>
 	</StartBiasTerrains>
 	<StartBiasLakes>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" Score="25"/>
@@ -88,6 +88,12 @@
 	</StartBiasResources>
 	<StartBiasResources>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_KAOLIN" Score="5"/>
+	</StartBiasResources>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_TIN" Score="5"/>
+	</StartBiasResources>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_LIMESTONE" Score="5"/>
 	</StartBiasResources>
 	<StartBiasRivers>
 	</StartBiasRivers>

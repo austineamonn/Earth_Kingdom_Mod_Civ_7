@@ -12,25 +12,29 @@
 		<!-- Wonders -->
 		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE"
 		 AdjacentDistrict="DISTRICT_URBAN"
-		 Name="LOC_WONDER_EARTH_MONARCH_PALACE_NAME" Description="LOC_WONDER_EARTH_MONARCH_PALACE_DESCRIPTION" Tooltip="LOC_WONDER_EARTH_MONARCH_PALACE_TOOLTIP" ConstructibleClass="WONDER" Cost="1200" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" RequiresUnlock="true" />
+		 Name="LOC_WONDER_EARTH_MONARCH_PALACE_NAME" Description="LOC_WONDER_EARTH_MONARCH_PALACE_DESCRIPTION" Tooltip="LOC_WONDER_EARTH_MONARCH_PALACE_TOOLTIP" ConstructibleClass="WONDER" Cost="1200" Population="0" ImmuneDamage="true" DistrictDefense="true" Age="AGE_ANTIQUITY" RequiresUnlock="true" />
     </Constructibles>
     <Wonders>
 		<!-- Wonders -->
 		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" MaxWorldInstances="1" />    
 	</Wonders>
+	<TypeTags>
+		<Row Type="WONDER_EARTH_MONARCH_PALACE" Tag="FORTIFICATION"/>
+	</TypeTags>
 	<Constructible_ValidDistricts>
 		<!-- Wonders -->
 		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" DistrictType="DISTRICT_WONDER"/>
     </Constructible_ValidDistricts>
 	<Constructible_YieldChanges>
 		<!-- Wonders -->
-		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" YieldType="YIELD_GOLD" YieldChange="10"/>
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" YieldType="YIELD_GOLD" YieldChange="5"/>
     </Constructible_YieldChanges>
-	<Constructible_WarehouseYields>
-	</Constructible_WarehouseYields>
-	<Warehouse_YieldChanges>
-	</Warehouse_YieldChanges>
+	<ConstructibleModifiers>
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" 
+		ModifierId="TRAIT_MOD_WONDER_EARTH_MONARCH_PALACE_INCREASE_DISTRICT_HEALTH"/>
+	</ConstructibleModifiers>
     <Constructible_Advisories>
-		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" AdvisoryClassType="ADVISORY_CLASS_DIPLOMACY"/>
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
     </Constructible_Advisories>
 </Database>
