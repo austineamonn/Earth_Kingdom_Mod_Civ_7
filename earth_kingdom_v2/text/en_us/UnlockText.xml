@@ -11,7 +11,7 @@
 			<Text>[B]{LOC_LEADER_CATHERINE_NAME}[/B] was born in [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B].</Text>
 		</Row>
 		<Row Tag="LOC_UNLOCK_PLAY_AS_CONFUCIUS_EARTH_KINGDOM_TOOLTIP">
-			<Text>The [B]Earth Kingdom[/B] drew inspiration from [B]{LOC_LEADER_CONFUCIUS}[/B].</Text>
+			<Text>The [B]Earth Kingdom[/B] drew inspiration from [B]{LOC_LEADER_CONFUCIUS_NAME}[/B].</Text>
 		</Row>
 	</EnglishText>
 </Database>

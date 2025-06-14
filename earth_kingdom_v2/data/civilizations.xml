@@ -29,7 +29,7 @@
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_EARTH_KINGDOM"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_EARTH_KINGDOM_ABILITY"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_ATTRIBUTE_ECONOMIC"/>
 	</CivilizationTraits>
 	<LeaderCivPriorities>
 		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
@@ -62,29 +62,47 @@
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" CityName="LOC_CITY_NAME_EARTH_KINGDOM21"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" CityName="LOC_CITY_NAME_EARTH_KINGDOM22"/>
 	</CityNames>
+
+	<!-- Start Biases -->
+
 	<StartBiasBiomes>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BiomeType="BIOME_TUNDRA" Score="100"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BiomeType="BIOME_DESERT" Score="50"/>
 	</StartBiasBiomes>
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TerrainType="TERRAIN_MOUNTAIN" Score="25"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TerrainType="TERRAIN_FLAT" Score="50"/>
 	</StartBiasTerrains>
+	<StartBiasLakes>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" Score="25"/>
+	</StartBiasLakes>
 	<StartBiasFeatureClasses>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" FeatureClassType="FEATURE_CLASS_VEGETATED" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" FeatureClassType="FEATURE_CLASS_VEGETATED" Score="20"/>
 	</StartBiasFeatureClasses>
 	<StartBiasResources>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_SALT" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_SILVER" Score="5"/>
+	</StartBiasResources>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_GOLD" Score="5"/>
+	</StartBiasResources>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_MARBLE" Score="5"/>
+	</StartBiasResources>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_KAOLIN" Score="5"/>
 	</StartBiasResources>
 	<StartBiasRivers>
 	</StartBiasRivers>
 	<StartBiasAdjacentToCoasts>
 	</StartBiasAdjacentToCoasts>
+
+	<!-- Visuals -->
+
 	<VisArt_CivilizationBuildingCultures>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BuildingCulture="BUILDING_CULTURE_NEU"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BuildingCulture="BUILDING_CULTURE_EAS"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BuildingCulture="ANT_STONE"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BuildingCulture="EXP_STONE"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BuildingCulture="MOD_STONE"/>
 	</VisArt_CivilizationBuildingCultures>
 	<VisArt_CivilizationUnitCultures>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" UnitCulture="Euro"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" UnitCulture="Asian"/>
 	</VisArt_CivilizationUnitCultures>
 </Database>
