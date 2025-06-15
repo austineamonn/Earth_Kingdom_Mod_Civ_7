@@ -18,9 +18,6 @@
 		<!-- Wonders -->
 		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" MaxWorldInstances="1" />    
 	</Wonders>
-	<TypeTags>
-		<Row Type="WONDER_EARTH_MONARCH_PALACE" Tag="FORTIFICATION"/>
-	</TypeTags>
 	<Constructible_ValidDistricts>
 		<!-- Wonders -->
 		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" DistrictType="DISTRICT_WONDER"/>
@@ -31,7 +28,7 @@
     </Constructible_YieldChanges>
 	<ConstructibleModifiers>
 		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" 
-		ModifierId="TRAIT_MOD_WONDER_EARTH_MONARCH_PALACE_INCREASE_DISTRICT_HEALTH"/>
+		ModifierId="TRAIT_MOD_WONDER_EARTH_MONARCH_PALACE_GOLD_PER_POP"/>
 	</ConstructibleModifiers>
     <Constructible_Advisories>
 		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>

@@ -37,11 +37,9 @@
 		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_GROWTH_BONUS_DESCRIPTION">
 			<Text>+10% growth in the Capital.</Text>
 		</Row>
-
 		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION">
 			<Text>+2[icon:YIELD_HAPPINESS] Happiness in Fishing/Farming town for each City-State you are Suzerain of.</Text>
 		</Row>
-
 		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_BARBARICUM_FARM_FISH_RESOURCE_CAP_DESCRIPTION">
 			<Text>+2 Resouce Capacity each town specialized as a Fishing/Farming town.</Text>
 		</Row>
@@ -56,6 +54,9 @@
 		</Row>
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_LONG_LOST_LOVE_QUOTE_AUTHOR">
 			<Text>Oma and Shu's tomb</Text>
+		</Row>
+		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCRERASE_DESCRIPTION">
+			<Text>+10 range for all Trade Routes.</Text>
 		</Row>
 		
 		<!-- The Impenetrable City -->

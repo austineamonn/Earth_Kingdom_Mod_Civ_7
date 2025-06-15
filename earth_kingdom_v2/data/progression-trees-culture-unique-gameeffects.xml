@@ -17,6 +17,14 @@
 	<String context="Description">NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_GROWTH_BONUS_DESCRIPTION</String>
 	</Modifier>
 
+	<!-- Long Lost Love -->
+
+	<Modifier id="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCRERASE"
+	collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE" permanent="true">
+		<Argument name="Amount">10</Argument>
+	<String context="Description">NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCRERASE_DESCRIPTION</String>
+	</Modifier>
+
 	<!-- CODANUS -->
 	<Modifier id="NODE_CIVIC_MO_EARTH_KINGDOM_CODANUS_NAVAL_WATER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT">
 		<SubjectRequirements>

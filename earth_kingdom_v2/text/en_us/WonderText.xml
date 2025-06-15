@@ -8,7 +8,7 @@
 			<Text>+5[icon:YIELD_GOLD] Gold. {LOC_WONDER_EARTH_MONARCH_PALACE_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_EARTH_MONARCH_PALACE_TOOLTIP">
-			<Text>Acts as a Fortified District that must be conquered. +100 HP to all Fortified Districts in this Settlement. Ageless. Must be adjacent to a District.</Text>
+			<Text>+3[icon:YIELD_GOLD] Gold per Population in this Settlement.</Text>
 		</Row>
 		<Row Tag="LOC_QUOTE_WONDER_EARTH_MONARCH_PALACE">
 			<Text>That whole thing is the palace!</Text>
