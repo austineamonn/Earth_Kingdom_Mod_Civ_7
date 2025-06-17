@@ -70,8 +70,8 @@
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_IMPENETRABLE_CITY_QUOTE_AUTHOR">
 			<Text>General Sung</Text>
 		</Row>
-		<Row Tag="NODE_NODE_CIVIC_MO_EARTH_KINGDOM_WULFAZ_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION">
-			<Text>+100% Commander experience during a Celebration.</Text>
+		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_THE_IMPENETRABLE_CITY_SPECIALIST_CAP_INCRERASE_DESCRIPTION">
+			<Text>+1 Specialist Limit in the Capital.</Text>
 		</Row>
 
 

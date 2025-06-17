@@ -12,7 +12,7 @@
 		<!-- Wonders -->
 		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE"
 		 AdjacentDistrict="DISTRICT_URBAN"
-		 Name="LOC_WONDER_EARTH_MONARCH_PALACE_NAME" Description="LOC_WONDER_EARTH_MONARCH_PALACE_DESCRIPTION" Tooltip="LOC_WONDER_EARTH_MONARCH_PALACE_TOOLTIP" ConstructibleClass="WONDER" Cost="1200" Population="0" ImmuneDamage="true" DistrictDefense="true" Age="AGE_ANTIQUITY" RequiresUnlock="true" />
+		 Name="LOC_WONDER_EARTH_MONARCH_PALACE_NAME" Description="LOC_WONDER_EARTH_MONARCH_PALACE_DESCRIPTION" Tooltip="LOC_WONDER_EARTH_MONARCH_PALACE_TOOLTIP" ConstructibleClass="WONDER" Cost="1200" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" RequiresUnlock="true" />
     </Constructibles>
     <Wonders>
 		<!-- Wonders -->
@@ -28,7 +28,7 @@
     </Constructible_YieldChanges>
 	<ConstructibleModifiers>
 		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" 
-		ModifierId="TRAIT_MOD_WONDER_EARTH_MONARCH_PALACE_GOLD_PER_POP"/>
+		ModifierId="TRAIT_MOD_WONDER_EARTH_MONARCH_INCREASE_GOLD_PER_SPECIALIST"/>
 	</ConstructibleModifiers>
     <Constructible_Advisories>
 		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
