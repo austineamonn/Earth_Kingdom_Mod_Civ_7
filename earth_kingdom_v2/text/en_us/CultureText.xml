@@ -70,11 +70,11 @@
 
 
 		<!-- Earth Kingdom Unique Traditions-->
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_CODANNOVIA_NAME">
-			<Text>Codannovia</Text>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_CONSTRUCTION_MANDATE_NAME">
+			<Text>Construction Mandate</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_CODANNOVIA_DESCRIPTION">
-			<Text>+100%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings.</Text>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_CONSTRUCTION_MANDATE_DESCRIPTION">
+			<Text>+20%[icon:YIELD_GOLD] Gold towards purchasing Buildings and +20%[icon:YIELD_PRODUCTION] Production towards constructing Buildings.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_ALL_MEN_NAME">

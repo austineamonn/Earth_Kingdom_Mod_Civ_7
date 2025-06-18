@@ -44,7 +44,7 @@
 	<ProgressionTreeNodeUnlocks>
 
 		<!-- The Three Walled City -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_THE_THREE_WALLED_CITY" TargetKind="KIND_TRADITION" TargetType="TRADITION_EARTH_KINGDOM_CODANNOVIA" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_THE_THREE_WALLED_CITY" TargetKind="KIND_TRADITION" TargetType="TRADITION_EARTH_KINGDOM_CONSTRUCTION_MANDATE" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_THE_THREE_WALLED_CITY" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_HERRENHOFE" UnlockDepth="1"/>
 
 		<!-- Royal Propaganda -->
