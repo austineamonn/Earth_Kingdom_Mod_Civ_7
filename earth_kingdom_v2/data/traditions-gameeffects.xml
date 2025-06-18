@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- ==================================================	-->
-	<!--	ANTIQUITY							-->
+	<!--	Modern							-->
 	<!-- ==================================================	-->
-	<!-- EARTH_KINGDOM -->
+	<!-- Earth Kingdom -->
 
-	<!-- BARBARICUM -->
+	<!-- The Three Walled City -->
 	<Modifier id="TRADITION_EARTH_KINGDOM_CONSTRUCTION_MANDATE_MOD_GOLD_PURCHASE_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
 		<Argument name="Percent">20</Argument>
 		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_CONSTRUCTION_MANDATE_DESCRIPTION</String>
@@ -15,20 +15,11 @@
 		<Argument name="Percent">20</Argument>
 	</Modifier>
 
-	<!-- CODANNOVIA -->
-	<Modifier id="ATTACH_TRADITION_EARTH_KINGDOM_ALL_MEN_MOD_PROJECT_FARM_FISH_TOWN_YIELDS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
-		<Argument name="WarehouseYieldChange">EARTH_KINGDOMAllMenFarmHappiness, EARTH_KINGDOMAllMenFishingBoatHappiness, EARTH_KINGDOMAllMenFishingBoatResourceHappiness</Argument>
-		<Argument name="Tooltip">LOC_TRADITION_EARTH_KINGDOM_ALL_MEN_DESCRIPTION</Argument>
-	</Modifier>
-
-	<Modifier id="TRADITION_EARTH_KINGDOM_ALL_MEN_MOD_PROJECT_FARM_FISH_TOWN_YIELDS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
-				<Argument name="RequirementSetId">REQSET_FARM_OR_FISH_TOWN</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_TRADITION_EARTH_KINGDOM_ALL_MEN_MOD_PROJECT_FARM_FISH_TOWN_YIELDS</Argument>
-		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_ALL_MEN_DESCRIPTION</String>
+	<!-- Royal Propoganda -->
+	<Modifier id="TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_MOD_INCREASE_FOOD_PER_SPECIALIST" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">3</Argument>
+		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_DESCRIPTION</String>
 	</Modifier>
 
 	<!-- GALSTAR -->

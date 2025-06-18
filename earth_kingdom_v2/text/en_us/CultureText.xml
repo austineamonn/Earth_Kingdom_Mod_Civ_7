@@ -49,7 +49,7 @@
 		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCRERASE_DESCRIPTION">
 			<Text>+10 range for all Trade Routes.</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_CAPITAL_POP_ON_CELEBRATION">
+		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_CAPITAL_POP_ON_CELEBRATION_DESCRIPTION">
 			<Text>The Capital gains a Population every time you enter a Celebration.</Text>
 		</Row>
 		
@@ -77,11 +77,11 @@
 			<Text>+20%[icon:YIELD_GOLD] Gold towards purchasing Buildings and +20%[icon:YIELD_PRODUCTION] Production towards constructing Buildings.</Text>
 		</Row>
 
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_ALL_MEN_NAME">
-			<Text>All Men</Text>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_NAME">
+			<Text>Feed The Queen</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_ALL_MEN_DESCRIPTION">
-			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Farm or Fishing Boat to all Fishing/Farming Towns.</Text>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_DESCRIPTION">
+			<Text>+3[icon:YIELD_FOOD] Food from Specialists.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_GALSTAR_NAME">
