@@ -1,15 +1,15 @@
 window.UnitPortraitVisualRemaps = {
     ...(window.UnitPortraitVisualRemaps || {}),
-    'UNIT_SUEBI': { //your unit type
-        unitType: 'UNIT_WARRIOR',
+    'UNIT_EARTHBENDER': { //your unit type
+        unitType: 'UNIT_XUNLEICHONG',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
     },
-    'UNIT_SUEBI_2': { //your unit type
-        unitType: 'UNIT_SPEARMAN',
+    'UNIT_EARTHBENDER_2': { //your unit type
+        unitType: 'UNIT_XUNLEICHONG_2',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
     },
-    'UNIT_SUEBI_3': { //your unit type
-        unitType: 'UNIT_PHALANX',
+    'UNIT_EARTHBENDER_3': { //your unit type
+        unitType: 'UNIT_XUNLEICHONG_3',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
     },
     'UNIT_CABBAGE_MERCHANT': { //your unit type

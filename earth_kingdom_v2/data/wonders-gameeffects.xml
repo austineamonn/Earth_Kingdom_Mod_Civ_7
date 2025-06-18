@@ -15,7 +15,6 @@
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_GOLD</Argument>
 		<Argument name="Amount">2</Argument>
-		<String context="Description">LOC_WONDER_EARTH_MONARCH_PALACE_DESCRIPTION</String>
 	</Modifier>
 
 </GameEffects>

@@ -40,17 +40,17 @@
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_SUEBI</ID>
+            <ID>UNIT_EARTHBENDER</ID>
             <Path>fs://game/earth_kingdom/icons/unit_flag_earthbender.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_SUEBI_2</ID>
+            <ID>UNIT_EARTHBENDER_2</ID>
             <Path>fs://game/earth_kingdom/icons/unit_flag_earthbender.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_SUEBI_3</ID>
+            <ID>UNIT_EARTHBENDER_3</ID>
             <Path>fs://game/earth_kingdom/icons/unit_flag_earthbender.png</Path>
             <Context>DEFAULT</Context>
         </Row>

@@ -11,25 +11,25 @@
         </Row>
         <!-- subei -->
         <Row>
-            <ID>REMAP_UNIT_SUEBI</ID>
-            <DisplayName>LOC_UNIT_SUEBI_NAME</DisplayName>
+            <ID>REMAP_UNIT_EARTHBENDER</ID>
+            <DisplayName>LOC_UNIT_EARTHBENDER_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_SUEBI</From>
-            <To>UNIT_WARRIOR</To>
+            <From>UNIT_EARTHBENDER</From>
+            <To>UNIT_XUNLEICHONG</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_SUEBI_2</ID>
-            <DisplayName>LOC_UNIT_SUEBI_NAME</DisplayName>
+            <ID>REMAP_UNIT_EARTHBENDER_2</ID>
+            <DisplayName>LOC_UNIT_EARTHBENDER_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_SUEBI_2</From>
-            <To>UNIT_SPEARMAN</To>
+            <From>UNIT_EARTHBENDER_2</From>
+            <To>UNIT_XUNLEICHONG_2</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_SUEBI_3</ID>
-            <DisplayName>LOC_UNIT_SUEBI_NAME</DisplayName>
+            <ID>REMAP_UNIT_EARTHBENDER_3</ID>
+            <DisplayName>LOC_UNIT_EARTHBENDER_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_SUEBI_3</From>
-            <To>UNIT_PHALANX</To>
+            <From>UNIT_EARTHBENDER_3</From>
+            <To>UNIT_XUNLEICHONG_3</To>
         </Row>
         <!-- Cabbage Merchant -->
         <Row>

@@ -2,21 +2,21 @@
 <Database>
 	<Types>
 		<!-- Civ Unique Military -->
-		<Row Type="UNIT_SUEBI" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_SUEBI_2" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_SUEBI_3" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_EARTHBENDER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_EARTHBENDER_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_EARTHBENDER_3" Kind="KIND_UNIT"/>
 		<!-- Civ Unique Civilian -->
 		<Row Type="UNIT_CABBAGE_MERCHANT" Kind="KIND_UNIT"/>
 		<!-- Unique Abilities -->
-		<Row Type="ABILITY_SUEBI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_EARTHBENDER" Kind="KIND_ABILITY"/>
 
 	</Types>
 	<Units>
 		<!-- Civ Unique Military -->
 
-		<Row UnitType="UNIT_SUEBI" Name="LOC_UNIT_SUEBI_NAME" Description="LOC_UNIT_SUEBI_DESCRIPTION" Tier="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_EARTH_KINGDOM"/>
-		<Row UnitType="UNIT_SUEBI_2" Name="LOC_UNIT_SUEBI_NAME" Description="LOC_UNIT_SUEBI_2_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_EARTH_KINGDOM"/>
-		<Row UnitType="UNIT_SUEBI_3" Name="LOC_UNIT_SUEBI_NAME" Description="LOC_UNIT_SUEBI_3_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_EARTH_KINGDOM"/>
+		<Row UnitType="UNIT_EARTHBENDER" Name="LOC_UNIT_EARTHBENDER_NAME" Description="LOC_UNIT_EARTHBENDER_DESCRIPTION" Tier="1" Maintenance="4" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_EARTH_KINGDOM"/>
+		<Row UnitType="UNIT_EARTHBENDER_2" Name="LOC_UNIT_EARTHBENDER_NAME" Description="LOC_UNIT_EARTHBENDER_2_DESCRIPTION" Tier="2" Maintenance="4" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_EARTH_KINGDOM"/>
+		<Row UnitType="UNIT_EARTHBENDER_3" Name="LOC_UNIT_EARTHBENDER_NAME" Description="LOC_UNIT_EARTHBENDER_3_DESCRIPTION" Tier="3" Maintenance="5" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_EARTH_KINGDOM"/>
 		
 		<!-- Civ Unique Civilian -->
 
@@ -24,28 +24,28 @@
 		
 	</Units>
 	<Unit_Stats>
-		<Row UnitType="UNIT_SUEBI" Combat="20"/>
-		<Row UnitType="UNIT_SUEBI_2" Combat="25"/>
-		<Row UnitType="UNIT_SUEBI_3" Combat="30"/>
+		<Row UnitType="UNIT_EARTHBENDER" Bombard="5" Combat="55" Range="1" RangedCombat="30"/>
+		<Row UnitType="UNIT_EARTHBENDER_2" Bombard="10" Combat="60" Range="1" RangedCombat="35"/>
+		<Row UnitType="UNIT_EARTHBENDER_3" Bombard="15" Combat="65" Range="1" RangedCombat="40"/>
 	</Unit_Stats>
 	<Unit_Costs>
 		<!-- Civ Unique Military -->
-		<Row UnitType="UNIT_SUEBI" YieldType="YIELD_PRODUCTION" Cost="30"/>
-		<Row UnitType="UNIT_SUEBI_2" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_SUEBI_3" YieldType="YIELD_PRODUCTION" Cost="100"/>
+		<Row UnitType="UNIT_EARTHBENDER" YieldType="YIELD_PRODUCTION" Cost="300"/>
+		<Row UnitType="UNIT_EARTHBENDER_2" YieldType="YIELD_PRODUCTION" Cost="350"/>
+		<Row UnitType="UNIT_EARTHBENDER_3" YieldType="YIELD_PRODUCTION" Cost="410"/>
 		<!-- Civ Unique Civilian -->
 		<Row UnitType="UNIT_CABBAGE_MERCHANT" YieldType="YIELD_PRODUCTION" Cost="40"/>
 	</Unit_Costs>
 	<UnitUpgrades>
 		<!-- Civ Unique Military -->
-		<Row Unit="UNIT_SUEBI" UpgradeUnit="UNIT_SUEBI_2"/>
-		<Row Unit="UNIT_SUEBI_2" UpgradeUnit="UNIT_SUEBI_3"/>
+		<Row Unit="UNIT_EARTHBENDER" UpgradeUnit="UNIT_EARTHBENDER_2"/>
+		<Row Unit="UNIT_EARTHBENDER_2" UpgradeUnit="UNIT_EARTHBENDER_3"/>
 	</UnitUpgrades>
 	<UnitReplaces>
 		<!-- Civ Unique Military -->
-		<Row CivUniqueUnitType="UNIT_SUEBI" ReplacesUnitType="UNIT_WARRIOR"/>
-		<Row CivUniqueUnitType="UNIT_SUEBI_2" ReplacesUnitType="UNIT_SPEARMAN"/>
-		<Row CivUniqueUnitType="UNIT_SUEBI_3" ReplacesUnitType="UNIT_PHALANX"/>
+		<Row CivUniqueUnitType="UNIT_EARTHBENDER" ReplacesUnitType="UNIT_WARRIOR"/>
+		<Row CivUniqueUnitType="UNIT_EARTHBENDER_2" ReplacesUnitType="UNIT_SPEARMAN"/>
+		<Row CivUniqueUnitType="UNIT_EARTHBENDER_3" ReplacesUnitType="UNIT_PHALANX"/>
 		<!-- Civ Unique Civilian -->
         <Row CivUniqueUnitType="UNIT_CABBAGE_MERCHANT" ReplacesUnitType="UNIT_MERCHANT"/>
 	</UnitReplaces>
@@ -55,52 +55,50 @@
 	</AiUnitEfficiencyBonuses>
 	<Tags>
 		<!-- Civ Unique Military -->
-		<Row Tag="UNIT_CLASS_SUEBI" Category="UNIT_CLASS"/>
+		<Row Tag="UNIT_CLASS_EARTHBENDER" Category="UNIT_CLASS"/>
 		<!-- Civ Unique Civilian -->
 		<Row Tag="UNIT_CABBAGE_MERCHANT" Category="UNIT_CLASS"/>
 	</Tags>
 	<TypeTags>
 		<!-- Civ Unique Military -->
-		<Row Type="UNIT_SUEBI" Tag="UNIT_CLASS_COMBAT"/>
-		<Row Type="UNIT_SUEBI" Tag="UNIT_CLASS_MELEE"/>
-		<Row Type="UNIT_SUEBI" Tag="UNIT_CLASS_INFANTRY"/>
-		<Row Type="UNIT_SUEBI" Tag="UNIT_CLASS_SUEBI"/>
+		<Row Type="UNIT_EARTHBENDER" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_EARTHBENDER" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_EARTHBENDER" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_EARTHBENDER" Tag="UNIT_CLASS_EARTHBENDER"/>
 
-		<Row Type="UNIT_SUEBI_2" Tag="UNIT_CLASS_COMBAT"/>
-		<Row Type="UNIT_SUEBI_2" Tag="UNIT_CLASS_MELEE"/>
-		<Row Type="UNIT_SUEBI_2" Tag="UNIT_CLASS_INFANTRY"/>
-		<Row Type="UNIT_SUEBI_2" Tag="UNIT_CLASS_SUEBI"/>
+		<Row Type="UNIT_EARTHBENDER_2" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_EARTHBENDER_2" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_EARTHBENDER_2" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_EARTHBENDER_2" Tag="UNIT_CLASS_EARTHBENDER"/>
 		
-		<Row Type="UNIT_SUEBI_3" Tag="UNIT_CLASS_COMBAT"/>
-		<Row Type="UNIT_SUEBI_3" Tag="UNIT_CLASS_MELEE"/>
-		<Row Type="UNIT_SUEBI_3" Tag="UNIT_CLASS_INFANTRY"/>
-		<Row Type="UNIT_SUEBI_3" Tag="UNIT_CLASS_SUEBI"/>
-		<Row Type="UNIT_SUEBI_3" Tag="UNIT_CLASS_ELITE_INFANTRY"/>
+		<Row Type="UNIT_EARTHBENDER_3" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_EARTHBENDER_3" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_EARTHBENDER_3" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_EARTHBENDER_3" Tag="UNIT_CLASS_EARTHBENDER"/>
+		<Row Type="UNIT_EARTHBENDER_3" Tag="UNIT_CLASS_ELITE_INFANTRY"/>
 		<!-- Civ Unique Civilian -->
 		<Row Type="UNIT_CABBAGE_MERCHANT" Tag="UNIT_CLASS_MAKE_TRADE_ROUTE"/>
 	</TypeTags>
 	<UnitClass_Abilities>
-		<Row UnitAbilityType="ABILITY_SUEBI" UnitClassType="UNIT_CLASS_SUEBI"/>
+		<Row UnitAbilityType="ABILITY_EARTHBENDER" UnitClassType="UNIT_CLASS_EARTHBENDER"/>
 	</UnitClass_Abilities>
 	<UnitAbilities>
-		<Row UnitAbilityType="ABILITY_SUEBI" Name="LOC_ABILITY_SUEBI_NAME" Description="LOC_ABILITY_SUEBI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_EARTHBENDER" Name="LOC_ABILITY_EARTHBENDER_NAME" Description="LOC_ABILITY_EARTHBENDER_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
-		<Row UnitAbilityType="ABILITY_SUEBI" ModifierId="SUEBI_MOD_SPLASH_DAMAGE"/>
+		<Row UnitAbilityType="ABILITY_EARTHBENDER" ModifierId="EARTHBENDER_MOD_INCREASED_STRENGTH_IN_OWN_TERRITORY"/>
 	</UnitAbilityModifiers>
 	<ChargedUnitAbilities>
 	</ChargedUnitAbilities>
 	<Unit_Advisories>
 		<!-- Civ Unique Military -->
-		<Row UnitType="UNIT_SUEBI" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
-		<Row UnitType="UNIT_SUEBI_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
-		<Row UnitType="UNIT_SUEBI_3" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_EARTHBENDER" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_EARTHBENDER_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_EARTHBENDER_3" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<!-- Civ Unique Civilian -->
 		<Row UnitType="UNIT_CABBAGE_MERCHANT" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
 	</Unit_Advisories>
 
 	<ProjectModifiers>
-		<Row ProjectType="PROJECT_TOWN_GRANARY" ModifierId="SUEBI_FARM_FISH_TOWN_INFANTRY_PURCHASE_EFFICIENCY"/>
-		<Row ProjectType="PROJECT_TOWN_FISHING" ModifierId="SUEBI_FARM_FISH_TOWN_INFANTRY_PURCHASE_EFFICIENCY"/>
 	</ProjectModifiers>
 </Database>
