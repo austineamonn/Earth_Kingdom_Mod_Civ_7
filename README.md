@@ -9,4 +9,4 @@ V1 based on GUI mod from Izica [link here](https://forums.civfanatics.com/resour
 
 V2 based on the Germania mod from the goggles do nothing [link here](https://forums.civfanatics.com/resources/goggless-germania-antiquity.31956/).
 
-Lore assistance and some images from the Avatar Wiki [link here](http://avatar.fandom.com/wiki/Avatar_Wiki).
+Lore assistance and some images from the Avatar the Last Airbender Wiki [link here](http://avatar.fandom.com/wiki/Avatar_Wiki).

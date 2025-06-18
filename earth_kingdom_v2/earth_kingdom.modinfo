@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="earth_kingdom" version="0.0.1"
 	xmlns="ModInfo">
-	<!-- Inspired by the goggles do nothing Germania Mod.
-
+	<!-- Inspired by the goggles do nothing Germania Mod. Quotes, lore and other information from the Avatar the Last Airbender Wiki.
 	-->
 	<Properties>
 		<Name>LOC_MODULE_EARTH_KINGDOM_NAME</Name>
@@ -73,7 +72,6 @@
                 </UpdateText>
                 <ImportFiles>
                     <Item>icons/civ_sym_earth_kingdom</Item>
-					<Item>icons/civ_line_germania</Item>
                     <Item>icons/improvement_icon_earth_kingdom_wall.png</Item>		
 					<Item>icons/unit_flag_cabbage_merchant.png</Item>
 					<Item>icons/unit_flag_earthbender.png</Item>
@@ -81,7 +79,7 @@
 					<Item>icons/wonder_earth_monarch_palace_icon.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
-                    <Item>data/icons/Germania.xml</Item>
+                    <Item>data/icons/Earth_Kingdom.xml</Item>
 					<Item>data/icons/wonder-icons.xml</Item>
                 </UpdateIcons>
                 <ScenarioScripts>
@@ -170,7 +168,6 @@
 				</UpdateDatabase>
                 <ImportFiles>
                     <Item>icons/civ_sym_earth_kingdom.png</Item>
-					<Item>icons/civ_line_germania</Item>
                     <Item>icons/improvement_icon_earth_kingdom_wall.png</Item>		
 					<Item>icons/unit_flag_cabbage_merchant.png</Item>
 					<Item>icons/unit_flag_earthbender.png</Item>
@@ -178,7 +175,7 @@
 					<Item>icons/wonder_earth_monarch_palace_icon.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
-                    <Item>data/icons/Germania.xml</Item>
+                    <Item>data/icons/Earth_Kingdom.xml</Item>
 					<Item>data/icons/wonder-icons.xml</Item>
                 </UpdateIcons>
 				<UpdateText>

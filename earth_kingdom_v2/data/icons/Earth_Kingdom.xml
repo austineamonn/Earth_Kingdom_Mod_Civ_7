@@ -30,8 +30,8 @@
             <Path>fs://game/earth_kingdom/icons/cult_earth_kingdom.png</Path>
         </Row> 
         <Row>
-            <ID>civ_line_germania</ID>
-            <Path>fs://game/earth_kingdom/icons/civ_line_germania.png</Path>
+            <ID>civ_sym_earth_kingdom</ID>
+            <Path>fs://game/earth_kingdom/icons/civ_sym_earth_kingdom.png</Path>
         </Row> 
         <!-- UU AND UI -->
         <Row>
