@@ -25,31 +25,10 @@
 	<String context="Description">NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCRERASE_DESCRIPTION</String>
 	</Modifier>
 
-	<!--<Modifier id="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_FOOD_ON_DESERT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
-		<Argument name="ModifierId">ATTACH_NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_FOOD_ON_DESERT</Argument>
-		<String context="Description">NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_FOOD_ON_DESERT_DESCRIPTION</String>
-	</Modifier>-->
-
-	<!--<Modifier id="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_FOOD_ON_DESERT"
-	collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" permanent="true">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_BIOME_TYPE_MATCHES">
-				<Argument name="Biome">BIOME_DESERT</Argument>
-			</Requirement>
-			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
-				<Argument name="DistrictClass">RURAL</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="ConstructibleType">IMPROVEMENT_FARM</Argument>
-		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount">2</Argument>
-		<String context="Description">NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_FOOD_ON_DESERT_DESCRIPTION</String>
-	</Modifier>-->
-
-	<Modifier id="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_FOOD_ON_DESERT"
+	<Modifier id="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_CAPITAL_POP_ON_CELEBRATION"
 	collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="TRIGGER_CITY_ADJUST_POPULATION_ON_GOLDEN_AGE">
 		<Argument name="Amount">1</Argument>
-	<String context="Description">NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_FOOD_ON_DESERT_DESCRIPTION</String>
+	<String context="Description">NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_CAPITAL_POP_ON_CELEBRATION_DESCRIPTION</String>
 	</Modifier>
 
 	<!-- The Impenetrable City -->

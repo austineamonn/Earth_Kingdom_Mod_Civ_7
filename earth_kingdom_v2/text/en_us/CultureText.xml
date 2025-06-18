@@ -49,8 +49,8 @@
 		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCRERASE_DESCRIPTION">
 			<Text>+10 range for all Trade Routes.</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_FOOD_ON_DESERT_DESCRIPTION">
-			<Text>+2[icon:YIELD_FOOD] Food on Desert Terrain.</Text>
+		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_CAPITAL_POP_ON_CELEBRATION">
+			<Text>The Capital gains a Population every time you enter a Celebration.</Text>
 		</Row>
 		
 		<!-- The Impenetrable City -->
@@ -76,6 +76,7 @@
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_CODANNOVIA_DESCRIPTION">
 			<Text>+100%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings.</Text>
 		</Row>
+
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_ALL_MEN_NAME">
 			<Text>All Men</Text>
 		</Row>
@@ -88,6 +89,13 @@
 		</Row>
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_GALSTAR_DESCRIPTION">
 			<Text>Buildings have +1[icon:YIELD_HAPPINESS] Happiness adjacency with Tundra.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_NAME">
+			<Text>The Hundred Years War</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_DESCRIPTION">
+			<Text>Gain 3 War Support on all wars declared against you.</Text>
 		</Row>
 
 	</EnglishText>

@@ -34,6 +34,14 @@
 		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_GALSTAR_DESCRIPTION</String>
 	</Modifier>
 
+	<!-- THE HUNDRED YEARS WAR -->
+	<Modifier id="TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_MOD_WAR_SUPPORT_ON_DEFENSE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="OnlyWhenTarget">true</Argument>
+		<Argument name="Amount">3</Argument>
+		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_DESCRIPTION</String>
+	</Modifier>
+
 	<!-- Great People -->
 	<Modifier id="TRADITION_ADJUST_SABOTAGE_EFFICIENCY_VELEDA" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY">
 		<Argument name="ActionGroupType">DIPLOMACY_ACTION_GROUP_SANCTION</Argument>
