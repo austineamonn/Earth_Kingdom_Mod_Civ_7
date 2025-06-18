@@ -39,7 +39,7 @@
 		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI" Value="50"/>
 		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI_2" Value="50"/>
 		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI_3" Value="50"/>
-		<Row ListType="Germania Unit Biases" Item="UNIT_FOLC" Value="50"/>
+		<Row ListType="Germania Unit Biases" Item="UNIT_CABBAGE_MERCHANT" Value="50"/>
 		<Row ListType="Germania Tag Biases" Item="MILITARY" Value="400"/>
 	</AiFavoredItems>
 	<!-- City Strategies -->

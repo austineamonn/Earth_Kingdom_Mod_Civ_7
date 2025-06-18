@@ -6,20 +6,7 @@
 		<Row Type="UNIT_SUEBI_2" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_SUEBI_3" Kind="KIND_UNIT"/>
 		<!-- Civ Unique Civilian -->
-		<Row Type="UNIT_FOLC" Kind="KIND_UNIT"/>
-		<!-- Commander -->
-		<Row Type="UNIT_FOLC_TEUTOBOD" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_FOLC_ARMINIUS" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_FOLC_VIBILIUS" Kind="KIND_UNIT"/>
-		<!-- Diplomatic -->
-		<Row Type="UNIT_FOLC_CIVILIS" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_FOLC_VELEDA" Kind="KIND_UNIT"/>
-		<!-- Resouces -->
-		<Row Type="UNIT_FOLC_PIPARA" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_FOLC_RAICUNDA" Kind="KIND_UNIT"/>
-		<!-- Units -->
-		<Row Type="UNIT_FOLC_HERMANAFRID" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_FOLC_BOIORIX" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CABBAGE_MERCHANT" Kind="KIND_UNIT"/>
 		<!-- Unique Abilities -->
 		<Row Type="ABILITY_SUEBI" Kind="KIND_ABILITY"/>
 
@@ -32,21 +19,9 @@
 		<Row UnitType="UNIT_SUEBI_3" Name="LOC_UNIT_SUEBI_NAME" Description="LOC_UNIT_SUEBI_3_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_EARTH_KINGDOM"/>
 		
 		<!-- Civ Unique Civilian -->
-		<!-- Great People.  There is a 'base' definition, and definitions for indivduals. The individual's unit definition must also be specified in the GreatPersonIndivdual definition. -->
-		<!-- This does allow for Individuals to have custom Unit properties, but they usually mirro the base version. -->
-		<!-- Note that the Individual entries are set to not allow the user to directly train/purchase, only the base is, then the code picks an individual. -->
 
-		<!--EARTH_KINGDOM-->
-		<Row UnitType="UNIT_FOLC" Name="LOC_UNIT_FOLC_NAME" Description="LOC_UNIT_FOLC_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EARTH_KINGDOM"/>
-		<Row UnitType="UNIT_FOLC_TEUTOBOD" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_NAME" Description="LOC_UNIT_FOLC_TEUTOBOD_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EARTH_KINGDOM" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_FOLC_ARMINIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARMINIUS_NAME" Description="LOC_UNIT_FOLC_ARMINIUS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EARTH_KINGDOM" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_FOLC_VIBILIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_NAME" Description="LOC_UNIT_FOLC_VIBILIUS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EARTH_KINGDOM" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_FOLC_CIVILIS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_NAME" Description="LOC_UNIT_FOLC_CIVILIS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EARTH_KINGDOM" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_FOLC_VELEDA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_NAME" Description="LOC_UNIT_FOLC_VELEDA_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EARTH_KINGDOM" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_FOLC_PIPARA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_NAME" Description="LOC_UNIT_FOLC_PIPARA_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EARTH_KINGDOM" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_FOLC_RAICUNDA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA_NAME" Description="LOC_UNIT_FOLC_RAICUNDA_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EARTH_KINGDOM" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_FOLC_HERMANAFRID" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID_NAME" Description="LOC_UNIT_FOLC_HERMANAFRID_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EARTH_KINGDOM" CanTrain="false" CanPurchase="false"/>
-		<Row UnitType="UNIT_FOLC_BOIORIX" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX_NAME" Description="LOC_UNIT_FOLC_BOIORIX_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_EARTH_KINGDOM" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_CABBAGE_MERCHANT" Name="LOC_UNIT_CABBAGE_MERCHANT_NAME" Description="LOC_UNIT_CABBAGE_MERCHANT_DESCRIPTION" BaseSightRange="2" BaseMoves="4" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" MakeTradeRoute="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="10" TraitType="TRAIT_EARTH_KINGDOM"/>
+		
 	</Units>
 	<Unit_Stats>
 		<Row UnitType="UNIT_SUEBI" Combat="20"/>
@@ -59,16 +34,7 @@
 		<Row UnitType="UNIT_SUEBI_2" YieldType="YIELD_PRODUCTION" Cost="60"/>
 		<Row UnitType="UNIT_SUEBI_3" YieldType="YIELD_PRODUCTION" Cost="100"/>
 		<!-- Civ Unique Civilian -->
-		<Row UnitType="UNIT_FOLC" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_FOLC_TEUTOBOD" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_FOLC_ARMINIUS" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_FOLC_VIBILIUS" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_FOLC_CIVILIS" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_FOLC_VELEDA" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_FOLC_PIPARA" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_FOLC_RAICUNDA" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_FOLC_HERMANAFRID" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_FOLC_BOIORIX" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_CABBAGE_MERCHANT" YieldType="YIELD_PRODUCTION" Cost="40"/>
 	</Unit_Costs>
 	<UnitUpgrades>
 		<!-- Civ Unique Military -->
@@ -81,6 +47,7 @@
 		<Row CivUniqueUnitType="UNIT_SUEBI_2" ReplacesUnitType="UNIT_SPEARMAN"/>
 		<Row CivUniqueUnitType="UNIT_SUEBI_3" ReplacesUnitType="UNIT_PHALANX"/>
 		<!-- Civ Unique Civilian -->
+        <Row CivUniqueUnitType="UNIT_CABBAGE_MERCHANT" ReplacesUnitType="UNIT_MERCHANT"/>
 	</UnitReplaces>
 	<Unit_TransitionRetains>
 	</Unit_TransitionRetains>
@@ -90,7 +57,7 @@
 		<!-- Civ Unique Military -->
 		<Row Tag="UNIT_CLASS_SUEBI" Category="UNIT_CLASS"/>
 		<!-- Civ Unique Civilian -->
-		<Row Tag="UNIT_CLASS_FOLC" Category="UNIT_CLASS"/>
+		<Row Tag="UNIT_CABBAGE_MERCHANT" Category="UNIT_CLASS"/>
 	</Tags>
 	<TypeTags>
 		<!-- Civ Unique Military -->
@@ -110,26 +77,7 @@
 		<Row Type="UNIT_SUEBI_3" Tag="UNIT_CLASS_SUEBI"/>
 		<Row Type="UNIT_SUEBI_3" Tag="UNIT_CLASS_ELITE_INFANTRY"/>
 		<!-- Civ Unique Civilian -->
-		<Row Type="UNIT_FOLC" Tag="UNIT_CLASS_GREATPERSON"/>
-		<Row Type="UNIT_FOLC" Tag="UNIT_CLASS_FOLC"/>
-		<Row Type="UNIT_FOLC_TEUTOBOD" Tag="UNIT_CLASS_GREATPERSON"/>
-		<Row Type="UNIT_FOLC_TEUTOBOD" Tag="UNIT_CLASS_FOLC"/>
-		<Row Type="UNIT_FOLC_ARMINIUS" Tag="UNIT_CLASS_GREATPERSON"/>
-		<Row Type="UNIT_FOLC_ARMINIUS" Tag="UNIT_CLASS_FOLC"/>
-		<Row Type="UNIT_FOLC_VIBILIUS" Tag="UNIT_CLASS_GREATPERSON"/>
-		<Row Type="UNIT_FOLC_VIBILIUS" Tag="UNIT_CLASS_FOLC"/>
-		<Row Type="UNIT_FOLC_CIVILIS" Tag="UNIT_CLASS_GREATPERSON"/>
-		<Row Type="UNIT_FOLC_CIVILIS" Tag="UNIT_CLASS_FOLC"/>
-		<Row Type="UNIT_FOLC_VELEDA" Tag="UNIT_CLASS_GREATPERSON"/>
-		<Row Type="UNIT_FOLC_VELEDA" Tag="UNIT_CLASS_FOLC"/>
-		<Row Type="UNIT_FOLC_PIPARA" Tag="UNIT_CLASS_GREATPERSON"/>
-		<Row Type="UNIT_FOLC_PIPARA" Tag="UNIT_CLASS_FOLC"/>
-		<Row Type="UNIT_FOLC_RAICUNDA" Tag="UNIT_CLASS_GREATPERSON"/>
-		<Row Type="UNIT_FOLC_RAICUNDA" Tag="UNIT_CLASS_FOLC"/>
-		<Row Type="UNIT_FOLC_HERMANAFRID" Tag="UNIT_CLASS_GREATPERSON"/>
-		<Row Type="UNIT_FOLC_HERMANAFRID" Tag="UNIT_CLASS_FOLC"/>
-		<Row Type="UNIT_FOLC_BOIORIX" Tag="UNIT_CLASS_GREATPERSON"/>
-		<Row Type="UNIT_FOLC_BOIORIX" Tag="UNIT_CLASS_FOLC"/>
+		<Row Type="UNIT_CABBAGE_MERCHANT" Tag="UNIT_CLASS_MAKE_TRADE_ROUTE"/>
 	</TypeTags>
 	<UnitClass_Abilities>
 		<Row UnitAbilityType="ABILITY_SUEBI" UnitClassType="UNIT_CLASS_SUEBI"/>
@@ -148,7 +96,7 @@
 		<Row UnitType="UNIT_SUEBI_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<Row UnitType="UNIT_SUEBI_3" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<!-- Civ Unique Civilian -->
-		<Row UnitType="UNIT_FOLC" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+		<Row UnitType="UNIT_CABBAGE_MERCHANT" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
 	</Unit_Advisories>
 
 	<ProjectModifiers>

@@ -22,5 +22,12 @@
 		<Row Tag="SUEBI_FARM_FISH_TOWN_INFANTRY_PURCHASE_EFFICIENCY_DESCRIPTION">
 			<Text>Reduced cost to purchase Suebi for each in town specialized as a Fishing/Farming.</Text>
 		</Row>
+
+		<Row Tag="LOC_UNIT_CABBAGE_MERCHANT_NAME">
+            <Text>The Cabbage Merchant</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_CABBAGE_MERCHANT_DESCRIPTION">
+            <Text>Earth Kingdom Unique Merchant. Civilian who can establish a Trade Route to import Resources from a foreign Settlement. Cost increase is halved.</Text>
+        </Row>
 	</EnglishText>
 </Database>

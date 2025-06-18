@@ -20,7 +20,7 @@
 	<CivilizationItems>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="TRAIT_EARTH_KINGDOM_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_EARTH_KINGDOM_ABILITY_NAME" Description="LOC_TRAIT_EARTH_KINGDOM_ABILITY_DESCRIPTION"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="UNIT_SUEBI" Kind="KIND_UNIT" Name="LOC_UNIT_SUEBI_NAME" Description="LOC_UNIT_SUEBI_BASE_DESCRIPTION" Icon="ICON_UNIT_SUEBI"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="UNIT_FOLC" Kind="KIND_UNIT" Name="LOC_UNIT_FOLC_NAME" Description="LOC_UNIT_FOLC_DESCRIPTION" Icon="ICON_UNIT_FOLC"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="UNIT_CABBAGE_MERCHANT" Kind="KIND_UNIT" Name="LOC_UNIT_CABBAGE_MERCHANT_NAME" Description="LOC_UNIT_CABBAGE_MERCHANT_DESCRIPTION" Icon="ICON_UNIT_CABBAGE_MERCHANT"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="BUILDING_HERRENHOFE" Kind="KIND_IMPROVEMENT" Name="LOC_BUILDING_HERRENHOFE_NAME" Description="LOC_BUILDING_HERRENHOFE_DESCRIPTION" Icon="BUILDING_HERRENHOFE"/>
 		
 	</CivilizationItems>

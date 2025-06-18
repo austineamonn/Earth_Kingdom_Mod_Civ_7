@@ -32,6 +32,5 @@
 	</ConstructibleModifiers>
     <Constructible_Advisories>
 		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
-		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
     </Constructible_Advisories>
 </Database>

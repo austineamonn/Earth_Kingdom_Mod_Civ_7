@@ -31,63 +31,14 @@
             <From>UNIT_SUEBI_3</From>
             <To>UNIT_PHALANX</To>
         </Row>
-        <!-- folc -->
+        <!-- Cabbage Merchant -->
         <Row>
-            <ID>REMAP_UNIT_FOLC_TEUTOBOD</ID>
-            <DisplayName>LOC_UNIT_FOLC_TEUTOBOD_NAME</DisplayName>
+            <ID>REMAP_UNIT_CABBAGE_MERCHANT</ID>
+            <DisplayName>LOC_UNIT_CABBAGE_MERCHANT_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_TEUTOBOD</From>
-            <To>UNIT_LOGIOS_SOCRATES</To>
-        </Row>
-        <Row>
-            <ID>REMAP_UNIT_FOLC_ARMINIUS</ID>
-            <DisplayName>LOC_UNIT_FOLC_ARMINIUS_NAME</DisplayName>
-            <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_ARMINIUS</From>
-            <To>UNIT_LOGIOS_XENOPHON</To>
-        </Row>
-        <Row>
-            <ID>REMAP_UNIT_FOLC_VIBILIUS</ID>
-            <DisplayName>LOC_UNIT_FOLC_VIBILIUS_NAME</DisplayName>
-            <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_VIBILIUS</From>
-            <To>UNIT_LOGIOS_PYTHAGORAS</To>
-        </Row>
-        <Row>
-            <ID>REMAP_UNIT_FOLC_CIVILIS</ID>
-            <DisplayName>LOC_UNIT_FOLC_ARMINIUS_NAME</DisplayName>
-            <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_CIVILIS</From>
-            <To>UNIT_LOGIOS_PLATO</To>
-        </Row>
-        <Row>
-            <ID>REMAP_UNIT_FOLC_VELEDA</ID>
-            <DisplayName>LOC_UNIT_FOLC_VELEDA_NAME</DisplayName>
-            <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_VELEDA</From>
-            <To>UNIT_TJATY_NEBET</To>
-        </Row>
-        <Row>
-            <ID>REMAP_UNIT_FOLC_PIPARA</ID>
-            <DisplayName>LOC_UNIT_FOLC_PIPARA_NAME</DisplayName>
-            <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_PIPARA</From>
-            <To>UNIT_LOGIOS_HYPATIA</To>
-        </Row>
-        <Row>
-            <ID>REMAP_UNIT_FOLC_HERMANAFRID</ID>
-            <DisplayName>LOC_UNIT_FOLC_HERMANAFRID_NAME</DisplayName>
-            <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_HERMANAFRID</From>
-            <To>UNIT_TJATY_IMHOTEP</To>
-        </Row>
-        <Row>
-            <ID>REMAP_UNIT_FOLC_BOIORIX</ID>
-            <DisplayName>LOC_UNIT_FOLC_BOIORIX_NAME</DisplayName>
-            <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_BOIORIX</From>
-            <To>UNIT_TJATY_RAMOSE</To>
-        </Row>        
+            <From>UNIT_CABBAGE_MERCHANT</From>
+            <To>UNIT_MANDARIN</To>
+        </Row>      
         
     </VisualRemaps>
 </Database>
