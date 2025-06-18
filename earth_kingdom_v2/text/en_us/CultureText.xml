@@ -84,11 +84,11 @@
 			<Text>+3[icon:YIELD_FOOD] Food from Specialists.</Text>
 		</Row>
 
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_GALSTAR_NAME">
-			<Text>Galstar</Text>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_NAME">
+			<Text>Omashi Delivery System</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_GALSTAR_DESCRIPTION">
-			<Text>Buildings have +1[icon:YIELD_HAPPINESS] Happiness adjacency with Tundra.</Text>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_DESCRIPTION">
+			<Text>+1 Resource Slot. +3[icon:YIELD_GOLD] Gold for every imported Resource.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_NAME">

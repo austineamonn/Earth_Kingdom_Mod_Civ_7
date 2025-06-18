@@ -8,16 +8,16 @@
 			<Text>Suebi</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUEBI_BASE_DESCRIPTION">
-			<Text>Earth Kingdom Unique Infantry Unit. Has a higher Combat Strength. Has a Ranged attack. Increased strength in a Fortified Districts.</Text>
+			<Text>Earth Kingdom Unique Infantry Unit. Has a higher Combat Strength. Has a Ranged attack. Increased strength in Fortified Districts.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUEBI_DESCRIPTION">
-			<Text>Tier 1 Earth Kingdom Unique Infantry Unit. Has a higher Combat Strength. Has a Ranged attack. Increased strength in a Fortified Districts.</Text>
+			<Text>Tier 1 Earth Kingdom Unique Infantry Unit. Has a higher Combat Strength. Has a Ranged attack. Increased strength in Fortified Districts.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUEBI_2_DESCRIPTION">
-			<Text>Tier 2 Earth Kingdom Unique Infantry Unit. Has a higher Combat Strength. Has a Ranged attack. Increased strength in a Fortified Districts.</Text>
+			<Text>Tier 2 Earth Kingdom Unique Infantry Unit. Has a higher Combat Strength. Has a Ranged attack. Increased strength in Fortified Districts.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUEBI_3_DESCRIPTION">
-			<Text>Tier 3 Earth Kingdom Unique Infantry Unit. Has a higher Combat Strength. Has a Ranged attack. Increased strength in a Fortified Districts.</Text>
+			<Text>Tier 3 Earth Kingdom Unique Infantry Unit. Has a higher Combat Strength. Has a Ranged attack. Increased strength in Fortified Districts.</Text>
 		</Row>
 		<Row Tag="SUEBI_FARM_FISH_TOWN_INFANTRY_PURCHASE_EFFICIENCY_DESCRIPTION">
 			<Text>Reduced cost to purchase Suebi for each in town specialized as a Fishing/Farming.</Text>
