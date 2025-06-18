@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Database>
     <VisualRemaps>
-    <!-- constructibles -->
+    <!-- constructibles DOES NOT WORK -->
         <Row>
-            <ID>REMAP_BUILDING_HERRENHOFE</ID>
-            <DisplayName>LOC_BUILDING_HERRENHOFE_NAME</DisplayName>
-            <Kind>BUILDING</Kind>
-            <From>BUILDING_HERRENHOFE</From>
-            <To>BUILDING_BARRACKS</To>
+            <ID>REMAP_IMPROVEMENT_THE_OUTER_WALL</ID>
+            <DisplayName>LOC_IMPROVEMENT_THE_OUTER_WALL_NAME</DisplayName>
+            <Kind>IMPROVEMENT</Kind>
+            <From>IMPROVEMENT_THE_OUTER_WALL</From>
+            <To>IMPROVEMENT_MING_GREAT_WALL</To>
         </Row>
         <!-- subei -->
         <Row>

@@ -10,14 +10,14 @@
 		</Row>
 
 		<!-- Earth Kingdom Civic Description-->
-		<!-- The Three Walled City -->
-		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_THREE_WALLED_CITY_NAME">
-			<Text>The Three Walled City</Text>
+		<!-- The Three Ringed City -->
+		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_THREE_RINGED_CITY_NAME">
+			<Text>The Three Ringed City</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_THREE_WALLED_CITY_QUOTE">
+		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_THREE_RINGED_CITY_QUOTE">
 			<Text>"You once laid siege to Ba Sing Se for 600 days, but it would not yield to you."</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_THREE_WALLED_CITY_QUOTE_AUTHOR">
+		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_THREE_RINGED_CITY_QUOTE_AUTHOR">
 			<Text>Earth Bender Captain to Iroh</Text>
 		</Row>
 

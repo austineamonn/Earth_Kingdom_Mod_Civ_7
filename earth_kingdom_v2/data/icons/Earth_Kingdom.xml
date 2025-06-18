@@ -35,7 +35,7 @@
         </Row> 
         <!-- UU AND UI -->
         <Row>
-            <ID>BUILDING_HERRENHOFE</ID>
+            <ID>IMPROVEMENT_THE_OUTER_WALL</ID>
             <Path>fs://game/earth_kingdom/icons/improvement_icon_earth_kingdom_wall.png</Path>
             <Context>DEFAULT</Context>
         </Row>

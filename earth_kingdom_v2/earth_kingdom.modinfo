@@ -94,7 +94,6 @@
 					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/requirement-sets.xml</Item>
 					<Item>data/constructibles.xml</Item>
-					<Item>data/religion.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/traditions.xml</Item>
 					<Item>data/wonders.xml</Item>
@@ -141,20 +140,6 @@
                 <UpdateVisualRemaps>
                     <Item>data/visual-remap.xml</Item>
                 </UpdateVisualRemaps>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="exploration-age-persist-Earth-Kingdom" scope="game" criteria="exploration-age-persist">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/constructibles-exploration.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="modern-age-persist-Earth-Kingdom" scope="game" criteria="modern-age-persist">
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/constructibles-modern.xml</Item>
-				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="shell-Earth-Kingdom" scope="shell" criteria="always">
