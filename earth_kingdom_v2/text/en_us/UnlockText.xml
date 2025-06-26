@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<Row Tag="LOC_UNLOCK_PLAY_AS_EARTH_KINGDOM_DESCRIPTION">
-			<Text>Play as the [B]Earth Kingdom[/B].</Text>
-		</Row>
+
+		<!-- Tooltips -->
+
 		<Row Tag="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_EARTH_KINGDOM_TOOLTIP">
 			<Text>[B]{LOC_LEADER_CHARLEMAGNE_NAME}[/B] strategically complements [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] .</Text>
 		</Row>
@@ -11,7 +11,52 @@
 			<Text>[B]{LOC_LEADER_CATHERINE_NAME}[/B] was born in [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B].</Text>
 		</Row>
 		<Row Tag="LOC_UNLOCK_PLAY_AS_CONFUCIUS_EARTH_KINGDOM_TOOLTIP">
-			<Text>The [B]Earth Kingdom[/B] drew inspiration from [B]{LOC_LEADER_CONFUCIUS_NAME}[/B].</Text>
+			<Text>The [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] drew inspiration from [B]{LOC_LEADER_CONFUCIUS_NAME}[/B].</Text>
 		</Row>
+		<Row Tag="LOC_UNLOCK_CITY_WITH_10_SPECIALISTS_EARTH_KINGDOM_TOOLTIP">
+			<Text>The [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] was known for it's high population.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_15_MEDIEVAL_WALLS_EARTH_KINGDOM_TOOLTIP">
+			<Text>The [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] Capital of Ba Sing Se was known for it's walls.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_HAN_EARTH_KINGDOM_TOOLTIP">
+			<Text>The [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] was inspired by the [B]Han[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_MING_EARTH_KINGDOM_TOOLTIP">
+			<Text>The [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] was inspired by the [B]Ming[/B].</Text>
+		</Row>
+		
+		
+		<!-- Descriptions -->
+		
+		<Row Tag="LOC_UNLOCK_PLAY_AS_EARTH_KINGDOM_DESCRIPTION">
+			<Text>Play as the [B]Earth Kingdom[/B].</Text>
+		</Row>
+		<!--<Row Tag="LOC_UNLOCK_PLAY_AS_CONFUCIUS_EARTH_KINGDOM_DESCRIPTION">
+			<Text>Play as Confucius.</Text>
+		</Row>-->
+		<Row Tag="LOC_UNLOCK_CITY_WITH_10_SPECIALISTS_EARTH_KINGDOM_DESCRIPTION">
+			<Text>Have a City with 10 Specialists.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_15_MEDIEVAL_WALLS_EARTH_KINGDOM_DESCRIPTION">
+			<Text>Build 15 Medieval Walls.</Text>
+		</Row>
+		<!--<Row Tag="LOC_UNLOCK_PLAY_AS_HAN_DESCRIPTION">
+			<Text>Play as [B]Han[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_MING_DESCRIPTION">
+			<Text>Play as [B]Ming[/B].</Text>
+		</Row>-->
+
+		<!-- Narrative Text -->
+		
+		<Row Tag="LOC_UNLOCK_15_MEDIEVAL_WALLS_EARTH_KINGDOM_NARRATIVE">
+			<Text>In this age of Colonization, the {1_Civilization_Adj} people are scared, many having lost loved ones in the name of protecting the empire. Massive walls are erected to keep out foreigners. The safety of these walls attracts traders from far and wide giving the {1_Civilization_Adj} people newfound confidence, and direction.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNLOCK_CITY_WITH_10_SPECIALISTS_EARTH_KINGDOM_NARRATIVE">
+			<Text>The devastating wars of this era have driven people to the major {1_Civilization_Adj} cities. In these bustling metropolises the new citizens begin to specialize and hone their crafts. Conflicts between new and old citizens begin and everyone looks for new leadership to maintain stability whilst protecting everyone from outside threats.</Text>
+		</Row>
+
 	</EnglishText>
 </Database>

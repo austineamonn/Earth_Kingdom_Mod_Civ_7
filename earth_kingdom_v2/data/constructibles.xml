@@ -14,10 +14,9 @@
 	<ConstructibleClasses>
 	</ConstructibleClasses>
 	<Constructibles>
-		<!-- Discoveries -->
 		<!--Civ
-		Unique Builidings-->
-		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" Name="LOC_IMPROVEMENT_THE_OUTER_WALL_NAME" Description="LOC_IMPROVEMENT_THE_OUTER_WALL_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_THE_OUTER_WALL_TOOLTIP" ConstructibleClass="IMPROVEMENT" Cost="300" Population="1" Age="AGE_ANTIQUITY" />
+		Unique Improvements -->
+		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" Name="LOC_IMPROVEMENT_THE_OUTER_WALL_NAME" Description="LOC_IMPROVEMENT_THE_OUTER_WALL_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_THE_OUTER_WALL_TOOLTIP" ConstructibleClass="IMPROVEMENT" Cost="300" Population="1" Age="AGE_MODERN" />
 	</Constructibles>
 	<Improvements>
 		<!--Civ Unique Improvements-->

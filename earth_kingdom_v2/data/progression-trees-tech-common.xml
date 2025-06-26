@@ -9,10 +9,10 @@
 
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
-		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_EARTH_MONARCH_PALACE" UnlockDepth="1"/>
-		<!-- EARTH_KINGDOM -->
-		<Row ProgressionTreeNodeType="NODE_TECH_AQ_BRONZE_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_EARTHBENDER_2" UnlockDepth="1" RequiredTraitType="TRAIT_EARTH_KINGDOM"/>
-		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_EARTHBENDER_3" UnlockDepth="1" RequiredTraitType="TRAIT_EARTH_KINGDOM"/>
+	<!-- EARTH_KINGDOM -->
+		<Row ProgressionTreeNodeType="NODE_TECH_MO_STEAM_ENGINE" TargetKind="KIND_UNIT" TargetType="UNIT_CABBAGE_MERCHANT" UnlockDepth="1" RequiredTraitType="TRAIT_EARTH_KINGDOM"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_MO_INDUSTRIALIZATION" TargetKind="KIND_UNIT" TargetType="UNIT_EARTHBENDER_2" UnlockDepth="1" RequiredTraitType="TRAIT_EARTH_KINGDOM"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_MO_ARMOR" TargetKind="KIND_UNIT" TargetType="UNIT_EARTHBENDER_3" UnlockDepth="1" RequiredTraitType="TRAIT_EARTH_KINGDOM"/>
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 

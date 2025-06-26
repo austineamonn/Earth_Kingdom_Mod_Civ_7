@@ -43,9 +43,9 @@
 	</UnitUpgrades>
 	<UnitReplaces>
 		<!-- Civ Unique Military -->
-		<Row CivUniqueUnitType="UNIT_EARTHBENDER" ReplacesUnitType="UNIT_WARRIOR"/>
-		<Row CivUniqueUnitType="UNIT_EARTHBENDER_2" ReplacesUnitType="UNIT_SPEARMAN"/>
-		<Row CivUniqueUnitType="UNIT_EARTHBENDER_3" ReplacesUnitType="UNIT_PHALANX"/>
+		<Row CivUniqueUnitType="UNIT_EARTHBENDER" ReplacesUnitType="UNIT_LINE_INFANTRY"/>
+		<Row CivUniqueUnitType="UNIT_EARTHBENDER_2" ReplacesUnitType="UNIT_RIFLEMAN"/>
+		<Row CivUniqueUnitType="UNIT_EARTHBENDER_3" ReplacesUnitType="UNIT_INFANTRY_COMPANY"/>
 		<!-- Civ Unique Civilian -->
         <Row CivUniqueUnitType="UNIT_CABBAGE_MERCHANT" ReplacesUnitType="UNIT_MERCHANT"/>
 	</UnitReplaces>

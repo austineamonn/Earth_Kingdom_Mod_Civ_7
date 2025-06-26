@@ -15,30 +15,31 @@
 
 	</LeaderCivilizationBias>
 	<Civilizations>
-		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" CivilizationName="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" CivilizationFullName="LOC_CIVILIZATION_EARTH_KINGDOM_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" CivilizationIcon="civ_sym_earth_kingdom.png"/>
+		<Row Domain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" CivilizationName="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" CivilizationFullName="LOC_CIVILIZATION_EARTH_KINGDOM_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" CivilizationIcon="civ_sym_earth_kingdom.png"/>
 	</Civilizations>
 	<CivilizationItems>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="TRAIT_EARTH_KINGDOM_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_EARTH_KINGDOM_ABILITY_NAME" Description="LOC_TRAIT_EARTH_KINGDOM_ABILITY_DESCRIPTION"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="UNIT_EARTHBENDER" Kind="KIND_UNIT" Name="LOC_UNIT_EARTHBENDER_NAME" Description="LOC_UNIT_EARTHBENDER_BASE_DESCRIPTION" Icon="ICON_UNIT_EARTHBENDER"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="UNIT_CABBAGE_MERCHANT" Kind="KIND_UNIT" Name="LOC_UNIT_CABBAGE_MERCHANT_NAME" Description="LOC_UNIT_CABBAGE_MERCHANT_DESCRIPTION" Icon="ICON_UNIT_CABBAGE_MERCHANT"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="IMPROVEMENT_THE_OUTER_WALL" Kind="KIND_IMPROVEMENT" Name="LOC_IMPROVEMENT_THE_OUTER_WALL_NAME" Description="LOC_IMPROVEMENT_THE_OUTER_WALL_DESCRIPTION" Icon="ICON_IMPROVEMENT_THE_OUTER_WALL"/>
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="TRAIT_EARTH_KINGDOM_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_EARTH_KINGDOM_ABILITY_NAME" Description="LOC_TRAIT_EARTH_KINGDOM_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="UNIT_EARTHBENDER" Kind="KIND_UNIT" Name="LOC_UNIT_EARTHBENDER_NAME" Description="LOC_UNIT_EARTHBENDER_BASE_DESCRIPTION" Icon="ICON_UNIT_EARTHBENDER"/>
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="UNIT_CABBAGE_MERCHANT" Kind="KIND_UNIT" Name="LOC_UNIT_CABBAGE_MERCHANT_NAME" Description="LOC_UNIT_CABBAGE_MERCHANT_DESCRIPTION" Icon="ICON_UNIT_CABBAGE_MERCHANT"/>
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="IMPROVEMENT_THE_OUTER_WALL" Kind="KIND_IMPROVEMENT" Name="LOC_IMPROVEMENT_THE_OUTER_WALL_NAME" Description="LOC_IMPROVEMENT_THE_OUTER_WALL_DESCRIPTION" Icon="ICON_IMPROVEMENT_THE_OUTER_WALL"/>
 		
 	</CivilizationItems>
 	<CivilizationTags>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" TagType="TAG_TRAIT_MILITARISTIC"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" TagType="TAG_TRAIT_EXPANSIONIST"/>
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" TagType="TAG_TRAIT_ECONOMIC"/>
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" TagType="TAG_TRAIT_EXPANSIONIST"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_EARTH_KINGDOM_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" LeaderDomain="StandardLeaders" LeaderType="LEADER_CATHERINE" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_CATHERINE_EARTH_KINGDOM_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_CONFUCIUS_EARTH_KINGDOM_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" LeaderDomain="StandardLeaders" LeaderType="LEADER_CHARLEMAGNE" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_EARTH_KINGDOM_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" LeaderDomain="StandardLeaders" LeaderType="LEADER_CATHERINE" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_CATHERINE_EARTH_KINGDOM_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_CONFUCIUS_EARTH_KINGDOM_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 	
 	</LeaderCivilizationBias>
 	<CivilizationUnlocks>
-		
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HAN" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_EARTH_KINGDOM" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" Description="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" Icon="ICON_CIVILIZATION_EARTH_KINGDOM"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_MING" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_EARTH_KINGDOM" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" Description="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" Icon="ICON_CIVILIZATION_EARTH_KINGDOM"/>
 	</CivilizationUnlocks>
 	<LeaderUnlocks>
-
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_EARTH_KINGDOM" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" Description="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" Icon="ICON_CIVILIZATION_EARTH_KINGDOM"/>
 	</LeaderUnlocks>
 	<Mementos>
 

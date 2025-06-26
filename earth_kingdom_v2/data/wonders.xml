@@ -6,13 +6,13 @@
     </Types>
 	<TypeQuotes>
 		<!-- Wonders -->
-		<Row Type="WONDER_EARTH_MONARCH_PALACE" Quote="LOC_QUOTE_WONDER_EARTH_MONARCH_PALACE" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_EARTH_MONARCH_PALACE" QuoteAudio="VO_Quote_Haselgebrige_Salt_Mine"/>
+		<Row Type="WONDER_EARTH_MONARCH_PALACE" Quote="LOC_QUOTE_WONDER_EARTH_MONARCH_PALACE" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_EARTH_MONARCH_PALACE" QuoteAudio="VO_Quote_Earth_Monarch_Palace"/>
     </TypeQuotes>
 	<Constructibles>
 		<!-- Wonders -->
 		<Row ConstructibleType="WONDER_EARTH_MONARCH_PALACE"
 		 AdjacentDistrict="DISTRICT_URBAN"
-		 Name="LOC_WONDER_EARTH_MONARCH_PALACE_NAME" Description="LOC_WONDER_EARTH_MONARCH_PALACE_DESCRIPTION" Tooltip="LOC_WONDER_EARTH_MONARCH_PALACE_TOOLTIP" ConstructibleClass="WONDER" Cost="1200" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" RequiresUnlock="true" />
+		 Name="LOC_WONDER_EARTH_MONARCH_PALACE_NAME" Description="LOC_WONDER_EARTH_MONARCH_PALACE_DESCRIPTION" Tooltip="LOC_WONDER_EARTH_MONARCH_PALACE_TOOLTIP" ConstructibleClass="WONDER" Cost="1200" Population="0" ImmuneDamage="true" Age="AGE_MODERN" RequiresUnlock="true" />
     </Constructibles>
     <Wonders>
 		<!-- Wonders -->

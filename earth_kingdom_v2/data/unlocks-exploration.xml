@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_EARTH_KINGDOM" Kind="KIND_UNLOCK"/>
+
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM"/>
+		
+	</Unlocks>
+	<UnlockRewards>
+        <InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" Description="LOC_UNLOCK_MODERN_CIV_DESCRIPTION" Icon="CIVILIZATION_EARTH_KINGDOM" UnlockRewardType="CIVILIZATION_EARTH_KINGDOM" UnlockRewardKind="KIND_CIVILIZATION"/>
+	</UnlockRewards>
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM" RequirementSetId="REQSET_CIV_IS_MING" Description="LOC_UNLOCK_PLAY_AS_MING_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_MING_EARTH_KINGDOM_TOOLTIP"/>
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM" ConfigurationValue="CIVILIZATION_EARTH_KINGDOM"/>
+	</UnlockConfigurationValues>
+</Database>
