@@ -5,11 +5,9 @@
 	</Kinds>
 	<Types>
 		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_EARTH_KINGDOM" Kind="KIND_UNLOCK"/>
-
 	</Types>
 	<Unlocks>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM"/>
-		
 	</Unlocks>
 	<UnlockRewards>
         <InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" Description="LOC_UNLOCK_MODERN_CIV_DESCRIPTION" Icon="CIVILIZATION_EARTH_KINGDOM" UnlockRewardType="CIVILIZATION_EARTH_KINGDOM" UnlockRewardKind="KIND_CIVILIZATION"/>
