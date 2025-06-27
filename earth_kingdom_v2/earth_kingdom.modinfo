@@ -70,13 +70,28 @@
                 <UpdateText>
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/Civilopedia_Units_Text.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
-                    <Item>icons/civ_sym_earth_kingdom</Item>
-                    <Item>icons/improvement_icon_earth_kingdom_wall.png</Item>		
-					<Item>icons/unit_flag_cabbage_merchant.png</Item>
-					<Item>icons/unit_flag_earthbender.png</Item>
+					<Item>icons/civ_sym_earth_kingdom</Item>
+					<Item>icons/civ_sym_earth_kingdom.png</Item>
+					<Item>icons/cult_earth_kingdom</Item>
 					<Item>icons/cult_earth_kingdom.png</Item>
+					<Item>icons/dip_cs_earth_kingdom</Item>
+					<Item>icons/dip_cs_earth_kingdom.png</Item>
+					<Item>icons/earth_kingdom_background_720</Item>
+					<Item>icons/earth_kingdom_background_720.png</Item>
+					<Item>icons/earth_kingdom_background_1080</Item>
+					<Item>icons/earth_kingdom_background_1080.png</Item>
+					<Item>icons/earth_kingdom_background_card</Item>
+					<Item>icons/earth_kingdom_background_card.png</Item>
+                    <Item>icons/improvement_icon_earth_kingdom_wall</Item>	
+                    <Item>icons/improvement_icon_earth_kingdom_wall.png</Item>		
+					<Item>icons/unit_flag_cabbage_merchant</Item>
+					<Item>icons/unit_flag_cabbage_merchant.png</Item>
+					<Item>icons/unit_flag_earthbender</Item>
+					<Item>icons/unit_flag_earthbender.png</Item>
+					<Item>icons/wonder_earth_monarch_palace_icon</Item>
 					<Item>icons/wonder_earth_monarch_palace_icon.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
@@ -125,7 +140,7 @@
 					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
 					<Item>text/en_us/CitizenNamesText.xml</Item>
-					<Item>text/en_us/CivilizationText.xml</Item>
+					<!--<Item>text/en_us/CivilizationText.xml</Item>-->
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>	
 					<Item>text/en_us/WonderText.xml</Item>
@@ -167,11 +182,25 @@
 					<Item>config/config.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
-                    <Item>icons/civ_sym_earth_kingdom.png</Item>
-                    <Item>icons/improvement_icon_earth_kingdom_wall.png</Item>		
-					<Item>icons/unit_flag_cabbage_merchant.png</Item>
-					<Item>icons/unit_flag_earthbender.png</Item>
+                    <Item>icons/civ_sym_earth_kingdom</Item>
+					<Item>icons/civ_sym_earth_kingdom.png</Item>
+					<Item>icons/cult_earth_kingdom</Item>
 					<Item>icons/cult_earth_kingdom.png</Item>
+					<Item>icons/dip_cs_earth_kingdom</Item>
+					<Item>icons/dip_cs_earth_kingdom.png</Item>
+					<Item>icons/earth_kingdom_background_720</Item>
+					<Item>icons/earth_kingdom_background_720.png</Item>
+					<Item>icons/earth_kingdom_background_1080</Item>
+					<Item>icons/earth_kingdom_background_1080.png</Item>
+					<Item>icons/earth_kingdom_background_card</Item>
+					<Item>icons/earth_kingdom_background_card.png</Item>
+                    <Item>icons/improvement_icon_earth_kingdom_wall</Item>	
+                    <Item>icons/improvement_icon_earth_kingdom_wall.png</Item>		
+					<Item>icons/unit_flag_cabbage_merchant</Item>
+					<Item>icons/unit_flag_cabbage_merchant.png</Item>
+					<Item>icons/unit_flag_earthbender</Item>
+					<Item>icons/unit_flag_earthbender.png</Item>
+					<Item>icons/wonder_earth_monarch_palace_icon</Item>
 					<Item>icons/wonder_earth_monarch_palace_icon.png</Item>
                 </ImportFiles>
                 <UpdateIcons>

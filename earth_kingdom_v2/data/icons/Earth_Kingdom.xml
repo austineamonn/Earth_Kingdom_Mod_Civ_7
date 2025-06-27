@@ -11,7 +11,7 @@
 			<ID>ICON_CIVILIZATION_EARTH_KINGDOM</ID>
             <Path>fs://game/earth_kingdom/icons/civ_sym_earth_kingdom</Path>
 		</Row>
-        <!-- Loadscreen -->
+        <!-- Backgrounds -->
 		<Row>
 			<ID>CIVILIZATION_EARTH_KINGDOM</ID>
 			<Context>BACKGROUND</Context>
@@ -24,40 +24,52 @@
 			<Path>fs://game/earth_kingdom/icons/earth_kingdom_background_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
+        <Row>
+			<ID>dip_cs_earth_kingdom</ID>
+			<Path>fs://game/earth_kingdom/icons/dip_cs_earth_kingdom</Path>
+		</Row>
+        <Row>
+            <ID>bg-panel-earth_kingdom</ID>
+            <Path>fs://game/earth_kingdom/icons/earth_kingdom_background_1080</Path>
+        </Row>
+        <Row>
+            <ID>bg-card-earth_kingdom</ID>
+            <Path>fs://game/earth_kingdom/icons/earth_kingdom_background_card</Path>
+        </Row>
         <!-- Culture -->
         <Row>
             <ID>cult_earth_kingdom</ID>
-            <Path>fs://game/earth_kingdom/icons/cult_earth_kingdom.png</Path>
+            <Path>fs://game/earth_kingdom/icons/cult_earth_kingdom</Path>
         </Row> 
         <Row>
             <ID>civ_sym_earth_kingdom</ID>
-            <Path>fs://game/earth_kingdom/icons/civ_sym_earth_kingdom.png</Path>
+            <Path>fs://game/earth_kingdom/icons/civ_sym_earth_kingdom</Path>
         </Row> 
         <!-- UU AND UI -->
         <Row>
             <ID>IMPROVEMENT_THE_OUTER_WALL</ID>
-            <Path>fs://game/earth_kingdom/icons/improvement_icon_earth_kingdom_wall.png</Path>
+            <Path>fs://game/earth_kingdom/icons/improvement_icon_earth_kingdom_wall</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
             <ID>UNIT_EARTHBENDER</ID>
-            <Path>fs://game/earth_kingdom/icons/unit_flag_earthbender.png</Path>
+            <Path>fs://game/earth_kingdom/icons/unit_flag_earthbender</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
             <ID>UNIT_EARTHBENDER_2</ID>
-            <Path>fs://game/earth_kingdom/icons/unit_flag_earthbender.png</Path>
+            <Path>fs://game/earth_kingdom/icons/unit_flag_earthbender</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
             <ID>UNIT_EARTHBENDER_3</ID>
-            <Path>fs://game/earth_kingdom/icons/unit_flag_earthbender.png</Path>
+            <Path>fs://game/earth_kingdom/icons/unit_flag_earthbender</Path>
             <Context>DEFAULT</Context>
         </Row>
 
         <Row>
             <ID>UNIT_CABBAGE_MERCHANT</ID>
-            <Path>fs://game/earth_kingdom/icons/unit_flag_cabbage_merchant.png</Path>
+            <Path>fs://game/earth_kingdom/icons/unit_flag_cabbage_merchant</Path>
             <Context>DEFAULT</Context>
         </Row>
 
