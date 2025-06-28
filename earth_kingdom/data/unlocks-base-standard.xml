@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_EARTH_KINGDOM" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM"/>
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" Description="LOC_UNLOCK_MODERN_CIV_DESCRIPTION" Icon="CIVILIZATION_EARTH_KINGDOM" UnlockRewardType="CIVILIZATION_EARTH_KINGDOM" UnlockRewardKind="KIND_CIVILIZATION"/>
+	</UnlockRewards>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_CIV_IS_EARTH_KINGDOM" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_CITY_WITH_10_SPECIALISTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<Row RequirementId="REQ_CIV_IS_EARTH_KINGDOM" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<Row RequirementId="REQ_CITY_WITH_10_SPECIALISTS" RequirementType="REQUIREMENT_PLAYER_HAS_CITY_WITH_X_WORKERS"/>
+		<InsertOrIgnore RequirementId="REQ_AGE_IS_EXPLORATION" RequirementType="REQUIREMENT_GAME_AGE_TYPE_MATCH"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_CIV_IS_EARTH_KINGDOM" Name="CivilizationType" Value="CIVILIZATION_EARTH_KINGDOM"/>
+		<Row RequirementId="REQ_CITY_WITH_10_SPECIALISTS" Name="CityAmount" Value="1"/>
+		<Row RequirementId="REQ_CITY_WITH_10_SPECIALISTS" Name="WorkerAmount" Value="10"/>
+		<InsertOrIgnore RequirementId="REQ_AGE_IS_EXPLORATION" Name="AgeType" Value="AGE_EXPLORATION"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_CIV_IS_EARTH_KINGDOM" RequirementId="REQ_CIV_IS_EARTH_KINGDOM"/>
+		<Row RequirementSetId="REQSET_CITY_WITH_10_SPECIALISTS" RequirementId="REQ_CITY_WITH_10_SPECIALISTS"/>
+		<Row RequirementSetId="REQSET_CITY_WITH_10_SPECIALISTS" RequirementId="REQ_AGE_IS_EXPLORATION"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM" RequirementSetId="REQSET_CITY_WITH_10_SPECIALISTS" Description="LOC_UNLOCK_CITY_WITH_10_SPECIALISTS_EARTH_KINGDOM_DESCRIPTION" NarrativeText="LOC_UNLOCK_CITY_WITH_10_SPECIALISTS_EARTH_KINGDOM_NARRATIVE" Tooltip="LOC_UNLOCK_CITY_WITH_10_SPECIALISTS_EARTH_KINGDOM_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM" RequirementSetId="REQSET_LEADER_IS_CONFUCIUS" Description="LOC_UNLOCK_PLAY_AS_CONFUCIUS_DESCRIPTION"  Tooltip="LOC_UNLOCK_PLAY_AS_CONFUCIUS_EARTH_KINGDOM_TOOLTIP"/>
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_EARTH_KINGDOM" ConfigurationValue="CIVILIZATION_EARTH_KINGDOM"/>
+	</UnlockConfigurationValues>
+</Database>
