@@ -3,64 +3,64 @@
 	<EnglishText>
 		<!-- Earth Kingdom -->
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_MALE_1">
-			<Text>Adalberht</Text>
+			<Text>Baatar</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_MALE_2">
-			<Text>Badurad</Text>
+			<Text>Chin</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_MALE_3">
-			<Text>Chlodochar </Text>
+			<Text>Dakou</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_MALE_4">
-			<Text>Dagobert</Text>
+			<Text>Feishan</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_MALE_5">
-			<Text>Eberwin</Text>
+			<Text>Guan</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_MALE_6">
-			<Text>Folcmar</Text>
+			<Text>Haru</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_MALE_7">
-			<Text>Gautbert</Text>
+			<Text>Lek</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_MALE_8">
-			<Text>Hadubert</Text>
+			<Text>Oyaji</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_MALE_9">
-			<Text>Ingulf</Text>
+			<Text>Shaw</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_MALE_10">
-			<Text>Kunibert</Text>
+			<Text>Tong</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_FEMALE_1">
-			<Text>Adalgard</Text>
+			<Text>Ahnah</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_FEMALE_2">
-			<Text>Baduhilt </Text>
+			<Text>Jiang</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_FEMALE_3">
-			<Text>Chlodechilda</Text>
+			<Text>Jing</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_FEMALE_4">
-			<Text>Clothildis</Text>
+			<Text>Koko</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_FEMALE_5">
-			<Text>Ermelinde</Text>
+			<Text>Liling</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_FEMALE_6">
-			<Text>Farohildis</Text>
+			<Text>Mingxia</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_FEMALE_7">
-			<Text>Geredrudis</Text>
+			<Text>Ru</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_FEMALE_8">
-			<Text>Hadewidis</Text>
+			<Text>Willow</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_FEMALE_9">
-			<Text>Leutgard</Text>
+			<Text>Wu</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EARTH_KINGDOM_FEMALE_10">
-			<Text>Odilia</Text>
+			<Text>Yaling</Text>
 		</Row>
 	</EnglishText>
 </Database>

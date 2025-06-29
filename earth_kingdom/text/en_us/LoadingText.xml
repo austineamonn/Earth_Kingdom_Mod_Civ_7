@@ -2,10 +2,10 @@
 <Database>
 	<EnglishText>
 		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_EARTH_KINGDOM">
-			<Text>The Earth Kingdom is one of the world's four nations. Spanning most of a continent as well as several subsidiary islands, it is the largest and most populated sovereignty in the world and encompasses much of the eastern hemisphere. The kingdom operates as a monarchy under the rule of a single Earth Monarch, and has held strong through both imperial invasions and authoritarian uprisings.</Text>
+			<Text>The Earth Kingdom is enduring and strong. The Earth Monarch rules the diverse nation from Ba Sing Se, The Impenetrable City. The Earth Kingdom's massive cities are centers of international trade with extensive agricultural centers to feed their growing populations. Those who try to breach the Outer Wall will meet the fierce resistance of the Earthbenders. Fortify and let the world see the might of the Earth Kingdom.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INTRO_EARTH_KINGDOM">
-			<Text>From the impenetrable walls of Ba Sing Se, the Earth Kingdom steadies itself and prepares for the future.</Text>
+			<Text>From the impenetrable walls of Ba Sing Se, the Earth Kingdom steadies itself and prepares for the future. What will that future hold?</Text>
 		</Row>
 	</EnglishText>
 </Database>

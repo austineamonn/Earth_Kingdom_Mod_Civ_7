@@ -40,10 +40,6 @@
 		</Row>
 
 		<!-- Narrative Text -->
-		
-		<Row Tag="LOC_UNLOCK_15_MEDIEVAL_WALLS_EARTH_KINGDOM_NARRATIVE">
-			<Text>In this age of Colonization, the {1_Civilization_Adj} people are scared, many having lost loved ones in the name of protecting the empire. Massive walls are erected to keep out foreigners. The safety of these walls attracts traders from far and wide giving the {1_Civilization_Adj} people newfound confidence, and direction.</Text>
-		</Row>
 
 		<Row Tag="LOC_UNLOCK_CITY_WITH_10_SPECIALISTS_EARTH_KINGDOM_NARRATIVE">
 			<Text>The devastating wars of this era have driven people from small towns to the major {1_Civilization_Adj} cities. In these bustling metropolises the new citizens begin to specialize their work and hone their crafts. This population shift leads some to wonder if a new more centralized government would better serve the {1_Civilization_Adj} people.</Text>

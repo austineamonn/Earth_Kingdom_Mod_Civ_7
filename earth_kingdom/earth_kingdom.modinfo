@@ -69,7 +69,7 @@
                 </UpdateDatabase>
                 <UpdateText>
 					<Item>text/en_us/UnlockText.xml</Item>
-					<Item>text/en_us/Civilopedia_Units_Text.xml</Item>
+					<Item>text/en_us/Civilopedia_Text.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
