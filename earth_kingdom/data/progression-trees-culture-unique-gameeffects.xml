@@ -13,7 +13,7 @@
 			<Requirement type="REQUIREMENT_CITY_IS_CAPITAL">
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Percent">10</Argument>
+		<Argument name="Percent">20</Argument>
 	<String context="Description">NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_GROWTH_BONUS_DESCRIPTION</String>
 	</Modifier>
 

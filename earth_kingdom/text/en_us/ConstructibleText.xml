@@ -7,7 +7,7 @@
 			<Text>The Outer Wall</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_THE_OUTER_WALL_DESCRIPTION">
-			<Text>+3[icon:YIELD_CULTURE] Culture and +3[icon:YIELD_GOLD] Gold. +3[icon:YIELD_FOOD] Food for adjacent Wall of Ba Sing Se segments. Earth Kingdom Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Can only be built in a line. Cannot branch or fork.</Text>
+			<Text>+3[icon:YIELD_CULTURE] Culture and +3[icon:YIELD_GOLD] Gold. +2[icon:YIELD_FOOD] Food for adjacent The Outer Wall segments. Earth Kingdom Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Can only be built in a line. Cannot branch or fork.</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_THE_OUTER_WALL_TOOLTIP">
 			<Text>Earth Kingdom Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Can only be built in a line. Cannot branch or fork.</Text>

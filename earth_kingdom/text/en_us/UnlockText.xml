@@ -4,14 +4,11 @@
 
 		<!-- Tooltips -->
 
-		<Row Tag="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_EARTH_KINGDOM_TOOLTIP">
-			<Text>[B]{LOC_LEADER_CHARLEMAGNE_NAME}[/B] strategically complements [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] .</Text>
-		</Row>
-		<Row Tag="LOC_UNLOCK_PLAY_AS_CATHERINE_EARTH_KINGDOM_TOOLTIP">
-			<Text>[B]{LOC_LEADER_CATHERINE_NAME}[/B] was born in [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B].</Text>
-		</Row>
 		<Row Tag="LOC_UNLOCK_PLAY_AS_CONFUCIUS_EARTH_KINGDOM_TOOLTIP">
 			<Text>The [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] drew inspiration from [B]{LOC_LEADER_CONFUCIUS_NAME}[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_PACHACUTI_EARTH_KINGDOM_TOOLTIP">
+			<Text>The [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] strategically compliments [B]{LOC_LEADER_PACHACUTI_NAME}[/B].</Text>
 		</Row>
 		<Row Tag="LOC_UNLOCK_CITY_WITH_10_SPECIALISTS_EARTH_KINGDOM_TOOLTIP">
 			<Text>The [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] was known for it's high population.</Text>
@@ -34,9 +31,6 @@
 		</Row>
 		<Row Tag="LOC_UNLOCK_CITY_WITH_10_SPECIALISTS_EARTH_KINGDOM_DESCRIPTION">
 			<Text>Have a City with 10 Specialists.</Text>
-		</Row>
-		<Row Tag="LOC_UNLOCK_15_MEDIEVAL_WALLS_EARTH_KINGDOM_DESCRIPTION">
-			<Text>Build 15 Medieval Walls.</Text>
 		</Row>
 
 		<!-- Narrative Text -->

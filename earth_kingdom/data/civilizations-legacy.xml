@@ -16,8 +16,7 @@
 		<Row TraitType="TRAIT_EARTH_KINGDOM" InternalOnly="true"/>
 	</Traits>
 	<LegacyLeaderCivPriorities>
-		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_EARTH_KINGDOM"/>
-		<Row Leader="LEADER_CATHERINE" CivilizationType="CIVILIZATION_EARTH_KINGDOM"/>
 		<Row Leader="LEADER_CONFUCIUS" CivilizationType="CIVILIZATION_EARTH_KINGDOM"/>
+		<Row Leader="LEADER_PACHACUTI" CivilizationType="CIVILIZATION_EARTH_KINGDOM"/>
 	</LegacyLeaderCivPriorities>
 </Database>

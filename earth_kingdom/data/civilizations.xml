@@ -33,9 +33,8 @@
 	</CivilizationTraits>
 	<LeaderCivPriorities>
 		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
-		<Row Leader="LEADER_CATHERINE" Civilization="CIVILIZATION_EARTH_KINGDOM" Priority="2"/>
-		<Row Leader="LEADER_CHARLEMAGNE" Civilization="CIVILIZATION_EARTH_KINGDOM" Priority="2"/>
 		<Row Leader="LEADER_CONFUCIUS" Civilization="CIVILIZATION_EARTH_KINGDOM" Priority="2"/>
+		<Row Leader="LEADER_PACHACUTI" Civilization="CIVILIZATION_EARTH_KINGDOM" Priority="2"/>
 	</LeaderCivPriorities>
 	<CityNames>
 		<!-- Earth Kingdom -->
