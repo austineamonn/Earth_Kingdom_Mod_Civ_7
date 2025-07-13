@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <!--<Row Tag="LOC_EK001A_STORYTITLE">
+            <Text>Signs of War</Text>
+        </Row>
+        <Row Tag="LOC_EK001A_COMPLETION">
+            <Text>The Irelandn mountains hold many secrets. They are grand, and ancient, and their beauty attracts the eyes of all who pass beneath their silent peaks. But enemies soon find that the mountains stare back — and their gaze is anything but friendly.</Text>
+        </Row>
+        <Row Tag="LOC_EK001A_NAME">
+            <Text>Much can be learned from observing others unseen.</Text>
+        </Row>
+        <Row Tag="LOC_EK001A_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>-->
+        <Row Tag="LOC_EK001A_STORYTITLE">
+            <Text>An Enduring Empire</Text>
+        </Row>
+        <Row Tag="LOC_EK001A_COMPLETION">
+            <Text>The Earth Monarch cements their power, a new dynasty has risen. Farmers and merchants thrive as the Earth Kingdom's power and reach grow ever more. It's time to look forward toward a powerful and glorious future.</Text>
+        </Row>
+        <Row Tag="LOC_EK001B_NAME">
+            <Text>Invest in rural villages.</Text>
+        </Row>
+        <Row Tag="LOC_EK001B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_EK001C_NAME">
+            <Text>Strengthen trading posts.</Text>
+        </Row>
+        <Row Tag="LOC_EK001C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_EK002A_STORYTITLE">
+            <Text>The Impenetrable Wall</Text>
+        </Row>
+        <Row Tag="LOC_EK002A_COMPLETION">
+            <Text>Citizens breath a sigh of relief as Construction completes on The Outer Wall. One advisor claims more walls are needed to protect the Earth Monarch, while another pushes build walls for even the smallest Earth Kingdon Towns.</Text>
+        </Row>
+        <Row Tag="LOC_EK002B_NAME">
+            <Text>Protect the Capital.</Text>
+        </Row>
+        <Row Tag="LOC_EK002B_DESCRIPTION">
+            <Text>{1_reward} in the Capital.</Text>
+        </Row>
+        <Row Tag="LOC_EK002C_NAME">
+            <Text>Support the Citizenry.</Text>
+        </Row>
+        <Row Tag="LOC_EK002C_DESCRIPTION">
+            <Text>{1_reward} in Towns.</Text>
+        </Row>
+        <Row Tag="LOC_EK003A_STORYTITLE">
+            <Text>Excess Funds</Text>
+        </Row>
+        <Row Tag="LOC_EK003A_COMPLETION">
+            <Text>A rising population means a rising tax base. The Earth Monarch find themselves with excess funds at year's end. Knowing the corrupt nature of the court, they decide to spend the funds immediately. After all, no funds means no bribery.</Text>
+        </Row>
+        <Row Tag="LOC_EK004A_NAME">
+            <Text>Throw a Festival.</Text>
+        </Row>
+        <Row Tag="LOC_EK004A_IMPERATIVE">
+            <Text>Achieve a Celebration within {1_turn_timer}.</Text>
+        </Row>
+        <Row Tag="LOC_EK004A_DESCRIPTION">
+            <Text>The Story Continues.</Text>
+        </Row>
+        <Row Tag="LOC_EK004A_STORYTITLE">
+            <Text>The Earth Kingdom Ball</Text>
+        </Row>
+        <Row Tag="LOC_EK004A_COMPLETION">
+            <Text>At the party various factions clamor to get the Earth Monarch's attention. The shipping magnates insists a new international trade center must be established, while the construction conglomerate pushes for more housing permits.</Text>
+        </Row>
+        <Row Tag="LOC_EK004B_NAME">
+            <Text>Invest in the trade center.</Text>
+        </Row>
+        <Row Tag="LOC_EK004B_DESCRIPTION">
+            <Text>+5 Trade Route range.</Text>
+        </Row>
+        <Row Tag="LOC_EK004C_NAME">
+            <Text>Grant more housing permits</Text>
+        </Row>
+        <Row Tag="LOC_EK004C_DESCRIPTION">
+            <Text>+1 Specialist Cap in the Capital.</Text>
+        </Row>
+        <Row Tag="LOC_EK005A_NAME">
+            <Text>Showcase the nation's glory.</Text>
+        </Row>
+        <Row Tag="LOC_EK005A_IMPERATIVE">
+            <Text>Build a Wonder within {1_turn_timer}.</Text>
+        </Row>
+        <Row Tag="LOC_EK005A_DESCRIPTION">
+            <Text>The Story Continues.</Text>
+        </Row>
+        <Row Tag="LOC_EK005A_STORYTITLE">
+            <Text>A Nation's Pride and Joy</Text>
+        </Row>
+        <Row Tag="LOC_EK005A_COMPLETION">
+            <Text>The Earth Kingdom citizens look on in awe at the new wonder but the builders threaten to burn it down, citing unfair work conditions and low wages. Soon the celebration has shifted towards a protest. How to best placate the protesters before the anti monarchy sentiment spreads?</Text>
+        </Row>
+        <Row Tag="LOC_EK005B_NAME">
+            <Text>Free school lunches.</Text>
+        </Row>
+        <Row Tag="LOC_EK005B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_EK005C_NAME">
+            <Text>Establish a minimum wage.</Text>
+        </Row>
+        <Row Tag="LOC_EK005C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_EK006A_STORYTITLE">
+            <Text>Toph's Metalbending Academy</Text>
+        </Row>
+        <Row Tag="LOC_EK006A_COMPLETION">
+            <Text>After inventing metalbending, Toph Beifong has founded an academy to teach young earthbenders. Demand is so high that parents are fighting to get their kids into the elite school. How do you deal with the excess talent?</Text>
+        </Row>
+        <Row Tag="LOC_EK006B_NAME">
+            <Text>Send them to a military academy.</Text>
+        </Row>
+        <Row Tag="LOC_EK006B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_EK006C_NAME">
+            <Text>Build more schools.</Text>
+        </Row>
+        <Row Tag="LOC_EK006C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+    </EnglishText>
+</Database>
+<!--DON'T FORGET QUEUE-->

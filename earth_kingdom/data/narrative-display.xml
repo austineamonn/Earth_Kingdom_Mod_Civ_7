@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<NarrativeDisplay_Civilizations>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" CivilizationImage="earth_kingdom/icons/earth_kingdom_background_card"/>
+	</NarrativeDisplay_Civilizations>
+</Database>

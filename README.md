@@ -19,6 +19,8 @@ Ireland mod from the goggles do nothing [link here](https://forums.civfanatics.c
 
 Ayutthaya mod from mattwho [link here](https://forums.civfanatics.com/resources/matts-civs-ireland.32396/).
 
+Policy Yield Preview mod from leonardfactory [link here](https://forums.civfanatics.com/resources/leonardfactorys-policy-yield-previews.32012/).
+
 Lore assistance and some images from the Avatar the Last Airbender Wiki [link here](http://avatar.fandom.com/wiki/Avatar_Wiki).
 
 ## Current Mod:
@@ -88,11 +90,15 @@ Mastery: +1 Settlement Limit.
 ![Image of the Unique Civics of the Earth Kingdom with three highlighted.](images/unique-civics-1.png?raw=true "Earth Kingdom Unique Civics, first three.")
 ![Image of the Unique Civics of the Earth Kingdom with four highlighted.](images/unique-civics-2.png?raw=true "Earth Kingdom Unique Civics, last four.")
 
+### Unique Narrative Events:
+
+4 Unique Narrative Events with more on the way!
+
 ## Current Issues:
 
 <ol>
     <li>Wonder shows as the Pyramids.</li>
     <li>No visual model for the Outer Wall Unique Improvement.</li>
     <li>No Audio for unique civic and wonder quotes.</li>
-    <li>Not all bonuses are shown with leonardfactory's policy yield preview mod [link here](https://forums.civfanatics.com/resources/leonardfactorys-policy-yield-previews.32012/), specifically the 0 food maintenance causes some issues for policies that impact specialist food cost showing them adding food when they are not. The two are still compatible and having both will not impact gameplay, the only impact is this visual bug.</li>
+    <li>Not all bonuses are shown with leonardfactory's policy yield preview mod, specifically the 0 food maintenance causes some issues for policies that impact specialist food cost showing them adding food when they are not. The two are still compatible and having both will not impact gameplay, the only impact is this visual bug.</li>
 </ol>
