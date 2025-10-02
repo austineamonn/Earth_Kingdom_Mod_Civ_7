@@ -9,7 +9,7 @@
             <From>IMPROVEMENT_THE_OUTER_WALL</From>
             <To>IMPROVEMENT_MING_GREAT_WALL</To>
         </Row>
-        <!-- subei -->
+        <!-- Earthbender -->
         <Row>
             <ID>REMAP_UNIT_EARTHBENDER</ID>
             <DisplayName>LOC_UNIT_EARTHBENDER_NAME</DisplayName>

@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
     <EnglishText>
-        <!--<Row Tag="LOC_EK001A_STORYTITLE">
-            <Text>Signs of War</Text>
-        </Row>
-        <Row Tag="LOC_EK001A_COMPLETION">
-            <Text>The Irelandn mountains hold many secrets. They are grand, and ancient, and their beauty attracts the eyes of all who pass beneath their silent peaks. But enemies soon find that the mountains stare back — and their gaze is anything but friendly.</Text>
-        </Row>
-        <Row Tag="LOC_EK001A_NAME">
-            <Text>Much can be learned from observing others unseen.</Text>
-        </Row>
-        <Row Tag="LOC_EK001A_DESCRIPTION">
-            <Text>{1_reward}.</Text>
-        </Row>-->
         <Row Tag="LOC_EK001A_STORYTITLE">
             <Text>An Enduring Empire</Text>
         </Row>
@@ -129,4 +117,3 @@
         </Row>
     </EnglishText>
 </Database>
-<!--DON'T FORGET QUEUE-->

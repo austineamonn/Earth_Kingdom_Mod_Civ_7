@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Leaders>
-	</Leaders>
-	<LeaderItems>
-
-	</LeaderItems>
-	<LeaderTags>
-
-	</LeaderTags>
-	<LeaderQuotes>
-
-	</LeaderQuotes>
 	<LeaderCivilizationBias>
 
 	</LeaderCivilizationBias>
@@ -41,7 +30,4 @@
 		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_EARTH_KINGDOM" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" Description="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" Icon="ICON_CIVILIZATION_EARTH_KINGDOM"/>
 		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_PACHACUTI" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_EARTH_KINGDOM" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" Description="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" Icon="ICON_CIVILIZATION_EARTH_KINGDOM"/>
 	</LeaderUnlocks>
-	<Mementos>
-
-	</Mementos>
 </Database>

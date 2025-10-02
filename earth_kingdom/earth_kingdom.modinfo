@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="earth_kingdom" version="1.0"
+<Mod id="earth_kingdom" version="1.0.1"
 	xmlns="ModInfo">
 	<!-- Inspired by the goggles do nothing Germania Mod. Quotes, lore and other information from the Avatar the Last Airbender Wiki.
 	-->
 	<Properties>
 		<Name>LOC_MODULE_EARTH_KINGDOM_NAME</Name>
 		<Description>LOC_MODULE_EARTH_KINGDOM_DESCRIPTION</Description>
-		<Authors>AUSTIN_NICOLAS</Authors>
+		<Authors>Austin Nicolas</Authors>
 		<Package>DLC</Package>
 	</Properties>
 	<Dependencies>
@@ -98,8 +98,6 @@
                     <Item>data/icons/Earth_Kingdom.xml</Item>
 					<Item>data/icons/wonder-icons.xml</Item>
                 </UpdateIcons>
-                <ScenarioScripts>
-                </ScenarioScripts>
             </Actions>
         </ActionGroup>
 		<ActionGroup id="age-antiquity-main-Earth-Kingdom" scope="game" criteria="antiquity-age-current">
@@ -114,8 +112,6 @@
 				<UpdateDatabase>
 					<Item>data/unlocks-exploration.xml</Item>
 				</UpdateDatabase>
-				<UpdateText>
-				</UpdateText>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-modern-persist-Earth-Kingdom" scope="game" criteria="modern-age-persist">
@@ -130,12 +126,6 @@
 					<Item>data/wonders.xml</Item>
 					<Item>data/wonders-gameeffects.xml</Item>
 				</UpdateDatabase>
-                <ImportFiles>
-					
-                </ImportFiles>
-                <UpdateIcons>
-
-                </UpdateIcons>
 				<UpdateText>
 					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
@@ -157,6 +147,7 @@
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/loading-info.xml</Item>
 					<Item>data/narrative-display.xml</Item>
+					<Item>data/narrative-sifting.xml</Item>
 					<Item>data/narrative-stories-modern.xml</Item>
 					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
 					<Item>data/progression-trees-culture-common.xml</Item>
@@ -177,10 +168,6 @@
 		</ActionGroup>
 		<ActionGroup id="shell-Earth-Kingdom" scope="shell" criteria="always">
 			<Actions>
-				<UpdateArt>
-				</UpdateArt>
-				<UpdateColors>
-				</UpdateColors>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
 				</UpdateDatabase>
@@ -219,8 +206,6 @@
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 				</UpdateText>
-				<UpdateColors>
-				</UpdateColors>
 			</Actions>
 		</ActionGroup>
 	</ActionGroups>

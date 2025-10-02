@@ -3,11 +3,6 @@
 
     <!-- Modifiers-->
 
-    <!--<Modifier id="EK001A_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
-        <Argument name="YieldType">YIELD_SCIENCE</Argument>
-        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
-        <Argument name="ConstructibleType">IMPROVEMENT_HIDDEN_FORTRESS</Argument>
-    </Modifier>-->
     <Modifier id="EK001B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
         <Argument name="AttributeType">ATTRIBUTE_EXPANSIONIST</Argument>
         <Argument name="Amount">1</Argument>
@@ -50,7 +45,7 @@
 	</Modifier>
     <Modifier id="EK006B_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
         <Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
-        <Argument name="Amount">1</Argument>
+        <Argument name="Amount">2</Argument>
     </Modifier>
     <Modifier id="EK006C_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_PRODUCTION" run-once="false" permanent="true">
         <Argument name="Percent">25</Argument>
@@ -88,6 +83,9 @@
         <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
     </RequirementSet>
     <RequirementSet id="REQSET_EK006A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_EK007A_NARRATIVE_REQUISITE">
         <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
     </RequirementSet>
     <RequirementSet id="REQSET_EK001A_NARRATIVE">
@@ -134,9 +132,20 @@
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_EK006A_NARRATIVE">
-        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS">
-            <Argument name="BuildingType">BUILDING_SCHOOLHOUSE</Argument>
-            <Argument name="Amount">1</Argument>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01,GOSSIP_GATHER_RESOURCE02</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_SCHOOLHOUSE</Argument>
+            <Argument name="GOSSIP_GATHER_RESOURCE02">Hash,ResourceType,RESOURCE_TIN</Argument>
+            <Argument name="Amount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_EK007A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01,GOSSIP_TRADITION_ACTIVATED02</Argument>
+            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_MO_MAIN_POLITICAL_THEORY,Numeric,TreeDepth,1</Argument>
+            <Argument name="GOSSIP_TRADITION_ACTIVATED02">Hash,TraditionType,TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN</Argument>
+            <Argument name="Amount">2</Argument>
         </Requirement>
     </RequirementSet>
 </GameEffects>
