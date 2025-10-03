@@ -15,8 +15,8 @@
 		<!-- Civ Unique Military -->
 
 		<Row UnitType="UNIT_EARTHBENDER" Name="LOC_UNIT_EARTHBENDER_NAME" Description="LOC_UNIT_EARTHBENDER_DESCRIPTION" Tier="1" Maintenance="4" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_EARTH_KINGDOM"/>
-		<Row UnitType="UNIT_EARTHBENDER_2" Name="LOC_UNIT_EARTHBENDER_NAME" Description="LOC_UNIT_EARTHBENDER_2_DESCRIPTION" Tier="2" Maintenance="4" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_EARTH_KINGDOM"/>
-		<Row UnitType="UNIT_EARTHBENDER_3" Name="LOC_UNIT_EARTHBENDER_NAME" Description="LOC_UNIT_EARTHBENDER_3_DESCRIPTION" Tier="3" Maintenance="5" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_EARTH_KINGDOM"/>
+		<Row UnitType="UNIT_EARTHBENDER_2" Name="LOC_UNIT_EARTHBENDER_NAME" Description="LOC_UNIT_EARTHBENDER_2_DESCRIPTION" Tier="2" Maintenance="7" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_EARTH_KINGDOM"/>
+		<Row UnitType="UNIT_EARTHBENDER_3" Name="LOC_UNIT_EARTHBENDER_NAME" Description="LOC_UNIT_EARTHBENDER_3_DESCRIPTION" Tier="3" Maintenance="10" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_EARTH_KINGDOM"/>
 		
 		<!-- Civ Unique Civilian -->
 

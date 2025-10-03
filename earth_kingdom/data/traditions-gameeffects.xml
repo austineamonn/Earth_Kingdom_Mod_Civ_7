@@ -5,14 +5,28 @@
 	<!-- ==================================================	-->
 	<!-- Earth Kingdom -->
 
-	<!-- The Three Ringed City -->
-	<Modifier id="TRADITION_EARTH_KINGDOM_CONSTRUCTION_MANDATE_MOD_GOLD_PURCHASE_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
-		<Argument name="Percent">20</Argument>
-		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_CONSTRUCTION_MANDATE_DESCRIPTION</String>
+	<!-- Siege of Ba Sing Se -->
+	<Modifier id="TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_MOD_FOOD_TO_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_CONVERSION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="FromYieldType">YIELD_FOOD</Argument>
+		<Argument name="ToYieldType">YIELD_GOLD</Argument>
+		<Argument name="Percent">10</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_NAME</Argument>
+		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_DESCRIPTION</String>
 	</Modifier>
-	<Modifier id="TRADITION_EARTH_KINGDOM_CONSTRUCTION_MANDATE_MOD_PRODUCTION_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_PRODUCTION">
-		<Argument name="Apply">Rate</Argument>
-		<Argument name="Percent">20</Argument>
+	<Modifier id="TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_MOD_FOOD_TO_GOLD_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_CONVERSION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_PLAYER_ACTIVE_WARS">
+				<Argument Name="DeclaredByOpponent">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="FromYieldType">YIELD_FOOD</Argument>
+		<Argument name="ToYieldType">YIELD_GOLD</Argument>
+		<Argument name="Percent">10</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_NAME</Argument>
 	</Modifier>
 
 	<!-- Royal Propaganda -->

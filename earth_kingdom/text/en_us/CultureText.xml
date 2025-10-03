@@ -10,16 +10,17 @@
 		</Row>
 
 		<!-- Earth Kingdom Civic Description-->
-		<!-- The Three Ringed City -->
-		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_THREE_RINGED_CITY_NAME">
-			<Text>The Three Ringed City</Text>
+		<!-- Siege of Ba Sing Se -->
+		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_SIEGE_OF_BA_SING_SE_NAME">
+			<Text>Siege of Ba Sing Se</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_THREE_RINGED_CITY_QUOTE">
+		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_SIEGE_OF_BA_SING_SE_QUOTE">
 			<Text>"You once laid siege to Ba Sing Se for 600 days, but it would not yield to you."</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_THREE_RINGED_CITY_QUOTE_AUTHOR">
+		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_SIEGE_OF_BA_SING_SE_QUOTE_AUTHOR">
 			<Text>Earth Bender Captain to Iroh</Text>
 		</Row>
+		
 
 		<!-- Royal Propaganda -->
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_ROYAL_PROPAGANDA_NAME">
@@ -34,6 +35,9 @@
 		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_GROWTH_BONUS_DESCRIPTION">
 			<Text>+20% growth in the Capital.</Text>
 		</Row>
+		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_CONNECTED_FOOD_DESCRIPTION">
+			<Text>+3[icon:YIELD_FOOD] Food in the Capital for every connected Settlement.</Text>
+		</Row>
 		
 		<!-- Long Lost Love -->
 		
@@ -46,13 +50,13 @@
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_LONG_LOST_LOVE_QUOTE_AUTHOR">
 			<Text>Oma and Shu's tomb</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCRERASE_DESCRIPTION">
+		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_DURING_WAR_DESCRIPTION">
+			<Text>You may establish and keep Trade Routes with Cities you are at War with.</Text>
+		</Row>
+		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCREASE_DESCRIPTION">
 			<Text>+10 range for all Trade Routes.</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_CAPITAL_POP_ON_CELEBRATION_DESCRIPTION">
-			<Text>The Capital gains a Population every time you enter a Celebration.</Text>
-		</Row>
-		
+
 		<!-- The Impenetrable City -->
 
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_IMPENETRABLE_CITY_NAME">
@@ -64,16 +68,16 @@
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_THE_IMPENETRABLE_CITY_QUOTE_AUTHOR">
 			<Text>General Sung</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_THE_IMPENETRABLE_CITY_SPECIALIST_CAP_INCRERASE_DESCRIPTION">
+		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_THE_IMPENETRABLE_CITY_SPECIALIST_CAP_INCREASE_DESCRIPTION">
 			<Text>+1 Specialist Limit in the Capital.</Text>
 		</Row>
 
 		<!-- Earth Kingdom Unique Traditions-->
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_CONSTRUCTION_MANDATE_NAME">
-			<Text>Construction Mandate</Text>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_NAME">
+			<Text>Excessive Tax</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_CONSTRUCTION_MANDATE_DESCRIPTION">
-			<Text>+20%[icon:YIELD_GOLD] Gold towards purchasing Buildings and +20%[icon:YIELD_PRODUCTION] Production towards constructing Buildings.</Text>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_DESCRIPTION">
+			<Text>Cities gain a bonus to[icon:YIELD_GOLD] Gold equal to 10% of that City's[icon:YIELD_FOOD] Food, doubled in a War declared against you.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_NAME">
@@ -84,7 +88,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_NAME">
-			<Text>Omashi Delivery System</Text>
+			<Text>Omashu Delivery System</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_DESCRIPTION">
 			<Text>+1 Resource Slot. +3[icon:YIELD_GOLD] Gold for every imported Resource.</Text>
@@ -94,7 +98,7 @@
 			<Text>The Hundred Years War</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_DESCRIPTION">
-			<Text>Gain 3 War Support on all wars declared against you.</Text>
+			<Text>Gain 3 War Support on all Wars declared against you.</Text>
 		</Row>
 
 	</EnglishText>

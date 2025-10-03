@@ -171,10 +171,12 @@
     </RequirementSet>
     <RequirementSet id="REQSET_EK006A_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
-            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01,GOSSIP_GATHER_RESOURCE02</Argument>
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
             <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_SCHOOLHOUSE</Argument>
-            <Argument name="GOSSIP_GATHER_RESOURCE02">Hash,ResourceType,RESOURCE_TIN</Argument>
-            <Argument name="Amount">2</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_X_RESOURCE_TYPE">
+            <Argument name="ResourceType">RESOURCE_TIN</Argument>
+            <Argument name="Amount">1</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_EK007A_NARRATIVE">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="earth_kingdom" version="1.0.1"
+<Mod id="earth_kingdom" version="1.1"
 	xmlns="ModInfo">
 	<!-- Inspired by the goggles do nothing Germania Mod. Quotes, lore and other information from the Avatar the Last Airbender Wiki.
 	-->
@@ -8,6 +8,8 @@
 		<Description>LOC_MODULE_EARTH_KINGDOM_DESCRIPTION</Description>
 		<Authors>Austin Nicolas</Authors>
 		<Package>DLC</Package>
+		<AffectsSavedGames>1</AffectsSavedGames>
+		<Version>1.1</Version>
 	</Properties>
 	<Dependencies>
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
@@ -16,17 +18,8 @@
 		<Criteria id="antiquity-age-current">
 			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
 		</Criteria>
-		<Criteria id="antiquity-age-persist" any="true">
-			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
-			<AgeInUse>AGE_EXPLORATION</AgeInUse>
-			<AgeInUse>AGE_MODERN</AgeInUse>
-		</Criteria>
 		<Criteria id="exploration-age-current">
 			<AgeInUse>AGE_EXPLORATION</AgeInUse>
-		</Criteria>
-		<Criteria id="exploration-age-persist" any="true">
-			<AgeInUse>AGE_EXPLORATION</AgeInUse>
-			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
 		<Criteria id="modern-age-current">
 			<AgeInUse>AGE_MODERN</AgeInUse>
@@ -116,8 +109,6 @@
 		</ActionGroup>
 		<ActionGroup id="age-modern-persist-Earth-Kingdom" scope="game" criteria="modern-age-persist">
 			<Actions>
-				<UpdateArt>
-				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/constructibles.xml</Item>
@@ -138,8 +129,6 @@
 		</ActionGroup>
 		<ActionGroup id="modern-age-current-Earth-Kingdom" scope="game" criteria="modern-age-current">
 			<Actions>
-				<UpdateArt>
-				</UpdateArt>
 				<UpdateDatabase>
 					<Item>data/AI_Antiquity.xml</Item>
 					<Item>data/citizen-names.xml</Item>
