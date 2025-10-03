@@ -17,9 +17,20 @@
         <Row Type="EK006A" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="EK006B" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="EK006C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EK007A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EK007B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EK008A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EK008B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EK008C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EK009A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EK009B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EK009C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EK0010A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EK0010B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EK0010C" Kind="KIND_NARRATIVE_STORY"/>
     </Types>
     <NarrativeStories>
-        <Row NarrativeStoryType="EK001A" Name="LOC_EK001A_NAME" Description="LOC_EK001A_DESCRIPTION" Completion="LOC_EK001A_COMPLETION" StoryTitle="LOC_EK001A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_EK001A_NARRATIVE" ActivationRequirementSetId="REQSET_EK001A_NARRATIVE_REQUISITE" UIActivation="STANDARD" Queue="NARRATIVE_GROUP_EARTH_KINGDOM"/>
+        <Row NarrativeStoryType="EK001A" Name="LOC_EK001A_NAME" Description="LOC_EK001A_DESCRIPTION" Completion="LOC_EK001A_COMPLETION" StoryTitle="LOC_EK001A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_EK001A_NARRATIVE" ActivationRequirementSetId="REQSET_EK001A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
         <Row NarrativeStoryType="EK001B" Name="LOC_EK001B_NAME" Description="LOC_EK001B_DESCRIPTION" Completion="LOC_EK001B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
         <Row NarrativeStoryType="EK001C" Name="LOC_EK001C_NAME" Description="LOC_EK001C_DESCRIPTION" Completion="LOC_EK001C_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
         <Row NarrativeStoryType="EK002A" Name="LOC_EK002A_NAME" Description="LOC_EK002A_DESCRIPTION" Completion="LOC_EK002A_COMPLETION" StoryTitle="LOC_EK002A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_EK002A_NARRATIVE" ActivationRequirementSetId="REQSET_EK002A_NARRATIVE_REQUISITE" UIActivation="STANDARD" Queue="NARRATIVE_GROUP_EARTH_KINGDOM"/>
@@ -35,6 +46,17 @@
         <Row NarrativeStoryType="EK006A" Name="LOC_EK006A_NAME" Description="LOC_EK006A_DESCRIPTION" Completion="LOC_EK006A_COMPLETION" StoryTitle="LOC_EK006A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_EK006A_NARRATIVE" ActivationRequirementSetId="REQSET_EK006A_NARRATIVE_REQUISITE" UIActivation="STANDARD" Queue="NARRATIVE_GROUP_EARTH_KINGDOM"/>
         <Row NarrativeStoryType="EK006B" Name="LOC_EK006B_NAME" Description="LOC_EK006B_DESCRIPTION" Completion="LOC_EK006B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
         <Row NarrativeStoryType="EK006C" Name="LOC_EK006C_NAME" Description="LOC_EK006C_DESCRIPTION" Completion="LOC_EK006C_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="EK007A" Name="LOC_EK007A_NAME" Description="LOC_EK007A_DESCRIPTION" Completion="LOC_EK007A_COMPLETION" StoryTitle="LOC_EK007A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_EK007A_NARRATIVE" ActivationRequirementSetId="REQSET_EK007A_NARRATIVE_REQUISITE" UIActivation="STANDARD" Queue="NARRATIVE_GROUP_EARTH_KINGDOM"/>
+        <Row NarrativeStoryType="EK007B" Name="LOC_EK007B_NAME" Description="LOC_EK007B_DESCRIPTION" Completion="LOC_EK007B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="EK008A" Name="LOC_EK008A_NAME" Description="LOC_EK008A_DESCRIPTION" Completion="LOC_EK008A_COMPLETION" StoryTitle="LOC_EK008A_STORYTITLE" Age="AGE_MODERN" Activation="LINKED" Imperative="LOC_EK008A_IMPERATIVE" IsQuest="TRUE" RequirementSetId="REQSET_EK008A_NARRATIVE" ActivationRequirementSetId="REQSET_EK008A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="EK008B" Name="LOC_EK008B_NAME" Description="LOC_EK008B_DESCRIPTION" Completion="LOC_EK008B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="EK008C" Name="LOC_EK008C_NAME" Description="LOC_EK008C_DESCRIPTION" Completion="LOC_EK008C_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="EK009A" Name="LOC_EK009A_NAME" Description="LOC_EK009A_DESCRIPTION" Completion="LOC_EK009A_COMPLETION" StoryTitle="LOC_EK009A_STORYTITLE" Age="AGE_MODERN" Activation="LINKED" Imperative="LOC_EK009A_IMPERATIVE" IsQuest="TRUE" RequirementSetId="REQSET_EK009A_NARRATIVE" ActivationRequirementSetId="REQSET_EK009A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="EK009B" Name="LOC_EK009B_NAME" Description="LOC_EK009B_DESCRIPTION" Completion="LOC_EK009B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="EK009C" Name="LOC_EK009C_NAME" Description="LOC_EK009C_DESCRIPTION" Completion="LOC_EK009C_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="EK0010A" Name="LOC_EK0010A_NAME" Description="LOC_EK0010A_DESCRIPTION" Completion="LOC_EK0010A_COMPLETION" StoryTitle="LOC_EK0010A_STORYTITLE" Age="AGE_MODERN" Activation="LINKED" Imperative="LOC_EK0010A_IMPERATIVE" IsQuest="TRUE" RequirementSetId="REQSET_EK0010A_NARRATIVE" ActivationRequirementSetId="REQSET_EK0010A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="EK0010B" Name="LOC_EK0010B_NAME" Description="LOC_EK0010B_DESCRIPTION" Completion="LOC_EK0010B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="EK0010C" Name="LOC_EK0010C_NAME" Description="LOC_EK0010C_DESCRIPTION" Completion="LOC_EK0010C_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
     </NarrativeStories>
     <NarrativeRewards>
         <Row NarrativeRewardType="EK001B_REWARD" ModifierID="EK001B_NARRATIVE_MODIFIER"/>
@@ -47,6 +69,13 @@
         <Row NarrativeRewardType="EK005C_REWARD" ModifierID="EK005C_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="EK006B_REWARD" ModifierID="EK006B_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="EK006C_REWARD" ModifierID="EK006C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="EK007B_REWARD" ModifierID="EK007B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="EK008B_REWARD" ModifierID="EK008B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="EK008C_REWARD" ModifierID="EK008C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="EK009B_REWARD" ModifierID="EK009B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="EK009C_REWARD" ModifierID="EK009C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="EK0010B_REWARD" ModifierID="EK0010B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="EK0010C_REWARD" ModifierID="EK0010C_NARRATIVE_MODIFIER"/>
     </NarrativeRewards>
     <NarrativeStory_Rewards>
         <Row NarrativeStoryType="EK001B" NarrativeRewardType="EK001B_REWARD" Activation="START"/>
@@ -59,25 +88,19 @@
         <Row NarrativeStoryType="EK005C" NarrativeRewardType="EK005C_REWARD" Activation="COMPLETE"/>
         <Row NarrativeStoryType="EK006B" NarrativeRewardType="EK006B_REWARD" Activation="START"/>
         <Row NarrativeStoryType="EK006C" NarrativeRewardType="EK006C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="EK007B" NarrativeRewardType="EK007B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="EK008B" NarrativeRewardType="EK008B_REWARD" Activation="COMPLETE"/>
+        <Row NarrativeStoryType="EK008C" NarrativeRewardType="EK008C_REWARD" Activation="COMPLETE"/>
+        <Row NarrativeStoryType="EK009B" NarrativeRewardType="EK009B_REWARD" Activation="COMPLETE"/>
+        <Row NarrativeStoryType="EK009C" NarrativeRewardType="EK009C_REWARD" Activation="COMPLETE"/>
+        <Row NarrativeStoryType="EK0010B" NarrativeRewardType="EK0010B_REWARD" Activation="COMPLETE"/>
+        <Row NarrativeStoryType="EK0010C" NarrativeRewardType="EK0010C_REWARD" Activation="COMPLETE"/>
     </NarrativeStory_Rewards>
     <NarrativeStoryOverrides>
     </NarrativeStoryOverrides>
     <NarrativeVariations>
     </NarrativeVariations>
     <NarrativeRewardIcons>
-        <!--<Row NarrativeStoryType="11020B" RewardIconType="YIELD_SCIENCE"/>
-        <Row NarrativeStoryType="11020C" RewardIconType="YIELD_PRODUCTION"/>
-        <Row NarrativeStoryType="11021B" RewardIconType="YIELD_CULTURE"/>
-        <Row NarrativeStoryType="11021C" RewardIconType="UNIT"/>
-        <Row NarrativeStoryType="11023B" RewardIconType="YIELD_HAPPINESS"/>
-        <Row NarrativeStoryType="11023C" RewardIconType="GREATWORK"/>
-        <Row NarrativeStoryType="11024B" RewardIconType="CUSTOM"/>
-        <Row NarrativeStoryType="11027B" RewardIconType="YIELD_GOLD"/>
-        <Row NarrativeStoryType="11027B" RewardIconType="YIELD_DIPLOMACY" Negative="TRUE"/>
-        <Row NarrativeStoryType="11028B" RewardIconType="PROMOTION"/>
-        <Row NarrativeStoryType="11029B" RewardIconType="ATTRIBUTE_EXPANSIONIST"/>
-        <Row NarrativeStoryType="11029C" RewardIconType="ATTRIBUTE_MILITARISTIC"/>
-        <Row NarrativeStoryType="12006C" RewardIconType="YIELD_FOOD"/>-->
         <Row NarrativeStoryType="EK001B" RewardIconType="ATTRIBUTE_EXPANSIONIST"/>
         <Row NarrativeStoryType="EK001C" RewardIconType="ATTRIBUTE_ECONOMIC"/>
         <Row NarrativeStoryType="EK002B" RewardIconType="YIELD_FOOD"/>
@@ -92,6 +115,16 @@
         <Row NarrativeStoryType="EK005C" RewardIconType="YIELD_GOLD"/>
         <Row NarrativeStoryType="EK006B" RewardIconType="UNIT"/>
         <Row NarrativeStoryType="EK006C" RewardIconType="YIELD_SCIENCE"/>
+        <Row NarrativeStoryType="EK007B" RewardIconType="YIELD_CULTURE"/>
+        <Row NarrativeStoryType="EK008A" RewardIconType="QUEST"/>
+        <Row NarrativeStoryType="EK008B" RewardIconType="TRADITION_SLOT"/>
+        <Row NarrativeStoryType="EK008C" RewardIconType="YIELD_CULTURE"/>
+        <Row NarrativeStoryType="EK009A" RewardIconType="QUEST"/>
+        <Row NarrativeStoryType="EK009B" RewardIconType="UNIT"/>
+        <Row NarrativeStoryType="EK009C" RewardIconType="YIELD_GOLD"/>
+        <Row NarrativeStoryType="EK0010A" RewardIconType="QUEST"/>
+        <Row NarrativeStoryType="EK0010B" RewardIconType="YIELD_FOOD"/>
+        <Row NarrativeStoryType="EK0010C" RewardIconType="YIELD_SCIENCE"/>
     </NarrativeRewardIcons>
     <NarrativeStory_TextReplacements>
         <Row NarrativeStoryType="EK001B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
@@ -106,6 +139,16 @@
         <Row NarrativeStoryType="EK005C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
         <Row NarrativeStoryType="EK006B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
         <Row NarrativeStoryType="EK006C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="EK007B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="EK008A" NarrativeStoryTextType="IMPERATIVE" NarrativeTextReplacementType="TURN_TIMER" Priority="1"/>
+        <Row NarrativeStoryType="EK008B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="EK008C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="EK009A" NarrativeStoryTextType="IMPERATIVE" NarrativeTextReplacementType="TURN_TIMER" Priority="1"/>
+        <Row NarrativeStoryType="EK009B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="EK009C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="EK0010A" NarrativeStoryTextType="IMPERATIVE" NarrativeTextReplacementType="TURN_TIMER" Priority="1"/>
+        <Row NarrativeStoryType="EK0010B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="EK0010C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
     </NarrativeStory_TextReplacements>
     <NarrativeStory_Links>
         <Row FromNarrativeStoryType="EK001A" ToNarrativeStoryType="EK001B" Priority="0" Name="LOC_EK001B_NAME" Description="LOC_EK001B_DESCRIPTION"/>
@@ -120,5 +163,15 @@
         <Row FromNarrativeStoryType="EK005A" ToNarrativeStoryType="EK005C" Priority="1" Name="LOC_EK005C_NAME" Description="LOC_EK005C_DESCRIPTION"/>
         <Row FromNarrativeStoryType="EK006A" ToNarrativeStoryType="EK006B" Priority="0" Name="LOC_EK006B_NAME" Description="LOC_EK006B_DESCRIPTION"/>
         <Row FromNarrativeStoryType="EK006A" ToNarrativeStoryType="EK006C" Priority="1" Name="LOC_EK006C_NAME" Description="LOC_EK006C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="EK007A" ToNarrativeStoryType="EK008A" Priority="0" Name="LOC_EK008A_NAME" Description="LOC_EK008A_DESCRIPTION" Imperative="LOC_EK008A_IMPERATIVE"/>
+        <Row FromNarrativeStoryType="EK007A" ToNarrativeStoryType="EK009A" Priority="0" Name="LOC_EK009A_NAME" Description="LOC_EK009A_DESCRIPTION" Imperative="LOC_EK009A_IMPERATIVE"/>
+        <Row FromNarrativeStoryType="EK007A" ToNarrativeStoryType="EK0010A" Priority="0" Name="LOC_EK0010A_NAME" Description="LOC_EK0010A_DESCRIPTION" Imperative="LOC_EK0010A_IMPERATIVE"/>
+        <Row FromNarrativeStoryType="EK007A" ToNarrativeStoryType="EK007B" Priority="1" Name="LOC_EK007B_NAME" Description="LOC_EK007B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="EK008A" ToNarrativeStoryType="EK008B" Priority="0" Name="LOC_EK008B_NAME" Description="LOC_EK008B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="EK008A" ToNarrativeStoryType="EK008C" Priority="1" Name="LOC_EK008C_NAME" Description="LOC_EK008C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="EK009A" ToNarrativeStoryType="EK009B" Priority="0" Name="LOC_EK009B_NAME" Description="LOC_EK009B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="EK009A" ToNarrativeStoryType="EK009C" Priority="1" Name="LOC_EK009C_NAME" Description="LOC_EK009C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="EK0010A" ToNarrativeStoryType="EK0010B" Priority="0" Name="LOC_EK0010B_NAME" Description="LOC_EK0010B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="EK0010A" ToNarrativeStoryType="EK0010C" Priority="1" Name="LOC_EK0010C_NAME" Description="LOC_EK0010C_DESCRIPTION"/>
     </NarrativeStory_Links>
 </Database>

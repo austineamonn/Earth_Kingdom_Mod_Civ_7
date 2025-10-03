@@ -65,7 +65,7 @@
             <Text>+5 Trade Route range.</Text>
         </Row>
         <Row Tag="LOC_EK004C_NAME">
-            <Text>Grant more housing permits</Text>
+            <Text>Grant more housing permits.</Text>
         </Row>
         <Row Tag="LOC_EK004C_DESCRIPTION">
             <Text>+1 Specialist Cap in the Capital.</Text>
@@ -113,6 +113,99 @@
             <Text>Build more schools.</Text>
         </Row>
         <Row Tag="LOC_EK006C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_EK007A_STORYTITLE">
+            <Text>The Death of the Earth Queen</Text>
+        </Row>
+        <Row Tag="LOC_EK007A_COMPLETION">
+            <Text>Political tension has reached a fever pitch in the Earth Kingdom since the assasination of the Earth Queen. Many groups are jostling for political power, as they advocate their new vision for the Earth Kingdom. What will the new Earth Kingdom look like?</Text>
+        </Row>
+        <Row Tag="LOC_EK007B_NAME">
+            <Text>Tensions will reside with time.</Text>
+        </Row>
+        <Row Tag="LOC_EK007B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_EK008A_NAME">
+            <Text>Listen to Prince Wu</Text>
+        </Row>
+        <Row Tag="LOC_EK008A_IMPERATIVE">
+            <Text>Complete the Democracy Civic Tree.</Text>
+        </Row>
+        <Row Tag="LOC_EK008A_DESCRIPTION">
+            <Text>The Story Continues.</Text>
+        </Row>
+        <Row Tag="LOC_EK008A_STORYTITLE">
+            <Text>The First Vote.</Text>
+        </Row>
+        <Row Tag="LOC_EK008A_COMPLETION">
+            <Text>Citizens line up excitedly throughout the kingdom to cast their first ballots. Prince Wu's push for local rule and democratic norms succeded and now everyone reaps the benefits.</Text>
+        </Row>
+        <Row Tag="LOC_EK008B_NAME">
+            <Text>Put the local petition on the ballot.</Text>
+        </Row>
+        <Row Tag="LOC_EK008B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_EK008C_NAME">
+            <Text>Offer free civic courses.</Text>
+        </Row>
+        <Row Tag="LOC_EK008C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_EK009A_NAME">
+            <Text>Listen to Kuvira</Text>
+        </Row>
+        <Row Tag="LOC_EK009A_IMPERATIVE">
+            <Text>Complete the Facism Civic Tree.</Text>
+        </Row>
+        <Row Tag="LOC_EK009A_DESCRIPTION">
+            <Text>The Story Continues.</Text>
+        </Row>
+        <Row Tag="LOC_EK009A_STORYTITLE">
+            <Text>All Hail the Great Uniter</Text>
+        </Row>
+        <Row Tag="LOC_EK009A_COMPLETION">
+            <Text>At last Kuvira's troops complete their march on Zaofu and the Earth Kingdom is united once again. Nights are quieter and local banditry has ceased. Now the Earth Kingdom, nay, Earth Empire, is stronger than ever before. May our enemies tremble at our feet.</Text>
+        </Row>
+        <Row Tag="LOC_EK009B_NAME">
+            <Text>The Great Uniter will lead us forward.</Text>
+        </Row>
+        <Row Tag="LOC_EK009B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_EK009C_NAME">
+            <Text>Invest in more walls, just in case.</Text>
+        </Row>
+        <Row Tag="LOC_EK009C_DESCRIPTION">
+            <Text>{1_reward} on Unique Improvements.</Text>
+        </Row>
+        <Row Tag="LOC_EK0010A_NAME">
+            <Text>Listen to Amon</Text>
+        </Row>
+        <Row Tag="LOC_EK0010A_IMPERATIVE">
+            <Text>Complete the Communism Civic Tree.</Text>
+        </Row>
+        <Row Tag="LOC_EK0010A_DESCRIPTION">
+            <Text>The Story Continues.</Text>
+        </Row>
+        <Row Tag="LOC_EK0010A_STORYTITLE">
+            <Text>The End of Bending</Text>
+        </Row>
+        <Row Tag="LOC_EK0010A_COMPLETION">
+            <Text>Amon has taken Avatar Korra's bending and Republic City has been freed of the oppresive benders. The Equalist movement is spreading and Earth Kingdom citizens, non-benders at least, are ecstatic.</Text>
+        </Row>
+        <Row Tag="LOC_EK0010B_NAME">
+            <Text>Provide food aid for non-benders.</Text>
+        </Row>
+        <Row Tag="LOC_EK0010B_DESCRIPTION">
+            <Text>+2[icon:YIELD_FOOD] Food on Food Buildings.</Text>
+        </Row>
+        <Row Tag="LOC_EK0010C_NAME">
+            <Text>Reeducate the citizenry why bending is evil.</Text>
+        </Row>
+        <Row Tag="LOC_EK0010C_DESCRIPTION">
             <Text>{1_reward}.</Text>
         </Row>
     </EnglishText>

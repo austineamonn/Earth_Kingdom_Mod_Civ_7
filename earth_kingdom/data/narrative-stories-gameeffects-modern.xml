@@ -51,6 +51,35 @@
         <Argument name="Percent">25</Argument>
         <Argument name="ConstructibleType">BUILDING_SCHOOLHOUSE</Argument>
     </Modifier>
+    <Modifier id="EK007B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD_NARRATIVE" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_CULTURE</Argument>
+        <Argument name="MultiplierType">REWARD_TYPE_MAJOR_LATE</Argument>
+    </Modifier>
+    <Modifier id="EK008B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <Modifier id="EK008C_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+    <Modifier id="EK009B_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="false" permanent="true">
+        <Argument name="UnitType">UNIT_ARMY_COMMANDER</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <Modifier id="EK009C_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="Tag">UNIQUE_IMPROVEMENT</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+    <Modifier id="EK0010B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+        <Argument name="Tag">FOOD</Argument>
+        <Argument name="YieldType">YIELD_FOOD</Argument>
+        <Argument name="Amount">2</Argument>
+    </Modifier>
+    <Modifier id="EK0010C_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
 
     <!-- Requirements and Requirement Sets-->
 
@@ -86,6 +115,15 @@
         <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
     </RequirementSet>
     <RequirementSet id="REQSET_EK007A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_EK008A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_EK009A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_EK0010A_NARRATIVE_REQUISITE">
         <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
     </RequirementSet>
     <RequirementSet id="REQSET_EK001A_NARRATIVE">
@@ -146,6 +184,27 @@
             <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_MO_MAIN_POLITICAL_THEORY,Numeric,TreeDepth,1</Argument>
             <Argument name="GOSSIP_TRADITION_ACTIVATED02">Hash,TraditionType,TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN</Argument>
             <Argument name="Amount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_EK008A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
+            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_MO_BRANCH_PROGRESSIVISM,Numeric,TreeDepth,1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_EK009A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
+            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_MO_BRANCH_AUTHORITARIANISM,Numeric,TreeDepth,1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_EK0010A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
+            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_MO_BRANCH_SOCIALISM,Numeric,TreeDepth,1</Argument>
         </Requirement>
     </RequirementSet>
 </GameEffects>

@@ -2,7 +2,7 @@
 
 Author: Austin Nicolas
 
-Version: 1.0.1
+Version: 1.0.2
 
 Inspired by the Earth Kingdom from Avatar the Last Airbender. A modern age civilization focused on food/growth and trade.
 
@@ -103,3 +103,7 @@ Mastery: +1 Settlement Limit.
     <li>No Audio for unique civic and wonder quotes.</li>
     <li>Not all bonuses are shown with leonardfactory's policy yield preview mod, specifically the 0 food maintenance causes some issues for policies that impact specialist food cost showing them adding food when they are not. The two are still compatible and having both will not impact gameplay, the only impact is this visual bug.</li>
 </ol>
+
+## Latest Update:
+
+An additional narrative event around ideologies. Fixed unique merchant so that it is always unlocked.

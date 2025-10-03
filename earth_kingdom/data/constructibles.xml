@@ -5,14 +5,6 @@
 		Unique Improvements-->
 		<Row Type="IMPROVEMENT_THE_OUTER_WALL" Kind="KIND_CONSTRUCTIBLE" />
 	</Types>
-	<TagCategories>
-
-	</TagCategories>
-	<Tags>
-
-	</Tags>
-	<ConstructibleClasses>
-	</ConstructibleClasses>
 	<Constructibles>
 		<!--Civ
 		Unique Improvements -->
@@ -22,38 +14,24 @@
 		<!--Civ Unique Improvements-->
 		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" CityBuildable="true" BuildInLine="true" TraitType="TRAIT_EARTH_KINGDOM" SameAdjacentValid="true"/>
 	</Improvements>
-	<ConstructibleModifiers>
-	</ConstructibleModifiers>
-	<Constructible_TransitionRemoves>
-	</Constructible_TransitionRemoves>
-	<Buildings>
-	</Buildings>
 	<TypeTags>
 		<Row Type="IMPROVEMENT_THE_OUTER_WALL" Tag="UNIQUE"/>
+		<Row Type="IMPROVEMENT_THE_OUTER_WALL" Tag="UNIQUE_IMPROVEMENT"/>
 		<Row Type="IMPROVEMENT_THE_OUTER_WALL" Tag="AGELESS"/>
 		<Row Type="IMPROVEMENT_THE_OUTER_WALL" Tag="FORTIFICATION"/>
 	</TypeTags>
 	<Constructible_ValidDistricts>
 		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" DistrictType="DISTRICT_RURAL"/>
 	</Constructible_ValidDistricts>
-	<Constructible_ValidBiomes>
-	</Constructible_ValidBiomes>
-	<Constructible_ValidTerrains>
-	</Constructible_ValidTerrains>
-	<Constructible_ValidResources>
-	</Constructible_ValidResources>
 	<Constructible_YieldChanges>
 		<!--Civ
 		Unique Improvements-->
 		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" YieldType="YIELD_GOLD" YieldChange="3" />
 		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" YieldType="YIELD_CULTURE" YieldChange="3" />
 	</Constructible_YieldChanges>
-	<Constructible_Maintenances>
-	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
 		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" YieldChangeId="TheOuterWallChainFood" />
 	</Constructible_Adjacencies>
-	<Constructible_Logistics />
 	<Adjacency_YieldChanges>
 		<Row ID="TheOuterWallChainFood" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" ProjectMaxYield="false" AdjacentConstructible="IMPROVEMENT_THE_OUTER_WALL" />
 	</Adjacency_YieldChanges>
@@ -61,20 +39,6 @@
 		<!--Civ Unique Improvements-->
 		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" PlunderType="PLUNDER_HEAL" Amount="30" />
 	</Constructible_Plunders>
-	<Warehouse_YieldChanges>		
-	</Warehouse_YieldChanges>
-	<Constructible_Adjacencies>
-		<!-- Adjacencies for the Palace -->
-	</Constructible_Adjacencies>
-	<Constructible_WildcardAdjacencies>
-		<!-- Leaders -->
-		<!-- Traditions -->
-	</Constructible_WildcardAdjacencies>
-	<Constructible_WarehouseYields>
-	</Constructible_WarehouseYields>
-	<!-- Worker Base Yields -->
-	<WorkerYields>
-	</WorkerYields>
 		<!-- Advisory Attributes -->
 	<Constructible_Advisories>
 		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
