@@ -40,7 +40,7 @@ The Cabbage Merchant is an Earth Kingdom Unique Merchant. Civilian who can estab
 
 ![Image of the Unique Units of the Earth Kingdom on the loading screen.](images/unique-units.png?raw=true "Earth Kingdom Unique Units.")
 
-### Unique Units: The Outer Wall
+### Unique Improvements: The Outer Wall
 
 +3 Culture and +3 Gold. +2 Food for adjacent The Outer Wall segments. Earth Kingdom Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. Can only be built in a line. Cannot branch or fork.
 
