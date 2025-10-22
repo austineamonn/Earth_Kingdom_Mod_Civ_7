@@ -2,7 +2,7 @@
 
 Author: Austin Nicolas
 
-Version: 1.1
+Version: 1.1.1
 
 Inspired by the Earth Kingdom from Avatar the Last Airbender. A modern age civilization focused on Specialists and high food cities, Trade, and having Wars declared on you.
 
@@ -97,6 +97,53 @@ Mastery: +1 Settlement Limit.
 
 4 Unique Narrative Events with more on the way!
 
+### Unlocks:
+
+<ul>
+    <li>Play as Han.</li>
+    <li>Play as Ming.</li>
+    <li>Play as Confucious (Historical Choice).</li>
+    <li>Play as Pachacuti (Strategic Choice).</li>
+    <li>Play as Harriet Tubman (Strategic Choice).</li>
+</ul>
+
+## Possible Strategies:
+
+Here are some possible strategies to try while playing as the Earth Kingdom, one for each Victory Type in Modern. The Earth Kingdom is more geared towards the Militaristic and Economic Victory Conditions.
+
+### Getting Wars Declared on You:
+
+Previous Civs: Militaristic Civs with Unique Infantry
+Leader: Harriet Tubman
+Victory: Militaristic
+
+Focus on Infantry in the first two ages, as they will become Earthbenders in Modern. Earthbenders are an Infantry Unit, though they have a Ranged Attack and count as a Ranged Unit, so they will benefit from Ranged Bonuses like the Storm Promotion. They are more expensive but have +5 Strength. Use Tubman's Spying advantages to make some enemies and use the Denounce Military Presence Action so that they declare war on you. The Excessive Tax Tradition will convert 20% of your Cities food into Gold to help fund the War. Tubman's 5 War Support when combined with the Hundred Years War Tradition gives 8 War Support. This can be further increased with Gate of All Nations, the Brandenburg Gate, and the Militaristic Attribute. Use this War Support to decimate your enemies.
+
+### Maximize Food:
+
+Previous Civs: Missisipians / Khmer, Inca / Shawnee
+Leader: Pachacuti / Ashoka World Renouncer
+Victory: Economic
+
+The previous Civilizations and the Leaders will give you a huge food base. The World's Farm Unique Ability combined with the Feed the Queen Tradition mean Specialists will actually give your Cities more food. Specialize towns to feed giant cities. Use the Excessive Tax Tradition to convert this food to gold to buy Factories and Rail Stations. The Omashu Delivery System Tradition will also increase Resource Slots in all Settlements. Be sure to get the Long Lost Love Civic so that your Trade Routes are not interrupted by Wars.
+
+### Specialist Science:
+
+Previous Civs: Han, Abbasid
+Leader: Confucius
+Victory: Science
+
+The Tianxia Tradition from the Han and the Ulema Quarter from the Abbasids combined with Confucius gives +4 Science per Specialist. This can be further increased with the Scientific Attribute for an additional +1 Science (+2 if you have 3 Cities or less). Use the high growth rates from Confucius and the Food bonuses from the Earth Kingdom (See the Maximize Food Strategy) to have lots of Specialists. Use the Earth Kingdom Gold Bonuses to buy Science Buildings. The Earth Monarch Palace will add 2 Gold to your Specialists and the Impenetrable City Civic will increase the Specialist Cap in the Capital by 1 allowing you to place even more specialists.
+
+### Unique Infrastructure:
+
+Previous Civs: Han, Ming
+Leader: Xerxes the Achaemenid
+Victory: Culture
+
+Spam each Civilizations Unique Wall Improvement. All three have a Culture Base. Xerxes and the Forbidden City will improve wall yields. Use the Earth Kingdom's high gold output from the Excessive Tax and Omashu Delivery System Traditions to buy lots of Explorers. Focus on the Earth Kingdom's trade advantages to afford all the Explorers.
+
+
 ## Current Issues:
 
 <ol>
@@ -109,4 +156,4 @@ Mastery: +1 Settlement Limit.
 
 ## Latest Update:
 
-Reworked unique civic tree bonuses. Changed Construction Mandate Policy to Excessive Tax. Overall, shifted identity of Civ to give a unique playstyle focused on getting Wars declared on you. Updated Unit costs to match update 1.2.5.
+Updated narrative events and Civilopedia. Changed unlock to 10 Specialists across the empire to differentiate from Qajar. Added Harriet Tubman as a Strategic Unlock due to the Earth Kingdom focus on getting wars declared on you.

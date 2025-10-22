@@ -10,7 +10,10 @@
 		<Row Tag="LOC_UNLOCK_PLAY_AS_PACHACUTI_EARTH_KINGDOM_TOOLTIP">
 			<Text>The [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] strategically compliments [B]{LOC_LEADER_PACHACUTI_NAME}[/B].</Text>
 		</Row>
-		<Row Tag="LOC_UNLOCK_CITY_WITH_10_SPECIALISTS_EARTH_KINGDOM_TOOLTIP">
+		<Row Tag="LOC_UNLOCK_PLAY_AS_HARRIET_TUBMAN_EARTH_KINGDOM_TOOLTIP">
+			<Text>The [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] strategically compliments [B]{LOC_LEADER_HARRIET_TUBMAN_NAME}[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_10_SPECIALISTS_EARTH_KINGDOM_TOOLTIP">
 			<Text>The [B]{LOC_CIVILIZATION_EARTH_KINGDOM_NAME}[/B] was known for it's high population.</Text>
 		</Row>
 		<Row Tag="LOC_UNLOCK_15_MEDIEVAL_WALLS_EARTH_KINGDOM_TOOLTIP">
@@ -29,13 +32,13 @@
 		<Row Tag="LOC_UNLOCK_PLAY_AS_EARTH_KINGDOM_DESCRIPTION">
 			<Text>Play as the [B]Earth Kingdom[/B].</Text>
 		</Row>
-		<Row Tag="LOC_UNLOCK_CITY_WITH_10_SPECIALISTS_EARTH_KINGDOM_DESCRIPTION">
-			<Text>Have a City with 10 Specialists.</Text>
+		<Row Tag="LOC_UNLOCK_10_SPECIALISTS_EARTH_KINGDOM_DESCRIPTION">
+			<Text>Have 10 [B]Specialists[/B].</Text>
 		</Row>
 
 		<!-- Narrative Text -->
 
-		<Row Tag="LOC_UNLOCK_CITY_WITH_10_SPECIALISTS_EARTH_KINGDOM_NARRATIVE">
+		<Row Tag="LOC_UNLOCK_10_SPECIALISTS_EARTH_KINGDOM_NARRATIVE">
 			<Text>The devastating wars of this era have driven people from small towns to the major {1_Civilization_Adj} cities. In these bustling metropolises the new citizens begin to specialize their work and hone their crafts. This population shift leads some to wonder if a new more centralized government would better serve the {1_Civilization_Adj} people.</Text>
 		</Row>
 

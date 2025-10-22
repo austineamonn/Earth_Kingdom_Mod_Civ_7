@@ -18,5 +18,6 @@
 	<LegacyLeaderCivPriorities>
 		<Row Leader="LEADER_CONFUCIUS" CivilizationType="CIVILIZATION_EARTH_KINGDOM"/>
 		<Row Leader="LEADER_PACHACUTI" CivilizationType="CIVILIZATION_EARTH_KINGDOM"/>
+		<Row Leader="LEADER_HARRIET_TUBMAN" CivilizationType="CIVILIZATION_EARTH_KINGDOM"/>
 	</LegacyLeaderCivPriorities>
 </Database>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="earth_kingdom" version="1.1"
+<Mod id="earth_kingdom" version="1.1.1"
 	xmlns="ModInfo">
 	<!-- Inspired by the goggles do nothing Germania Mod. Quotes, lore and other information from the Avatar the Last Airbender Wiki.
 	-->
@@ -9,7 +9,7 @@
 		<Authors>Austin Nicolas</Authors>
 		<Package>DLC</Package>
 		<AffectsSavedGames>1</AffectsSavedGames>
-		<Version>1.1</Version>
+		<Version>1.1..1</Version>
 	</Properties>
 	<Dependencies>
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>

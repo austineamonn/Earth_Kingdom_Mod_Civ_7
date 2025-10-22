@@ -20,6 +20,7 @@
 	<LeaderCivilizationBias>
 		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_CONFUCIUS_EARTH_KINGDOM_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" LeaderDomain="StandardLeaders" LeaderType="LEADER_PACHACUTI" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_PACHACUTI_EARTH_KINGDOM_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE" />
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" LeaderDomain="StandardLeaders" LeaderType="LEADER_HARRIET_TUBMAN" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_HARRIET_TUBMAN_EARTH_KINGDOM_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE" />
 	
 	</LeaderCivilizationBias>
 	<CivilizationUnlocks>
@@ -29,5 +30,6 @@
 	<LeaderUnlocks>
 		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_EARTH_KINGDOM" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" Description="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" Icon="ICON_CIVILIZATION_EARTH_KINGDOM"/>
 		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_PACHACUTI" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_EARTH_KINGDOM" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" Description="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" Icon="ICON_CIVILIZATION_EARTH_KINGDOM"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_HARRIET_TUBMAN" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_EARTH_KINGDOM" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" Description="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" Icon="ICON_CIVILIZATION_EARTH_KINGDOM"/>
 	</LeaderUnlocks>
 </Database>

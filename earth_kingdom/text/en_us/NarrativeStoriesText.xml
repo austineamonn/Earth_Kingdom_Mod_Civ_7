@@ -23,7 +23,7 @@
             <Text>The Impenetrable Wall</Text>
         </Row>
         <Row Tag="LOC_EK002A_COMPLETION">
-            <Text>Citizens breath a sigh of relief as Construction completes on The Outer Wall. One advisor claims more walls are needed to protect the Earth Monarch, while another pushes build walls for even the smallest Earth Kingdon Towns.</Text>
+            <Text>Citizens breath a sigh of relief as construction completes on The Outer Wall. One advisor claims more walls are needed to protect the Earth Monarch, while another pushes build walls for even the smallest Earth Kingdon Towns.</Text>
         </Row>
         <Row Tag="LOC_EK002B_NAME">
             <Text>Protect the Capital.</Text>
@@ -203,7 +203,7 @@
             <Text>+2[icon:YIELD_FOOD] Food on Food Buildings.</Text>
         </Row>
         <Row Tag="LOC_EK0010C_NAME">
-            <Text>Reeducate the citizenry why bending is evil.</Text>
+            <Text>Reeducate the citizenry on why bending is evil.</Text>
         </Row>
         <Row Tag="LOC_EK0010C_DESCRIPTION">
             <Text>{1_reward}.</Text>
