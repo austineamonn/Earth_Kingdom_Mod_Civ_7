@@ -27,9 +27,7 @@
 		<Row ProgressionTreeType="TREE_CIVICS_MO_EARTH_KINGDOM" AgeType="AGE_MODERN" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_MO_EARTH_KINGDOM_NAME"/>
 	</ProgressionTrees>
 	<ProgressionTreeNodes>
-
 		<!-- Civic Costs and Names -->
-
 		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_SIEGE_OF_BA_SING_SE" ProgressionTree="TREE_CIVICS_MO_EARTH_KINGDOM" Cost="2000" Name="LOC_CIVIC_EARTH_KINGDOM_SIEGE_OF_BA_SING_SE_NAME" IconString="cult_earth_kingdom" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA" ProgressionTree="TREE_CIVICS_MO_EARTH_KINGDOM" Cost="3000" Name="LOC_CIVIC_EARTH_KINGDOM_ROYAL_PROPAGANDA_NAME" IconString="cult_earth_kingdom" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE" ProgressionTree="TREE_CIVICS_MO_EARTH_KINGDOM" Cost="3000" Name="LOC_CIVIC_EARTH_KINGDOM_LONG_LOST_LOVE_NAME" IconString="cult_earth_kingdom" />
@@ -38,12 +36,12 @@
 	<ProgressionTreeNodeUnlocks>
 
 		<!-- Siege of Ba Sing Se -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_SIEGE_OF_BA_SING_SE" TargetKind="KIND_TRADITION" TargetType="TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_SIEGE_OF_BA_SING_SE" TargetKind="KIND_TRADITION" TargetType="TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_II" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_SIEGE_OF_BA_SING_SE" TargetKind="KIND_CONSTRUCTIBLE" TargetType="IMPROVEMENT_THE_OUTER_WALL" UnlockDepth="1"/>
 
 		<!-- Royal Propaganda -->
 		
-		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA" TargetKind="KIND_TRADITION" TargetType="TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA" TargetKind="KIND_TRADITION" TargetType="TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_II" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_GROWTH_BONUS" UnlockDepth="1"/>
 		
 		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_EARTH_MONARCH_PALACE" UnlockDepth="2" AIIgnoreUnlockValue="true" />

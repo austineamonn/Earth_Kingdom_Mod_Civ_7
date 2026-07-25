@@ -7,15 +7,19 @@
 		<Row Domain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" CivilizationName="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" CivilizationFullName="LOC_CIVILIZATION_EARTH_KINGDOM_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" CivilizationIcon="civ_sym_earth_kingdom.png"/>
 	</Civilizations>
 	<CivilizationItems>
+		<!-- Unique Ability -->
 		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="TRAIT_EARTH_KINGDOM_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_EARTH_KINGDOM_ABILITY_NAME" Description="LOC_TRAIT_EARTH_KINGDOM_ABILITY_DESCRIPTION"/>
+		<!-- Unique Units -->
 		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="UNIT_EARTHBENDER" Kind="KIND_UNIT" Name="LOC_UNIT_EARTHBENDER_NAME" Description="LOC_UNIT_EARTHBENDER_BASE_DESCRIPTION" Icon="ICON_UNIT_EARTHBENDER"/>
 		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="UNIT_CABBAGE_MERCHANT" Kind="KIND_UNIT" Name="LOC_UNIT_CABBAGE_MERCHANT_NAME" Description="LOC_UNIT_CABBAGE_MERCHANT_DESCRIPTION" Icon="ICON_UNIT_CABBAGE_MERCHANT"/>
+		<!-- Unique Infrastructure -->
 		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" Type="IMPROVEMENT_THE_OUTER_WALL" Kind="KIND_IMPROVEMENT" Name="LOC_IMPROVEMENT_THE_OUTER_WALL_NAME" Description="LOC_IMPROVEMENT_THE_OUTER_WALL_DESCRIPTION" Icon="ICON_IMPROVEMENT_THE_OUTER_WALL"/>
-		
 	</CivilizationItems>
 	<CivilizationTags>
 		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" TagType="TAG_TRAIT_ECONOMIC"/>
 		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" TagType="TAG_TRAIT_EXPANSIONIST"/>
+		<!-- ToT -->
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" TagType="TAG_APEX_AGE_MODERN"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>
 		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_EARTH_KINGDOM" LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_CONFUCIUS_EARTH_KINGDOM_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />

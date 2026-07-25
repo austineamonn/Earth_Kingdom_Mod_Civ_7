@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<!-- ====================================== -->
+	<!-- Syncretic Unlocks -->
+	<!-- ====================================== -->
+	<LeaderSyncretismUnlocks>
+		<InsertOrIgnore LeaderType="LEADER_CONFUCIUS" UnlockCivilizationType="CIVILIZATION_EARTH_KINGDOM" />
+		<InsertOrIgnore LeaderType="LEADER_PACHACUTI" UnlockCivilizationType="CIVILIZATION_EARTH_KINGDOM" />
+		<InsertOrIgnore LeaderType="LEADER_HARRIET_TUBMAN" UnlockCivilizationType="CIVILIZATION_EARTH_KINGDOM" />
+	</LeaderSyncretismUnlocks>
+	<CivilizationSyncretismUnlocks>
+		<InsertOrIgnore CivilizationType="CIVILIZATION_HAN" UnlockCivilizationType="CIVILIZATION_EARTH_KINGDOM" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_QING" UnlockCivilizationType="CIVILIZATION_EARTH_KINGDOM" />
+	</CivilizationSyncretismUnlocks>
+	<CivSelfSyncretismUnlocks>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" UnlockType="TRADITION_EARTH_KINGDOM_SYNCRETISM_ANTIQUITY" Kind="KIND_TRADITION" Age="AGE_ANTIQUITY" ModifierID="MOD_UNLOCK_EARTH_KINGDOM_SYNCRETISM_ANTIQUITY" />
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" UnlockType="TRADITION_CULTURE_SLOT" Kind="KIND_CULTURE_SLOT" Age="AGE_ANTIQUITY" ModifierID="MOD_SELF_SYNCRETISM_GRANT_TRADITION_SLOT" />
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" UnlockType="TRADITION_EARTH_KINGDOM_SYNCRETISM_EXPLORATION" Kind="KIND_TRADITION" Age="AGE_EXPLORATION" ModifierID="MOD_UNLOCK_EARTH_KINGDOM_SYNCRETISM_EXPLORATION" />
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" UnlockType="TRADITION_CULTURE_SLOT" Kind="KIND_CULTURE_SLOT" Age="AGE_EXPLORATION" ModifierID="MOD_SELF_SYNCRETISM_GRANT_TRADITION_SLOT" />
+	</CivSelfSyncretismUnlocks>
+</Database>

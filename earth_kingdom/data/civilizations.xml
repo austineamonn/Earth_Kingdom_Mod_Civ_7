@@ -4,17 +4,13 @@
 		<!-- Major Civs -->
 		<Row Type="TRAIT_EARTH_KINGDOM_ABILITY" Kind="KIND_TRAIT"/>
 	</Types>
-
 	<Civilizations>
 		<!--Full Civs -->
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" AITargetCityPercentage="25" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" FullName="LOC_CIVILIZATION_EARTH_KINGDOM_FULLNAME" Description="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" Adjective="LOC_CIVILIZATION_EARTH_KINGDOM_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_MO_EARTH_KINGDOM" CapitalName="LOC_CITY_NAME_EARTH_KINGDOM1" RandomCityNameDepth="10" />	
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" AITargetCityPercentage="25" Name="LOC_CIVILIZATION_EARTH_KINGDOM_NAME" FullName="LOC_CIVILIZATION_EARTH_KINGDOM_FULLNAME" Description="LOC_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION" Adjective="LOC_CIVILIZATION_EARTH_KINGDOM_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" ApexAge="AGE_MODERN" UniqueCultureProgressionTree="TREE_CIVICS_MO_EARTH_KINGDOM" CapitalName="LOC_CITY_NAME_EARTH_KINGDOM1" RandomCityNameDepth="10" />	
 	</Civilizations>
 	<CivilizationFavoredWonders>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" FavoredWonderType="WONDER_EARTH_MONARCH_PALACE" FavoredWonderName="LOC_WONDER_EARTH_MONARCH_PALACE_NAME"/>
 	</CivilizationFavoredWonders>
-	<Modifiers/>
-	<ModifierArguments/>
-	<ModifierStrings/>
 	<Traits>
 		<Row TraitType="TRAIT_EARTH_KINGDOM_ABILITY" Name="LOC_TRAIT_EARTH_KINGDOM_ABILITY_NAME" Description="LOC_TRAIT_EARTH_KINGDOM_ABILITY_DESCRIPTION" InternalOnly="true"/>
 	</Traits>
@@ -23,13 +19,16 @@
 		<Row TraitType="TRAIT_EARTH_KINGDOM_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_EARTH_KINGDOM"/>
 		<Row TraitType="TRAIT_EARTH_KINGDOM_ABILITY" ModifierId="TRAIT_MOD_THE_WORLDS_FARM_REDUCED_SPECIALIST_FOOD_MAINTENANCE"/>
 	</TraitModifiers>
-
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_MODERN_CIV"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_EARTH_KINGDOM"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_EARTH_KINGDOM_ABILITY"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_ATTRIBUTE_ECONOMIC"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_ATTRIBUTE_ECONOMIC_TOT_AQ" />
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_ATTRIBUTE_ECONOMIC_TOT_EX" />
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST_TOT_AQ" />
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST_TOT_EX" />
 	</CivilizationTraits>
 	<LeaderCivPriorities>
 		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
@@ -104,6 +103,9 @@
 
 	<VisArt_CivilizationBuildingCultures>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BuildingCulture="BUILDING_CULTURE_EAS"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BuildingCulture="BUILDING_CULTURE_EAS_ANT"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BuildingCulture="BUILDING_CULTURE_EAS_EXP"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BuildingCulture="BUILDING_CULTURE_EAS_MOD"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BuildingCulture="ANT_STONE"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BuildingCulture="EXP_STONE"/>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" BuildingCulture="MOD_STONE"/>

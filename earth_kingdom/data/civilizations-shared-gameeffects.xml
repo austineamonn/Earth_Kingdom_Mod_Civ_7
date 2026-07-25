@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==================================================	-->
+	<!--	Civ-Specific Traits							-->
+	<!-- ==================================================	-->
+	<!-- EARTH_KINGDOM -->
+	<Modifier id="TRAIT_MOD_THE_WORLDS_FARM_REDUCED_SPECIALIST_FOOD_MAINTENANCE" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_WORKER_MAINTENANCE">
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">-2</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_CIVILIZATION_EARTH_KINGDOM_ABILITY_NAME</Argument>
+	</Modifier>
+</GameEffects>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Civilizations>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_EARTH_KINGDOM" />
+			<Set UniqueCultureProgressionTree="TREE_CIVICS_AQ_TEST_OF_TIME" />
+		</Update>
+	</Civilizations>
+	<Traits>
+	</Traits>
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_EARTH_KINGDOM_ABILITY"/>
+		<Row TraitType="TRAIT_EARTH_KINGDOM_ABILITY" ModifierId="TRAIT_MOD_THE_WORLDS_FARM_REDUCED_SPECIALIST_FOOD_MAINTENANCE" />
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_ANACHRONISTIC_CIV" />
+	</CivilizationTraits>
+</Database>

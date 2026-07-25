@@ -30,17 +30,30 @@
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
-        <Criteria all="true" id="ged-ynamp-enable">
+		<Criteria id="ccne-enable" all="true">
+            <ModInUse>capture_capital_narrative_events</ModInUse>
+        </Criteria>
+        <Criteria id="ged-ynamp-enable" all="true" >
             <ModInUse>ged-ynamp</ModInUse>
         </Criteria>
-        <Criteria all="true" id="izica-unit-portrait-visual-remaps-enable">
+        <Criteria id="izica-unit-portrait-visual-remaps-enable" all="true" >
             <ModInUse>izica-unit-portrait-visual-remaps</ModInUse>
         </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<!-- Optional compatability -->
+		 <ActionGroup id="base-game-main-ccne" scope="game" criteria="ccne-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>ccne/narrative-stories-earth-kingdom.xml</Item>
+					<Item>ccne/narrative-stories-gameeffects-earth-kingdom.xml</Item>
+                </UpdateDatabase>
+				<UpdateText>
+					<Item>ccne/NarrativeStoriesEarthKingdomText.xml</Item>
+				</UpdateText>
+            </Actions>
+		</ActionGroup>
 		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
-			<!-- ynamp compatability -->
 			<Actions>
                 <UpdateDatabase>
 					<Item>ynamp/data/greatest-earth.xml</Item>
@@ -58,9 +71,19 @@
         <ActionGroup id="base-game-main-Earth-Kingdom" scope="game" criteria="always">
             <Actions>
                 <UpdateDatabase>
+					<Item>data/citizen-names.xml</Item>
+					<Item>data/civilizations.xml</Item>
+					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/civilizations-shared-gameeffects.xml</Item>
+					<Item>data/loading-info.xml</Item>
+					<Item>data/narrative-display.xml</Item>
+					<Item>data/traditions.xml</Item>
+					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/unlocks-base-standard.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
                 </UpdateDatabase>
                 <UpdateText>
+					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/Civilopedia_Text.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
@@ -96,6 +119,8 @@
 		<ActionGroup id="age-antiquity-main-Earth-Kingdom" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateDatabase>
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/progression-trees-culture-aq.xml</Item>
 					<Item>data/unlocks-antiquity.xml</Item>
 				</UpdateDatabase>
 			</Actions>
@@ -103,6 +128,8 @@
 		<ActionGroup id="age-exploration-main-Earth-Kingdom" scope="game" criteria="exploration-age-current">
 			<Actions>
 				<UpdateDatabase>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/progression-trees-culture-ex.xml</Item>
 					<Item>data/unlocks-exploration.xml</Item>
 				</UpdateDatabase>
 			</Actions>
@@ -110,15 +137,11 @@
 		<ActionGroup id="age-modern-persist-Earth-Kingdom" scope="game" criteria="modern-age-persist">
 			<Actions>
 				<UpdateDatabase>
-					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/constructibles.xml</Item>
-					<Item>data/traditions-gameeffects.xml</Item>
-					<Item>data/traditions.xml</Item>
 					<Item>data/wonders.xml</Item>
 					<Item>data/wonders-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
-					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
 					<Item>text/en_us/CitizenNamesText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
@@ -131,11 +154,7 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/AI_Antiquity.xml</Item>
-					<Item>data/citizen-names.xml</Item>
-					<Item>data/civilizations.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
-					<Item>data/loading-info.xml</Item>
-					<Item>data/narrative-display.xml</Item>
 					<Item>data/narrative-sifting.xml</Item>
 					<Item>data/narrative-stories-modern.xml</Item>
 					<Item>data/narrative-stories-gameeffects-modern.xml</Item>

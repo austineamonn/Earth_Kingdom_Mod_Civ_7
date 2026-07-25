@@ -33,10 +33,10 @@
 			<Text>Dai Li Agent</Text>
 		</Row>
 		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_GROWTH_BONUS_DESCRIPTION">
-			<Text>+20% growth in the Capital.</Text>
+			<Text>+20% growth in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_CONNECTED_FOOD_DESCRIPTION">
-			<Text>+3[icon:YIELD_FOOD] Food in the Capital for every connected Settlement.</Text>
+			<Text>+3[icon:YIELD_FOOD] Food in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every connected Settlement.</Text>
 		</Row>
 		
 		<!-- Long Lost Love -->
@@ -51,10 +51,10 @@
 			<Text>Oma and Shu's tomb</Text>
 		</Row>
 		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_DURING_WAR_DESCRIPTION">
-			<Text>You may establish and keep Trade Routes with Cities you are at War with.</Text>
+			<Text>You may establish and keep [icon:TRADE_ROUTE] Trade Routes with [icon:YIELD_CITIES] Cities you are at [icon:WAR] War with.</Text>
 		</Row>
 		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCREASE_DESCRIPTION">
-			<Text>+10 range for all Trade Routes.</Text>
+			<Text>+10 range for all [icon:TRADE_ROUTE] Trade Routes.</Text>
 		</Row>
 
 		<!-- The Impenetrable City -->
@@ -69,7 +69,7 @@
 			<Text>General Sung</Text>
 		</Row>
 		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_THE_IMPENETRABLE_CITY_SPECIALIST_CAP_INCREASE_DESCRIPTION">
-			<Text>+1 Specialist Limit in the Capital.</Text>
+			<Text>+1 [icon:SPECIALIST] Specialist Limit in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital.</Text>
 		</Row>
 
 		<!-- Earth Kingdom Unique Traditions-->
@@ -77,28 +77,28 @@
 			<Text>Excessive Tax</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_DESCRIPTION">
-			<Text>Cities gain a bonus to[icon:YIELD_GOLD] Gold equal to 10% of that City's[icon:YIELD_FOOD] Food, doubled in a War declared against you.</Text>
+			<Text>[icon:YIELD_CITIES] Cities gain a bonus to [icon:YIELD_GOLD] Gold equal to 10% of that [icon:YIELD_CITIES] City's [icon:YIELD_FOOD] Food, doubled in a [icon:WAR] War declared against you.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_NAME">
 			<Text>Feed The Queen</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_DESCRIPTION">
-			<Text>+3[icon:YIELD_FOOD] Food from Specialists.</Text>
+			<Text>+3[icon:YIELD_FOOD] Food from [icon:SPECIALIST] Specialists.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_NAME">
 			<Text>Omashu Delivery System</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_DESCRIPTION">
-			<Text>+1 Resource Slot. +3[icon:YIELD_GOLD] Gold for every imported Resource.</Text>
+			<Text>+1 [icon:RADIAL_RESOURCES] Resource Slot. +3 [icon:YIELD_GOLD] Gold for every imported [icon:RADIAL_RESOURCES] Resource.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_NAME">
 			<Text>The Hundred Years War</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_DESCRIPTION">
-			<Text>Gain 3 War Support on all Wars declared against you.</Text>
+			<Text>Gain 3 [icon:WAR_SUPPORT] War Support on all [icon:WAR] Wars declared against you.</Text>
 		</Row>
 
 	</EnglishText>
