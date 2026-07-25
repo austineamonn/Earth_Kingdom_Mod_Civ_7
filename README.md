@@ -164,4 +164,4 @@ Spam each Civilizations Unique Wall Improvement. All three have a Culture Base. 
 
 ## Latest Update:
 
-Changed civ ability again to focus on being in defensive wars. New name is Hundred Years War.
+Added art asset compatibility and changed base ability.

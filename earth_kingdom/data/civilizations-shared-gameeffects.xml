@@ -38,10 +38,28 @@
 	</Modifier>-->
 	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_FOOD_CONNECTED" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
 		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_FOOD_CONNECTED_WAR" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WAR_SUPPORT">
+				<Argument name="LessThanOpponent">True</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
 	</Modifier>
 	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_HAPPINESS_CONNECTED" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_HAPPINESS_CONNECTED_WAR" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WAR_SUPPORT">
+				<Argument name="LessThanOpponent">True</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
 	</Modifier>
 </GameEffects>

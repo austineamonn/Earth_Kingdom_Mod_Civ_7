@@ -19,8 +19,8 @@
 	<Modifier id="TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_MOD_FOOD_TO_GOLD_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_CONVERSION">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
-			<Requirement type="REQUIREMENT_PLAYER_ACTIVE_WARS">
-				<Argument Name="DeclaredByOpponent">true</Argument>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WAR_SUPPORT">
+				<Argument name="LessThanOpponent">True</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="FromYieldType">YIELD_FOOD</Argument>

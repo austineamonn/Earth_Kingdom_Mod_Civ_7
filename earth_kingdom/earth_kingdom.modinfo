@@ -176,10 +176,14 @@
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="shell-Earth-Kingdom" scope="shell" criteria="always">
+			<Properties>
+				<LoadOrder>10</LoadOrder>
+			</Properties>
 			<Actions>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
 					<Item>config/config-traditions.xml</Item>
+					<Item>data/icons/bg-icon.sql</Item>
 					<Item>data/unlocks-syncretism.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
