@@ -24,8 +24,7 @@
 		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" DistrictType="DISTRICT_RURAL"/>
 	</Constructible_ValidDistricts>
 	<Constructible_YieldChanges>
-		<!--Civ
-		Unique Improvements-->
+		<!--Civ Unique Improvements-->
 		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" YieldType="YIELD_GOLD" YieldChange="3" />
 		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" YieldType="YIELD_CULTURE" YieldChange="3" />
 	</Constructible_YieldChanges>

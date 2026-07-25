@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Adjacency_YieldChanges>
+		<Row ID="TheWorldsFarmFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentQuarter="true"/>
+	</Adjacency_YieldChanges>
+	<Constructible_WildcardAdjacencies>
+		<Row YieldChangeId="TheWorldsFarmFood" RequiresActivation="true" ConstructibleClass="BUILDING"/>
+	</Constructible_WildcardAdjacencies>
+</Database>

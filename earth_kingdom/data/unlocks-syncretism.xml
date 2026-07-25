@@ -10,7 +10,7 @@
 	</LeaderSyncretismUnlocks>
 	<CivilizationSyncretismUnlocks>
 		<InsertOrIgnore CivilizationType="CIVILIZATION_HAN" UnlockCivilizationType="CIVILIZATION_EARTH_KINGDOM" />
-		<InsertOrIgnore CivilizationType="CIVILIZATION_QING" UnlockCivilizationType="CIVILIZATION_EARTH_KINGDOM" />
+		<InsertOrIgnore CivilizationType="CIVILIZATION_MING" UnlockCivilizationType="CIVILIZATION_EARTH_KINGDOM" />
 	</CivilizationSyncretismUnlocks>
 	<CivSelfSyncretismUnlocks>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" UnlockType="TRADITION_EARTH_KINGDOM_SYNCRETISM_ANTIQUITY" Kind="KIND_TRADITION" Age="AGE_ANTIQUITY" ModifierID="MOD_UNLOCK_EARTH_KINGDOM_SYNCRETISM_ANTIQUITY" />

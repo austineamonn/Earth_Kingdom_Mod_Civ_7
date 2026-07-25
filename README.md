@@ -164,4 +164,4 @@ Spam each Civilizations Unique Wall Improvement. All three have a Culture Base. 
 
 ## Latest Update:
 
-Updated narrative events and Civilopedia. Changed unlock to 10 Specialists across the empire to differentiate from Qajar. Added Harriet Tubman as a Strategic Unlock due to the Earth Kingdom focus on getting wars declared on you.
+Changed civ ability to work better across the ages.

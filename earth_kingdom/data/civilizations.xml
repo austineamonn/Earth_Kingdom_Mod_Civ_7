@@ -17,7 +17,9 @@
 	<TraitModifiers>
 		<Row TraitType="TRAIT_EARTH_KINGDOM_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_EARTH_KINGDOM"/>
 		<Row TraitType="TRAIT_EARTH_KINGDOM_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_EARTH_KINGDOM"/>
-		<Row TraitType="TRAIT_EARTH_KINGDOM_ABILITY" ModifierId="TRAIT_MOD_THE_WORLDS_FARM_REDUCED_SPECIALIST_FOOD_MAINTENANCE"/>
+		<Row TraitType="TRAIT_EARTH_KINGDOM_ABILITY" ModifierId="TRAIT_MOD_THE_WORLDS_FARM_FOOD_ADJACENCY"/>
+		<Row TraitType="TRAIT_EARTH_KINGDOM_ABILITY" ModifierId="TRAIT_MOD_THE_WORLDS_FARM_FOOD_CONNECTED"/>
+		<Row TraitType="TRAIT_EARTH_KINGDOM_ABILITY" ModifierId="TRAIT_MOD_THE_WORLDS_FARM_HAPPINESS_CONNECTED"/>
 	</TraitModifiers>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" TraitType="TRAIT_MODERN_CIV"/>
@@ -73,31 +75,12 @@
 	<StartBiasLakes>
 		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" Score="25"/>
 	</StartBiasLakes>
-	<StartBiasFeatureClasses>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" FeatureClassType="FEATURE_CLASS_VEGETATED" Score="20"/>
-	</StartBiasFeatureClasses>
 	<StartBiasResources>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_SILVER" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_SILVER" Score="10"/>
 	</StartBiasResources>
 	<StartBiasResources>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_GOLD" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_GOLD" Score="10"/>
 	</StartBiasResources>
-	<StartBiasResources>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_MARBLE" Score="5"/>
-	</StartBiasResources>
-	<StartBiasResources>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_KAOLIN" Score="5"/>
-	</StartBiasResources>
-	<StartBiasResources>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_TIN" Score="5"/>
-	</StartBiasResources>
-	<StartBiasResources>
-		<Row CivilizationType="CIVILIZATION_EARTH_KINGDOM" ResourceType="RESOURCE_LIMESTONE" Score="5"/>
-	</StartBiasResources>
-	<StartBiasRivers>
-	</StartBiasRivers>
-	<StartBiasAdjacentToCoasts>
-	</StartBiasAdjacentToCoasts>
 
 	<!-- Visuals -->
 

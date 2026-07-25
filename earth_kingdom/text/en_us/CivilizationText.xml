@@ -21,13 +21,19 @@
 			<Text>The World's Farm</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_EARTH_KINGDOM_ABILITY_DESCRIPTION">
-			<Text>[BLIST][LI][B]Specialists[/B] pay no [B][icon:YIELD_FOOD] Food[/B] maintenance.[/LIST]</Text>
+			<Text>All [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] receive a +1 [icon:YIELD_FOOD] Food adjacency for [icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP]. All [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] gain +2 [icon:YIELD_FOOD] Food and [icon:YIELD_HAPPINESS] Happiness for every connected [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_EARTH_KINGDOM_DESCRIPTION">
-			<Text>BLIST][LI][B]Specialists[/B] pay no [B][icon:YIELD_FOOD] Food[/B] maintenance.[LI][B]+30%[icon:YIELD_PRODUCTION] Production[/B] towards the [B]Earth Monarch Palace[/B][/LIST].</Text>
+		<Row Tag="LOC_TRAIT_EARTH_KINGDOM_ABILITY_AQ_DESCRIPTION">
+			<Text>[BLIST][LI]All [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] receive a [B]+1 [icon:YIELD_FOOD] Food Adjacency[/B] for [B][icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP][/B].[LI]All [B][TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP][/B] gain [B]+2 [icon:YIELD_FOOD] Food[/B] and [icon:YIELD_HAPPINESS] [B]Happiness[/B] for every connected [B][TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP][/B].[/BLIST]</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_EARTH_KINGDOM_ABILITY_EX_DESCRIPTION">
+			<Text>[BLIST][LI]All [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] receive a [B]+1 [icon:YIELD_FOOD] Food Adjacency[/B] for [B][icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP][/B].[LI]All [B][TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP][/B] gain [B]+4 [icon:YIELD_FOOD] Food[/B] and [icon:YIELD_HAPPINESS] [B]Happiness[/B] for every connected [B][TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP][/B].[/BLIST]</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_EARTH_KINGDOM_ABILITY_MO_DESCRIPTION">
+			<Text>[BLIST][LI]All [B][icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP][/B] receive a [B]+1 [icon:YIELD_FOOD] Food Adjacency[/B] for [B][icon:CITY_UNIQUE_QUARTER] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Quarters[/TIP][/B].[LI]All [B][TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP][/B] gain [B]+6 [icon:YIELD_FOOD] Food[/B] and [icon:YIELD_HAPPINESS] [B]Happiness[/B] for every connected [B][TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP][/B].[/BLIST]</Text>
 		</Row>
 		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_EARTH_KINGDOM_DESCRIPTION">
-			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Earth Kingdom's associated Wonder.</Text>
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Earth Kingdom's associated [TIP:LOC_PEDIA_CONCEPTS_WONDERS_TOOLTIP]Wonder[/TIP].</Text>
 		</Row>
 	</EnglishText>
 </Database>
