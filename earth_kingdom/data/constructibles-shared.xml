@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Adjacency_YieldChanges>
-		<Row ID="TheWorldsFarmFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentQuarter="true"/>
-	</Adjacency_YieldChanges>
-	<Constructible_WildcardAdjacencies>
-		<Row YieldChangeId="TheWorldsFarmFood" RequiresActivation="true" ConstructibleClass="BUILDING"/>
-	</Constructible_WildcardAdjacencies>
+	<Warehouse_YieldChanges>
+		<Row ID="MetalbendersWildcardGoldMines" YieldType="YIELD_GOLD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
+		<Row ID="MetalbendersWildcardGoldMinesWar" YieldType="YIELD_GOLD" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
+		<Row ID="MetalbendersWildcardGoldRough" YieldType="YIELD_GOLD" YieldChange="1" TerrainInCity="TERRAIN_HILL"/>
+		<Row ID="MetalbendersWildcardGoldRoughWar" YieldType="YIELD_GOLD" YieldChange="1" TerrainInCity="TERRAIN_HILL"/>
+		<Row ID="MetalbendersWildcardProductionMines" YieldType="YIELD_PRODUCTION" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
+		<Row ID="MetalbendersWildcardProductionMinesWar" YieldType="YIELD_PRODUCTION" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
+		<Row ID="MetalbendersWildcardProductionRough" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_HILL"/>
+		<Row ID="MetalbendersWildcardProductionRoughWar" YieldType="YIELD_PRODUCTION" YieldChange="1" TerrainInCity="TERRAIN_HILL"/>
+	</Warehouse_YieldChanges>
 </Database>

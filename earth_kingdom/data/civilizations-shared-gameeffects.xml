@@ -4,6 +4,36 @@
 	<!--	Civ-Specific Traits							-->
 	<!-- ==================================================	-->
 	<!-- EARTH_KINGDOM -->
+	<Modifier id="MOD_AQ_SETTLEMENT_CAP_INCREASE_REDUX" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_MAJOR"/>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT" inverse="true">
+				<Argument name="TraitType">TRAIT_EARTH_KINGDOM</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_AQ_SETTLEMENT_CAP_INCREASE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_EX_SETTLEMENT_CAP_INCREASE_REDUX" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_MAJOR"/>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT" inverse="true">
+				<Argument name="TraitType">TRAIT_EARTH_KINGDOM</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_EX_SETTLEMENT_CAP_INCREASE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_MO_SETTLEMENT_CAP_INCREASE_REDUX" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_MAJOR"/>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT" inverse="true">
+				<Argument name="TraitType">TRAIT_EARTH_KINGDOM</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_MO_SETTLEMENT_CAP_INCREASE_DESCRIPTION</String>
+	</Modifier>
 	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_SETTLEMENT_CAP" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" run-once="false" permanent="true">
 		<OwnerRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_DECLARED_WAR">
@@ -14,49 +44,43 @@
 		</OwnerRequirements>
 		<Argument name="Amount">1</Argument>
 	</Modifier>
-	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_EXPENSIVE_SETTLER_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION">
+	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_SETTLEMENT_CAP_FREE_MERCHANT" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_DECLARED_WAR">
+				<Argument name="DeclaredByOwner">false</Argument>
+				<Argument name="DeclaredByOpponent">true</Argument>
+				<Argument name="FirstWarDeclaredOnPlayer">false</Argument>
+			</Requirement>
+		</OwnerRequirements>
+		<Argument name="UnitType">UNIT_MERCHANT</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="AllowUniqueOverride">true</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_FOOD_CONNECTED" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_FOOD_CONNECTED_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WARS">
 				<Argument name="Amount">1</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Percent">-50</Argument>
-		<Argument name="UnitType">UNIT_SETTLER</Argument>
-	</Modifier>
-	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_CHEAP_SETTLER_PEACE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WARS" inverse="true">
-				<Argument name="Amount">1</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Percent">50</Argument>
-		<Argument name="UnitType">UNIT_SETTLER</Argument>
-	</Modifier>
-	<!--<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_FOOD_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
-		<Argument name="ConstructibleAdjacency">TheWorldsFarmFood</Argument>
-		<Argument name="Tooltip">LOC_TRAIT_EARTH_KINGDOM_ABILITY_NAME</Argument>
-	</Modifier>-->
-	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_FOOD_CONNECTED" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
-		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
-	</Modifier>
-	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_FOOD_CONNECTED_WAR" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WAR_SUPPORT">
-				<Argument name="LessThanOpponent">True</Argument>
+				<Argument name="DeclaredByOwner">false</Argument>
+				<Argument name="DeclaredByOpponent">true</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_FOOD</Argument>
 		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
 	</Modifier>
-	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_HAPPINESS_CONNECTED" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
+	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_HAPPINESS_CONNECTED" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
 	</Modifier>
-	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_HAPPINESS_CONNECTED_WAR" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
+	<Modifier id="TRAIT_MOD_HUNDRED_YEARS_WAR_HAPPINESS_CONNECTED_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WAR_SUPPORT">
-				<Argument name="LessThanOpponent">True</Argument>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WARS">
+				<Argument name="Amount">1</Argument>
+				<Argument name="DeclaredByOwner">false</Argument>
+				<Argument name="DeclaredByOpponent">true</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>

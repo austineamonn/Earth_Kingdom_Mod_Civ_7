@@ -11,8 +11,18 @@
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_EARTH_KINGDOM_RENAISSANCE" TargetKind="KIND_TRADITION" TargetType="TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_I" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_EARTH_KINGDOM_RENAISSANCE" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_EARTH_KINGDOM_RENAISSANCE" TargetKind="KIND_MODIFIER" TargetType="MOD_TOT_TRADITION_SLOT" UnlockDepth="1"/>
+		<!-- Replacing Settlement Limit -->
+		<Delete ProgressionTreeNodeType="NODE_CIVIC_EX_MAIN_COLONIALISM" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_MAIN_COLONIALISM" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE_REDUX" UnlockDepth="2" NotTraitType="TRAIT_EARTH_KINGDOM"/>
+		<Delete ProgressionTreeNodeType="NODE_CIVIC_EX_MAIN_SOCIETY" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_MAIN_SOCIETY" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE_REDUX" UnlockDepth="2" NotTraitType="TRAIT_EARTH_KINGDOM"/>
+		<Delete ProgressionTreeNodeType="NODE_CIVIC_EX_MAIN_IMPERIALISM" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_MAIN_IMPERIALISM" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE_REDUX" UnlockDepth="1" NotTraitType="TRAIT_EARTH_KINGDOM"/>
+		<Delete ProgressionTreeNodeType="NODE_CIVIC_EX_MAIN_SOVEREIGNTY" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_MAIN_SOVEREIGNTY" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE_REDUX" UnlockDepth="1" NotTraitType="TRAIT_EARTH_KINGDOM"/>
+		<Delete ProgressionTreeNodeType="NODE_CIVIC_EX_MAIN_SOCIAL_CLASS" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_MAIN_SOCIAL_CLASS" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE_REDUX" UnlockDepth="1" NotTraitType="TRAIT_EARTH_KINGDOM"/>
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreeNodeTraits>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_EARTH_KINGDOM_RENAISSANCE" RequiredTraitType="TRAIT_EARTH_KINGDOM" />

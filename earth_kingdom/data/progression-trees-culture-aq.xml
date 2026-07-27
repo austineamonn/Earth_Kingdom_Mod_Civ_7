@@ -10,9 +10,13 @@
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_EARTH_KINGDOM_ORIGINS" ProgressionTree="TREE_CIVICS_AQ_TEST_OF_TIME" Cost="150" Name="LOC_NODE_CIVIC_AQ_EARTH_KINGDOM_ORIGINS_NAME" IconString="cult_earth_kingdom" CanSteal="false"/>
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_EARTH_KINGDOM_ORIGINS" TargetKind="KIND_TRADITION" TargetType="TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_I" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_EARTH_KINGDOM_ORIGINS" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_EARTH_KINGDOM_ORIGINS" TargetKind="KIND_TRADITION" TargetType="TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_I" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_EARTH_KINGDOM_ORIGINS" TargetKind="KIND_MODIFIER" TargetType="MOD_TOT_TRADITION_SLOT" UnlockDepth="1"/>
+		<!-- Replacing Settlement Limit -->
+		<Delete ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_ENTERTAINMENT" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_ENTERTAINMENT" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE_REDUX" UnlockDepth="1" NotTraitType="TRAIT_EARTH_KINGDOM"/>
+		<Delete ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_ORG_MILITARY" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_ORG_MILITARY" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE_REDUX" UnlockDepth="1" NotTraitType="TRAIT_EARTH_KINGDOM"/>
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreeNodeTraits>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_EARTH_KINGDOM_ORIGINS" RequiredTraitType="TRAIT_EARTH_KINGDOM" />

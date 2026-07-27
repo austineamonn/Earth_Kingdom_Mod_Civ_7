@@ -20,7 +20,6 @@
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_SIEGE_OF_BA_SING_SE_QUOTE_AUTHOR">
 			<Text>Earth Bender Captain to Iroh</Text>
 		</Row>
-		
 
 		<!-- Royal Propaganda -->
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_ROYAL_PROPAGANDA_NAME">
@@ -31,12 +30,6 @@
 		</Row>
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_ROYAL_PROPAGANDA_QUOTE_AUTHOR">
 			<Text>Dai Li Agent</Text>
-		</Row>
-		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_GROWTH_BONUS_DESCRIPTION">
-			<Text>+20% growth in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital.</Text>
-		</Row>
-		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_CONNECTED_FOOD_DESCRIPTION">
-			<Text>+3[icon:YIELD_FOOD] Food in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital for every connected Settlement.</Text>
 		</Row>
 		
 		<!-- Long Lost Love -->
@@ -50,11 +43,8 @@
 		<Row Tag="LOC_CIVIC_EARTH_KINGDOM_LONG_LOST_LOVE_QUOTE_AUTHOR">
 			<Text>Oma and Shu's tomb</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_DURING_WAR_DESCRIPTION">
-			<Text>You may establish and keep [icon:TRADE_ROUTE] Trade Routes with [icon:YIELD_CITIES] Cities you are at [icon:WAR] War with.</Text>
-		</Row>
 		<Row Tag="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCREASE_DESCRIPTION">
-			<Text>+10 range for all [icon:TRADE_ROUTE] Trade Routes.</Text>
+			<Text>[B]+15 [icon:TRADE_ROUTE][/B] [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]Trade Route Range[/TIP]</Text>
 		</Row>
 
 		<!-- The Impenetrable City -->
@@ -72,33 +62,70 @@
 			<Text>+1 [icon:SPECIALIST] Specialist Limit in the [icon:NOTIFICATION_SELECT_CAPITAL] Capital.</Text>
 		</Row>
 
+		<!-- Time Tested Civics -->
+
+		<Row Tag="LOC_NODE_CIVIC_AQ_EARTH_KINGDOM_ORIGINS_NAME">
+			<Text>Earth Kingdom Origins</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_EX_EARTH_KINGDOM_RENAISSANCE_NAME">
+			<Text>Earth Kingdom Renaissance</Text>
+		</Row>
+
 		<!-- Earth Kingdom Unique Traditions-->
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_NAME">
 			<Text>Excessive Tax</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_DESCRIPTION">
-			<Text>[icon:YIELD_CITIES] Cities gain a bonus to [icon:YIELD_GOLD] Gold equal to 10% of that [icon:YIELD_CITIES] City's [icon:YIELD_FOOD] Food, doubled in a [icon:WAR] War declared against you.</Text>
+			<Text>[B][icon:YIELD_CITIES] Cities[/B] gain a bonus to [icon:YIELD_GOLD] equal to 10% of that [B][icon:YIELD_CITIES] City's [icon:YIELD_FOOD][/B], doubled in a [icon:WAR] War declared against you.</Text>
 		</Row>
 
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_NAME">
-			<Text>Feed The Queen</Text>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_I_NAME">
+			<Text>Feed The Queen I</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_DESCRIPTION">
-			<Text>+3[icon:YIELD_FOOD] Food from [icon:SPECIALIST] Specialists.</Text>
-		</Row>
-
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_NAME">
-			<Text>Omashu Delivery System</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_DESCRIPTION">
-			<Text>+1 [icon:RADIAL_RESOURCES] Resource Slot. +3 [icon:YIELD_GOLD] Gold for every imported [icon:RADIAL_RESOURCES] Resource.</Text>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_I_DESCRIPTION">
+			<Text>[B]+6 [icon:YIELD_FOOD][/B] from [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP]. [B]+1 [icon:YIELD_FOOD][/B] [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]Maintenance[/TIP] on [icon:SPECIALIST] Specialists in [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B] other than your [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP].</Text>
 		</Row>
 
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_NAME">
-			<Text>The Hundred Years War</Text>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_II_NAME">
+			<Text>Feed The Queen II</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_DESCRIPTION">
-			<Text>Gain 3 [icon:WAR_SUPPORT] War Support on all [icon:WAR] Wars declared against you.</Text>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_II_DESCRIPTION">
+			<Text>[B]+9 [icon:YIELD_FOOD][/B] from [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_TOOLTIP]Specialists[/TIP] in the [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP]. [B]+2 [icon:YIELD_FOOD][/B] [TIP:LOC_PEDIA_CONCEPTS_MAINTENANCE_TOOLTIP]Maintenance[/TIP] on [icon:SPECIALIST] Specialists in [B][icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP][/B] other than your [icon:NOTIFICATION_SELECT_CAPITAL] [TIP:LOC_PEDIA_CONCEPTS_CAPITAL_TOOLTIP]Capital[/TIP].</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_I_NAME">
+			<Text>Omashu Delivery System I</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_I_DESCRIPTION">
+			<Text>[B]+2 [icon:YIELD_GOLD][/B] for every imported [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP].</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_II_NAME">
+			<Text>Omashu Delivery System II</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_II_DESCRIPTION">
+			<Text>[B]+1 [icon:RADIAL_RESOURCES][/B] [TIP:LOC_PEDIA_CONCEPTS_RESOURCE_CAPACITY_TOOLTIP]Resource Capacity[/TIP] in all [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. [B]+5 [icon:YIELD_GOLD][/B] for every imported [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP].</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_METALBENDERS_NAME">
+			<Text>Metalbenders</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_METALBENDERS_DESCRIPTION">
+			<Text>[B]+1 [icon:YIELD_GOLD][/B] and [B][icon:YIELD_PRODUCTION][/B] on [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough Terrain[/TIP] and Mines on [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resources[/TIP], doubled in a [icon:WAR] War declared against you. [icon:CITY_UNIMPROVED] [TIP:LOC_PEDIA_CONCEPTS_ROUGH_TERRAIN_TOOLTIP]Rough Terrain[/TIP] does not end Unit [icon:Action_Move] Movement.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_SYNCRETISM_ANTIQUITY_NAME">
+			<Text>Daofei I</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_SYNCRETISM_ANTIQUITY_DESCRIPTION">
+			<Text>[B]+1 [icon:YIELD_DIPLOMACY][/B] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], doubled in a [icon:WAR] War declared against you. [B]+10 [icon:TRADE_ROUTE][/B] [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]Trade Route Range[/TIP].</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_SYNCRETISM_EXPLORATION_NAME">
+			<Text>Daofei II</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_EARTH_KINGDOM_SYNCRETISM_EXPLORATION_DESCRIPTION">
+			<Text>[B]+2 [icon:YIELD_DIPLOMACY][/B] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP], doubled in a [icon:WAR] War declared against you. [B]+15 [icon:TRADE_ROUTE][/B] [TIP:LOC_PEDIA_CONCEPTS_TRADE_RANGE_TOOLTIP]Trade Route Range[/TIP].</Text>
 		</Row>
 
 	</EnglishText>

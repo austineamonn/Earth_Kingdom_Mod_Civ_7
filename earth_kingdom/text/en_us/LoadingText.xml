@@ -2,13 +2,13 @@
 <Database>
 	<EnglishText>
 		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_EARTH_KINGDOM">
-			<Text>The Earth Kingdom is enduring and strong. The Earth Monarch rules the diverse nation from Ba Sing Se, The Impenetrable City. The Earth Kingdom's massive cities are centers of international trade with extensive agricultural centers to feed their growing populations. Those who try to breach the Outer Wall will meet the fierce resistance of the Earthbenders. Fortify and let the world see the might of the Earth Kingdom.</Text>
+			<Text>The Earth Kingdom is enduring and strong, forming a tight knit community centered around Ba Sing Se, The Impenetrable City. The Earth Kingdom's massive cities are centers of international trade with extensive agricultural regions to feed their growing populations. Those who try to breach the Outer Wall will meet the fierce resistance of the Earthbenders. Fortify and let the aggressors attack, they will only make us stronger.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INTRO_EARTH_KINGDOM">
 			<Text>From the impenetrable walls of Ba Sing Se, the Earth Kingdom steadies itself and prepares for the future. What will that future hold?</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_EARTH_KINGDOM">
-			<Text>The Excessive Tax and Hundred Years War Traditions benefit from having Wars declared on you. Try using the Denounce Military Presence Action to goad a neighbor into declaring War.</Text>
+			<Text>The Earth Kingdom benefits from having Wars declared on you. Try using the Denounce Military Presence Action to goad a neighbor into declaring War.</Text>
 		</Row>
 	</EnglishText>
 </Database>

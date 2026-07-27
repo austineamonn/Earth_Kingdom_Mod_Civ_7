@@ -4,30 +4,7 @@
 	<!--	Earth Kingdom Unique Civics							-->
 	<!-- ==================================================	-->
 
-	<!-- Royal Propaganda -->
-
-	<Modifier id="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_GROWTH_BONUS"
-	collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_GROWTH" permanent="true">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_IS_CAPITAL">
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Percent">20</Argument>
-	<String context="Description">NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_GROWTH_BONUS_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_CONNECTED_FOOD" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY" permanent="true">
-		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount">3</Argument>
-		<String context="Description">NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA_CAPITAL_CONNECTED_FOOD_DESCRIPTION</String>
-	</Modifier>
-
 	<!-- Long Lost Love -->
-
-	<Modifier id="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_DURING_WAR" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_TRADE_DURING_WAR" permanent="true">
-		<Argument name="TradeDuringWar">true</Argument>
-		<String context="Description">NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_DURING_WAR_DESCRIPTION</String>
-	</Modifier>
 
 	<Modifier id="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCREASE"
 	collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE" permanent="true">

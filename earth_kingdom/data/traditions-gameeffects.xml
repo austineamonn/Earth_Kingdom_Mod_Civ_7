@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
+
+	<Modifier id="MOD_UNLOCK_EARTH_KINGDOM_SYNCRETISM_ANTIQUITY" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_EARTH_KINGDOM_SYNCRETISM_ANTIQUITY</Argument>
+	</Modifier>
+	<Modifier id="MOD_UNLOCK_EARTH_KINGDOM_SYNCRETISM_EXPLORATION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_EARTH_KINGDOM_SYNCRETISM_EXPLORATION</Argument>
+	</Modifier>
+
 	<!-- ==================================================	-->
 	<!--	Modern							-->
 	<!-- ==================================================	-->
@@ -19,8 +27,10 @@
 	<Modifier id="TRADITION_EARTH_KINGDOM_EXCESSIVE_TAX_MOD_FOOD_TO_GOLD_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_CONVERSION">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
-			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WAR_SUPPORT">
-				<Argument name="LessThanOpponent">True</Argument>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WARS">
+				<Argument name="Amount">1</Argument>
+				<Argument name="DeclaredByOwner">false</Argument>
+				<Argument name="DeclaredByOpponent">true</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="FromYieldType">YIELD_FOOD</Argument>
@@ -30,29 +40,175 @@
 	</Modifier>
 
 	<!-- Royal Propaganda -->
-	<Modifier id="TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_MOD_INCREASE_FOOD_PER_SPECIALIST" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+	<Modifier id="TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_I_MOD_CAPITAL" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CAPITAL"/>
+		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount">3</Argument>
-		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_DESCRIPTION</String>
+		<Argument name="Amount">6</Argument>
+		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_I_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_I_MOD_NONCAPITAL" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_MAINTENANCE_EFFICIENCY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CAPITAL" inverse="true"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_II_MOD_CAPITAL" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CAPITAL"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">9</Argument>
+		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_II_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_II_MOD_NONCAPITAL" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_MAINTENANCE_EFFICIENCY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CAPITAL" inverse="true"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">2</Argument>
 	</Modifier>
 
 	<!-- Omashu Delivery System -->
-	<Modifier id="TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_MOD_GOLD_PER_IMPORTED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+	<Modifier id="TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_I_MOD_GOLD_PER_IMPORTED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
 		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">3</Argument>
+		<Argument name="Amount">2</Argument>
 		<Argument name="Imported">true</Argument>
-		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_DESCRIPTION</String>
+		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_I_DESCRIPTION</String>
 	</Modifier>
-	<Modifier id="TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_MOD_INCREASE_RESOURCE_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+	<Modifier id="TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_II_MOD_GOLD_PER_IMPORTED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">5</Argument>
+		<Argument name="Imported">true</Argument>
+		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_II_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_II_MOD_INCREASE_RESOURCE_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
 		<Argument name="Amount">1</Argument>
 	</Modifier>
 
-	<!-- The Hundred Years War -->
-	<Modifier id="TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_MOD_WAR_SUPPORT_ON_DEFENSE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
-		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
-		<Argument name="OnlyWhenTarget">true</Argument>
-		<Argument name="Amount">3</Argument>
-		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_DESCRIPTION</String>
+	<!-- Metalbenders -->
+	<Modifier id="METALBENDERS_MOD_WAREHOUSE_MINES_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">MetalbendersWildcardGoldMines</Argument>
+		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_METALBENDERS_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="METALBENDERS_MOD_WAREHOUSE_MINES_GOLD_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WARS">
+				<Argument name="Amount">1</Argument>
+				<Argument name="DeclaredByOwner">false</Argument>
+				<Argument name="DeclaredByOpponent">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="WarehouseYieldChange">MetalbendersWildcardGoldMinesWar</Argument>
+	</Modifier>
+	<Modifier id="METALBENDERS_MOD_WAREHOUSE_MINES_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">MetalbendersWildcardProductionMines</Argument>
+	</Modifier>
+	<Modifier id="METALBENDERS_MOD_WAREHOUSE_MINES_PRODUCTION_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WARS">
+				<Argument name="Amount">1</Argument>
+				<Argument name="DeclaredByOwner">false</Argument>
+				<Argument name="DeclaredByOpponent">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="WarehouseYieldChange">MetalbendersWildcardProductionMinesWar</Argument>
+	</Modifier>
+	<Modifier id="METALBENDERS_MOD_WAREHOUSE_ROUGH_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">MetalbendersWildcardGoldRough</Argument>
+	</Modifier>
+	<Modifier id="METALBENDERS_MOD_WAREHOUSE_ROUGH_GOLD_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WARS">
+				<Argument name="Amount">1</Argument>
+				<Argument name="DeclaredByOwner">false</Argument>
+				<Argument name="DeclaredByOpponent">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="WarehouseYieldChange">MetalbendersWildcardGoldRoughWar</Argument>
+	</Modifier>
+	<Modifier id="METALBENDERS_MOD_WAREHOUSE_ROUGH_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">MetalbendersWildcardProductionRough</Argument>
+	</Modifier>
+	<Modifier id="METALBENDERS_MOD_WAREHOUSE_ROUGH_PRODUCTION_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WARS">
+				<Argument name="Amount">1</Argument>
+				<Argument name="DeclaredByOwner">false</Argument>
+				<Argument name="DeclaredByOpponent">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="WarehouseYieldChange">MetalbendersWildcardProductionRoughWar</Argument>
+	</Modifier>
+	<Modifier id="METALBENDERS_MOD_ROUGH_TERRAIN_MOVEMENT" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_IGNORE_MOVEMENT_OBSTACLE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Obstacle">TERRAIN_HILL</Argument>
+	</Modifier>
+
+	<!-- Syncretism -->
+
+	<Modifier id="MOD_EARTH_KINGDOM_SYNCRETISM_ANTIQUITY_TOWN_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_IS_TOWN">
+            </Requirement>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+        <Argument name="Amount">1</Argument>
+		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_SYNCRETISM_ANTIQUITY_DESCRIPTION</String>
+    </Modifier>
+
+	<Modifier id="MOD_EARTH_KINGDOM_SYNCRETISM_ANTIQUITY_TOWN_INFLUENCE_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_IS_TOWN">
+            </Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WARS">
+				<Argument name="Amount">1</Argument>
+				<Argument name="DeclaredByOwner">false</Argument>
+				<Argument name="DeclaredByOpponent">true</Argument>
+			</Requirement>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+
+	<Modifier id="MOD_EARTH_KINGDOM_SYNCRETISM_ANTIQUITY_TRADE_RANGE"
+	collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+		<Argument name="Amount">10</Argument>
+	</Modifier>
+
+	<Modifier id="MOD_EARTH_KINGDOM_SYNCRETISM_EXPLORATION_TOWN_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_IS_TOWN">
+            </Requirement>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+        <Argument name="Amount">2</Argument>
+		<String context="Description">LOC_TRADITION_EARTH_KINGDOM_SYNCRETISM_EXPLORATION_DESCRIPTION</String>
+    </Modifier>
+
+	<Modifier id="MOD_EARTH_KINGDOM_SYNCRETISM_EXPLORATION_TOWN_INFLUENCE_WAR" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+            <Requirement type="REQUIREMENT_CITY_IS_TOWN">
+            </Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_X_WARS">
+				<Argument name="Amount">1</Argument>
+				<Argument name="DeclaredByOwner">false</Argument>
+				<Argument name="DeclaredByOpponent">true</Argument>
+			</Requirement>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+        <Argument name="Amount">2</Argument>
+    </Modifier>
+
+	<Modifier id="MOD_EARTH_KINGDOM_SYNCRETISM_EXPLORATION_TRADE_RANGE"
+	collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+		<Argument name="Amount">15</Argument>
 	</Modifier>
 
 </GameEffects>

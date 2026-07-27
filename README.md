@@ -158,10 +158,9 @@ Spam each Civilizations Unique Wall Improvement. All three have a Culture Base. 
     <li>Wonder shows as the Pyramids.</li>
     <li>No visual model for the Outer Wall Unique Improvement.</li>
     <li>No Audio for unique civic and wonder quotes.</li>
-    <li>Not all bonuses are shown with leonardfactory's policy yield preview mod, specifically the 0 food maintenance causes some issues for policies that impact specialist food cost showing them adding food when they are not. The two are still compatible and having both will not impact gameplay, the only impact is this visual bug.</li>
     <li>Some Narrative Events are unable to activate.</li>
 </ol>
 
 ## Latest Update:
 
-Added art asset compatibility and changed base ability.
+Updated traditions. Changed tip and loading text. Changed civilization ability to focus on defensive wars.
