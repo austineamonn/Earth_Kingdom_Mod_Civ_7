@@ -47,7 +47,7 @@
         </Row> 
         <!-- UU AND UI -->
         <Row>
-            <ID>IMPROVEMENT_THE_OUTER_WALL</ID>
+            <ID>IMPROVEMENT_OUTER_WALL</ID>
             <Path>fs://game/earth_kingdom/icons/improvement_icon_earth_kingdom_wall</Path>
             <Context>DEFAULT</Context>
         </Row>

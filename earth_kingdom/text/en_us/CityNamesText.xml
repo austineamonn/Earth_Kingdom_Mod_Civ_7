@@ -68,5 +68,38 @@
 		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM22">
 			<Text>Ganzhou</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM23">
+			<Text>Bihou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM24">
+			<Text>Bin-Er</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM25">
+			<Text>Gaipan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM26">
+			<Text>Gaoiling</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM27">
+			<Text>Garsai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM28">
+			<Text>Hujiang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM29">
+			<Text>Laoshan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM30">
+			<Text>Misty Palms Oasis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM31">
+			<Text>Senlin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM32">
+			<Text>Qinchao</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EARTH_KINGDOM33">
+			<Text>Xiadi</Text>
+		</Row>
 	</EnglishText>
 </Database>

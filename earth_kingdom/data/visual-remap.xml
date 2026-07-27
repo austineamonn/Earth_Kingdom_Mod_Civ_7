@@ -3,10 +3,10 @@
     <VisualRemaps>
     <!-- constructibles DOES NOT WORK -->
         <Row>
-            <ID>REMAP_IMPROVEMENT_THE_OUTER_WALL</ID>
-            <DisplayName>LOC_IMPROVEMENT_THE_OUTER_WALL_NAME</DisplayName>
+            <ID>REMAP_IMPROVEMENT_OUTER_WALL</ID>
+            <DisplayName>LOC_IMPROVEMENT_OUTER_WALL_NAME</DisplayName>
             <Kind>IMPROVEMENT</Kind>
-            <From>IMPROVEMENT_THE_OUTER_WALL</From>
+            <From>IMPROVEMENT_OUTER_WALL</From>
             <To>IMPROVEMENT_MING_GREAT_WALL</To>
         </Row>
         <!-- Earthbender -->

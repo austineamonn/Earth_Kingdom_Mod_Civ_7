@@ -163,4 +163,4 @@ Spam each Civilizations Unique Wall Improvement. All three have a Culture Base. 
 
 ## Latest Update:
 
-Updated traditions. Changed tip and loading text. Changed civilization ability to focus on defensive wars.
+Updated units and constructibles and city names.

@@ -3,44 +3,48 @@
 	<Types>
 		<!--Civ
 		Unique Improvements-->
-		<Row Type="IMPROVEMENT_THE_OUTER_WALL" Kind="KIND_CONSTRUCTIBLE" />
+		<Row Type="IMPROVEMENT_OUTER_WALL" Kind="KIND_CONSTRUCTIBLE" />
 	</Types>
 	<Constructibles>
 		<!--Civ
 		Unique Improvements -->
-		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" Name="LOC_IMPROVEMENT_THE_OUTER_WALL_NAME" Description="LOC_IMPROVEMENT_THE_OUTER_WALL_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_THE_OUTER_WALL_TOOLTIP" ConstructibleClass="IMPROVEMENT" Cost="300" Population="1" Age="AGE_MODERN" />
+		<Row ConstructibleType="IMPROVEMENT_OUTER_WALL" Name="LOC_IMPROVEMENT_OUTER_WALL_NAME" Description="LOC_IMPROVEMENT_OUTER_WALL_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_OUTER_WALL_TOOLTIP" ConstructibleClass="IMPROVEMENT" Cost="200" Population="1" Age="AGE_MODERN" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES_CITY" CostProgressionParam1="50"/>
 	</Constructibles>
 	<Improvements>
 		<!--Civ Unique Improvements-->
-		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" CityBuildable="true" BuildInLine="true" TraitType="TRAIT_EARTH_KINGDOM" SameAdjacentValid="true"/>
+		<Row ConstructibleType="IMPROVEMENT_OUTER_WALL" ResourceTier="0" CityBuildable="true" BuildInLine="true" TraitType="TRAIT_EARTH_KINGDOM"/>
 	</Improvements>
 	<TypeTags>
-		<Row Type="IMPROVEMENT_THE_OUTER_WALL" Tag="UNIQUE"/>
-		<Row Type="IMPROVEMENT_THE_OUTER_WALL" Tag="UNIQUE_IMPROVEMENT"/>
-		<Row Type="IMPROVEMENT_THE_OUTER_WALL" Tag="AGELESS"/>
-		<Row Type="IMPROVEMENT_THE_OUTER_WALL" Tag="FORTIFICATION"/>
+		<Row Type="IMPROVEMENT_OUTER_WALL" Tag="FORTIFICATION"/>
+		<Row Type="IMPROVEMENT_OUTER_WALL" Tag="GREAT_WALL"/>
+		<Row Type="IMPROVEMENT_OUTER_WALL" Tag="LINK_ADJACENT"/>
+		<Row Type="IMPROVEMENT_OUTER_WALL" Tag="UNIQUE_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_OUTER_WALL" Tag="AGELESS"/>
 	</TypeTags>
 	<Constructible_ValidDistricts>
-		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" DistrictType="DISTRICT_RURAL"/>
+		<Row ConstructibleType="IMPROVEMENT_OUTER_WALL" DistrictType="DISTRICT_RURAL"/>
 	</Constructible_ValidDistricts>
 	<Constructible_YieldChanges>
 		<!--Civ Unique Improvements-->
-		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" YieldType="YIELD_GOLD" YieldChange="3" />
-		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" YieldType="YIELD_CULTURE" YieldChange="3" />
+		<Row ConstructibleType="IMPROVEMENT_OUTER_WALL" YieldType="YIELD_CULTURE" YieldChange="8" />
 	</Constructible_YieldChanges>
 	<Constructible_Adjacencies>
-		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" YieldChangeId="TheOuterWallChainFood" />
+		<Row ConstructibleType="IMPROVEMENT_OUTER_WALL" YieldChangeId="TheOuterWallChainFood" />
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
-		<Row ID="TheOuterWallChainFood" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" ProjectMaxYield="false" AdjacentConstructible="IMPROVEMENT_THE_OUTER_WALL" />
+		<Row ID="TheOuterWallChainFood" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentConstructibleTag="FORTIFICATION"/>
 	</Adjacency_YieldChanges>
 	<Constructible_Plunders>
 		<!--Civ Unique Improvements-->
-		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" PlunderType="PLUNDER_HEAL" Amount="30" />
+		<Row ConstructibleType="IMPROVEMENT_OUTER_WALL" PlunderType="PLUNDER_HEAL" Amount="30" />
 	</Constructible_Plunders>
+	<Constructible_FreeRoads>
+		<Row ConstructibleType="IMPROVEMENT_OUTER_WALL"/>
+	</Constructible_FreeRoads>
 		<!-- Advisory Attributes -->
 	<Constructible_Advisories>
-		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
-		<Row ConstructibleType="IMPROVEMENT_THE_OUTER_WALL" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ConstructibleType="IMPROVEMENT_OUTER_WALL" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ConstructibleType="IMPROVEMENT_OUTER_WALL" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ConstructibleType="IMPROVEMENT_OUTER_WALL" AdvisoryClassType="ADVISORY_CLASS_DEFENSE"/>
 	</Constructible_Advisories>
 </Database>
