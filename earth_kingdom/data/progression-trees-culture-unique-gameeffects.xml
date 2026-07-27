@@ -8,7 +8,7 @@
 
 	<Modifier id="NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCREASE"
 	collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE" permanent="true">
-		<Argument name="Amount">10</Argument>
+		<Argument name="Amount">15</Argument>
 	<String context="Description">NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE_TRADE_RANGE_INCREASE_DESCRIPTION</String>
 	</Modifier>
 
