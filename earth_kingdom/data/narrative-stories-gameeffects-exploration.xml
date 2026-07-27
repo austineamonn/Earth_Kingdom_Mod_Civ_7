@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+    <!-- Modifiers-->
+     
+    <Modifier id="EX_EK001B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="AttributeType">ATTRIBUTE_EXPANSIONIST</Argument>
+    </Modifier>
+    <Modifier id="EX_EK001C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="AttributeType">ATTRIBUTE_ECONOMIC</Argument>
+    </Modifier>
+
+    <!-- Requirements and Requirement Sets-->
+
+    <Requirement id="REQ_STORY_CIVILIZATION_EARTH_KINGDOM" type="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES">
+        <Argument name="CivilizationType">CIVILIZATION_EARTH_KINGDOM</Argument>
+    </Requirement>
+    <RequirementSet id="REQSET_EX_EK001A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_EX_EK001A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+            <Argument name="ProgressionTreeNodeType">NODE_CIVIC_EX_HIERARCHY</Argument>
+            <Argument name="MinDepth">1</Argument>
+        </Requirement>
+    </RequirementSet>
+</GameEffects>

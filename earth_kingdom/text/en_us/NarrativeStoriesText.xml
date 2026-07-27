@@ -1,20 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
     <EnglishText>
+
+        <!-- Antiquity -->
+        <Row Tag="LOC_AQ_EK001A_STORYTITLE">
+            <Text>A City Rises</Text>
+        </Row>
+        <Row Tag="LOC_AQ_EK001A_COMPLETION">
+            <Text>After the Lion Turtles left the people to fend for themselves, violence has plagued the land. One small village was built underground, in catacombs carved by earthbenders. Miners come upon bright shining crystals, while warriors have developed a new weapon, large earth coins.</Text>
+        </Row>
+        <Row Tag="LOC_AQ_EK001B_NAME">
+            <Text>The large earth coins will keep our people safe.</Text>
+        </Row>
+        <Row Tag="LOC_AQ_EK001B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_AQ_EK001C_NAME">
+            <Text>The crystals will face a nice price in neighboring markets.</Text>
+        </Row>
+        <Row Tag="LOC_AQ_EK001C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+
+        <!-- Exploration-->
+
+        <Row Tag="LOC_EX_EK001A_STORYTITLE">
+            <Text>A New Constitution</Text>
+        </Row>
+        <Row Tag="LOC_EX_EK001A_COMPLETION">
+            <Text>The peasants in the third ring of Ba Sing Se have broken out in revolt, storming the Earth Monarch Palace. Avatar Kyoshi arrives and forces a compromise between the Earth King and the peasants: a new constitution.</Text>
+        </Row>
+        <Row Tag="LOC_EX_EK001B_NAME">
+            <Text>The constitution must focus on expanding the bureaucracy to pesants.</Text>
+        </Row>
+        <Row Tag="LOC_EX_EK001B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_EX_EK001C_NAME">
+            <Text>The constitution must focus on wealth redistribution and lowering taxes.</Text>
+        </Row>
+        <Row Tag="LOC_EX_EK001C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+
+        <!-- Modern -->
         <Row Tag="LOC_EK001A_STORYTITLE">
-            <Text>An Enduring Empire</Text>
+            <Text>Natsuo Island</Text>
         </Row>
         <Row Tag="LOC_EK001A_COMPLETION">
-            <Text>The Earth Monarch cements their power, a new dynasty has risen. Farmers and merchants thrive as the Earth Kingdom's power and reach grow ever more. It's time to look forward toward a powerful and glorious future.</Text>
+            <Text>A large cache of iron ore has been discovered on the small island of Natsuo. The island borders both the Earth Kingdom and Fire Nation and its people lack official ties to either. Rumors swirl that the Fire Nation is planning to take the island in a show of force.</Text>
         </Row>
         <Row Tag="LOC_EK001B_NAME">
-            <Text>Invest in rural villages.</Text>
+            <Text>Expand to Natsuo Island before they can.</Text>
         </Row>
         <Row Tag="LOC_EK001B_DESCRIPTION">
             <Text>{1_reward}.</Text>
         </Row>
         <Row Tag="LOC_EK001C_NAME">
-            <Text>Strengthen trading posts.</Text>
+            <Text>Trade for the iron ore after the Fire Nation mines it.</Text>
         </Row>
         <Row Tag="LOC_EK001C_DESCRIPTION">
             <Text>{1_reward}.</Text>

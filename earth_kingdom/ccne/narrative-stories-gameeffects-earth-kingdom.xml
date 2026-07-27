@@ -23,7 +23,7 @@
                 <Argument name="Amount">1</Argument>
             </Requirement>
         </SubjectRequirements>
-		<Argument name="Tradition">TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN</Argument>
+		<Argument name="Tradition">TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_I</Argument>
 	</Modifier>
     <Modifier id="CCNE3011C_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
@@ -36,7 +36,7 @@
                 <Argument name="Amount">1</Argument>
             </Requirement>
         </SubjectRequirements>
-		<Argument name="Tradition">TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM</Argument>
+		<Argument name="Tradition">TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_I</Argument>
 	</Modifier>
     <Modifier id="CCNE3011D_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
@@ -49,7 +49,7 @@
                 <Argument name="Amount">1</Argument>
             </Requirement>
         </SubjectRequirements>
-		<Argument name="Tradition">TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR</Argument>
+		<Argument name="Tradition">TRADITION_EARTH_KINGDOM_METALBENDERS</Argument>
 	</Modifier>
     <Modifier id="CCNE3011E_NARRATIVE_MODIFIER_TAG" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>

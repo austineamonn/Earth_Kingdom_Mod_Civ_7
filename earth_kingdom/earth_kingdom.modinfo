@@ -91,6 +91,7 @@
 					<Item>text/en_us/ConstructibleText.xml</Item>
 					<Item>text/en_us/CitizenNamesText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
                 </UpdateText>
@@ -126,6 +127,8 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/narrative-stories-antiquity.xml</Item>
+					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
 					<Item>data/progression-trees-culture-aq.xml</Item>
 					<Item>data/unlocks-antiquity.xml</Item>
 				</UpdateDatabase>
@@ -135,6 +138,8 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/narrative-stories-exploration.xml</Item>
+					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
 					<Item>data/progression-trees-culture-ex.xml</Item>
 					<Item>data/unlocks-exploration.xml</Item>
 				</UpdateDatabase>
@@ -167,9 +172,6 @@
 					<Item>data/units-gameeffects.xml</Item>
 					<Item>data/progression-trees-tech-common.xml</Item>
 				</UpdateDatabase>
-				<UpdateText>
-					<Item>text/en_us/NarrativeStoriesText.xml</Item>
-				</UpdateText>
                 <UpdateVisualRemaps>
                     <Item>data/visual-remap.xml</Item>
                 </UpdateVisualRemaps>
@@ -217,7 +219,6 @@
 					<Item>text/en_us/ConstructibleText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
-					<Item>text/en_us/NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 				</UpdateText>

@@ -17,19 +17,19 @@
             <Text>Demand food offerings for our great leader.</Text>
         </Row>
         <Row Tag="LOC_CCNE3011C_DESCRIPTION">
-            <Text>Unlock a unique Earth Kingdom Tradition, {LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_DESCRIPTION}</Text>
+            <Text>Unlock a unique Earth Kingdom Tradition, {LOC_TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_I_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE3011D_NAME">
             <Text>Increase trade to expand our coffers.</Text>
         </Row>
         <Row Tag="LOC_CCNE3011D_DESCRIPTION">
-            <Text>Unlock a unique Earth Kingdom Tradition, {LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_DESCRIPTION}</Text>
+            <Text>Unlock a unique Earth Kingdom Tradition, {LOC_TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_I_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE3011E_NAME">
             <Text>Our people stand strong against all invaders.</Text>
         </Row>
         <Row Tag="LOC_CCNE3011E_DESCRIPTION">
-            <Text>Unlock a unique Earth Kingdom Tradition, {LOC_TRADITION_EARTH_KINGDOM_THE_HUNDRED_YEARS_WAR_DESCRIPTION}</Text>
+            <Text>Unlock a unique Earth Kingdom Tradition, {LOC_TRADITION_EARTH_KINGDOM_METALBENDERS_DESCRIPTION}</Text>
         </Row>
         <Row Tag="LOC_CCNE3011F_NAME">
             <Text>Send the first general back to the field.</Text>

@@ -158,9 +158,8 @@ Spam each Civilizations Unique Wall Improvement. All three have a Culture Base. 
     <li>Wonder shows as the Pyramids.</li>
     <li>No visual model for the Outer Wall Unique Improvement.</li>
     <li>No Audio for unique civic and wonder quotes.</li>
-    <li>Some Narrative Events are unable to activate.</li>
 </ol>
 
 ## Latest Update:
 
-Updated units and constructibles and city names.
+Updated narrative events.

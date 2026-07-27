@@ -148,13 +148,11 @@
     </RequirementSet>
     <RequirementSet id="REQSET_EK003A_NARRATIVE">
         <Requirement xref="REQ_STORY_CIVILIZATION_EARTH_KINGDOM"/>
-        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
-            <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
-            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_MO_EARTH_KINGDOM_ROYAL_PROPAGANDA,Numeric,TreeDepth,2</Argument>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_ACTIVE_TRADITION">
+            <Argument name="TraditionType">TRADITION_EARTH_KINGDOM_FEED_THE_QUEEN_II</Argument>
         </Requirement>
-        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
-            <Argument name="GossipTypes">GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01</Argument>
-            <Argument name="GOSSIP_COMPLETED_PROGRESSION_TREE_NODE01">Hash,ProgressionTreeNodeType,NODE_CIVIC_MO_EARTH_KINGDOM_LONG_LOST_LOVE,Numeric,TreeDepth,2</Argument>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_ACTIVE_TRADITION">
+            <Argument name="TraditionType">TRADITION_EARTH_KINGDOM_OMASHU_DELIVERY_SYSTEM_II</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_EK004A_NARRATIVE">

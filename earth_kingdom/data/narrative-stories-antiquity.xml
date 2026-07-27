@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Types>
+        <Row Type="AQ_EK001A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="AQ_EK001B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="AQ_EK001C" Kind="KIND_NARRATIVE_STORY"/>
+    </Types>
+    <NarrativeStories>
+        <Row NarrativeStoryType="AQ_EK001A" Name="LOC_AQ_EK001A_NAME" Description="LOC_AQ_EK001A_DESCRIPTION" Completion="LOC_AQ_EK001A_COMPLETION" StoryTitle="LOC_AQ_EK001A_STORYTITLE" Age="AGE_ANTIQUITY" Activation="REQUISITE" RequirementSetId="REQSET_AQ_EK001A_NARRATIVE" ActivationRequirementSetId="REQSET_AQ_EK001A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="AQ_EK001B" Name="LOC_AQ_EK001B_NAME" Description="LOC_AQ_EK001B_DESCRIPTION" Completion="LOC_AQ_EK001B_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="AQ_EK001C" Name="LOC_AQ_EK001C_NAME" Description="LOC_AQ_EK001C_DESCRIPTION" Completion="LOC_AQ_EK001C_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+    </NarrativeStories>
+    <NarrativeRewards>
+        <Row NarrativeRewardType="AQ_EK001B_REWARD" ModifierID="AQ_EK001B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="AQ_EK001C_REWARD" ModifierID="AQ_EK001C_NARRATIVE_MODIFIER"/>
+    </NarrativeRewards>
+    <NarrativeStory_Rewards>
+        <Row NarrativeStoryType="AQ_EK001B" NarrativeRewardType="AQ_EK001B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="AQ_EK001C" NarrativeRewardType="AQ_EK001C_REWARD" Activation="START"/>
+    </NarrativeStory_Rewards>
+    <NarrativeStoryOverrides>
+    </NarrativeStoryOverrides>
+    <NarrativeVariations>
+    </NarrativeVariations>
+    <NarrativeRewardIcons>
+        <Row NarrativeStoryType="AQ_EK001B" RewardIconType="ATTRIBUTE_EXPANSIONIST"/>
+        <Row NarrativeStoryType="AQ_EK001C" RewardIconType="ATTRIBUTE_ECONOMIC"/>
+    </NarrativeRewardIcons>
+    <NarrativeStory_TextReplacements>
+        <Row NarrativeStoryType="AQ_EK001B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="AQ_EK001C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+    </NarrativeStory_TextReplacements>
+    <NarrativeStory_Links>
+        <Row FromNarrativeStoryType="AQ_EK001A" ToNarrativeStoryType="AQ_EK001B" Priority="0" Name="LOC_AQ_EK001B_NAME" Description="LOC_AQ_EK001B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="AQ_EK001A" ToNarrativeStoryType="AQ_EK001C" Priority="1" Name="LOC_AQ_EK001C_NAME" Description="LOC_AQ_EK001C_DESCRIPTION"/>
+    </NarrativeStory_Links>
+</Database>
